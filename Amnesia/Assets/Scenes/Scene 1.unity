@@ -710,6 +710,8 @@ GameObject:
   - component: {fileID: 1021912055}
   - component: {fileID: 1021912071}
   - component: {fileID: 1021912070}
+  - component: {fileID: 1021912073}
+  - component: {fileID: 1021912072}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -813,7 +815,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1021912039}
+  - {fileID: 1021912038}
   selectedCommands: []
   variables:
   - {fileID: 1021912032}
@@ -2055,8 +2057,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 186.3788
-    y: 359.14026
+    x: 185.55403
+    y: 357.49078
     width: 94.9
     height: 40
   tint: {r: 0.82641506, g: 0.60884976, b: 0.123182535, a: 1}
@@ -2087,7 +2089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 45.2881
+    x: 43.63861
     y: 357.44565
     width: 96.82
     height: 40
@@ -2103,6 +2105,8 @@ MonoBehaviour:
   - {fileID: 1021912058}
   - {fileID: 1021912056}
   - {fileID: 1021912057}
+  - {fileID: 1021912073}
+  - {fileID: 1021912072}
   - {fileID: 1021912055}
   suppressAllAutoSelections: 0
 --- !u!114 &1021912039
@@ -2232,7 +2236,7 @@ MonoBehaviour:
         gameObjectVal: {fileID: 0}
       integerData:
         integerRef: {fileID: 0}
-        integerVal: 2
+        integerVal: 4
       materialData:
         materialRef: {fileID: 0}
         materialVal: {fileID: 0}
@@ -2925,7 +2929,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  storyText: 
+  storyText: You watch helplessly, as the crimson hue in their eyes waivers, with
+    a flicker of a dark grey.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2952,7 +2957,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 0
-  storyText: 
+  storyText: 'They suddenly, and swiftly, shove themselves away from you at such '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2979,7 +2984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 68
   indentLevel: 0
-  storyText: 
+  storyText: 'You plead to the vampire, hoping they know mercy. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3301,7 +3306,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 0.9622642, g: 0.48476326, b: 0.49728623, a: 1}
   useCustomTint: 1
-  itemId: 56
+  itemId: 73
   blockName: Next (Bad)
   description: 
   eventHandler: {fileID: 0}
@@ -3327,12 +3332,67 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 0.7462798, b: 0.435849, a: 1}
   useCustomTint: 1
-  itemId: 56
+  itemId: 72
   blockName: Next (Neutral)
   description: 
   eventHandler: {fileID: 0}
   commandList: []
   suppressAllAutoSelections: 0
+--- !u!114 &1021912072
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 75
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 1726157580}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912073
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 74
+  indentLevel: 0
+  storyText: 'speed that they leave a huge amount of damage in the wall behind them.as
+    they make impact with it. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 1
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1302111444
 GameObject:
   m_ObjectHideFlags: 0
