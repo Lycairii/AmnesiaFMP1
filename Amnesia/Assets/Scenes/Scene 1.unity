@@ -712,6 +712,8 @@ GameObject:
   - component: {fileID: 1021912070}
   - component: {fileID: 1021912073}
   - component: {fileID: 1021912072}
+  - component: {fileID: 1021912075}
+  - component: {fileID: 1021912074}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -815,7 +817,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1021912038}
+  - {fileID: 1021912039}
   selectedCommands: []
   variables:
   - {fileID: 1021912032}
@@ -2107,6 +2109,8 @@ MonoBehaviour:
   - {fileID: 1021912057}
   - {fileID: 1021912073}
   - {fileID: 1021912072}
+  - {fileID: 1021912075}
+  - {fileID: 1021912074}
   - {fileID: 1021912055}
   suppressAllAutoSelections: 0
 --- !u!114 &1021912039
@@ -2123,8 +2127,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 24.019241
-    y: 400.05383
+    x: 26.493462
+    y: 407.4765
     width: 138.81
     height: 40
   tint: {r: 0.93207544, g: 0.92849314, b: 0.6313492, a: 1}
@@ -3300,8 +3304,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 311.82126
-    y: 403.29538
+    x: 321.71826
+    y: 414.84174
     width: 115.85
     height: 40
   tint: {r: 0.9622642, g: 0.48476326, b: 0.49728623, a: 1}
@@ -3326,8 +3330,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 169.61928
-    y: 402.1077
+    x: 173.74298
+    y: 412.00455
     width: 136.89
     height: 40
   tint: {r: 1, g: 0.7462798, b: 0.435849, a: 1}
@@ -3352,7 +3356,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 75
   indentLevel: 0
-  storyText: 
+  storyText: '"I c-can''t.... control my hunger...
+
+    I''m not... here to interrogate
+    y-you... mortal..."'
   description: 
   character: {fileID: 1726157580}
   portrait: {fileID: 0}
@@ -3388,6 +3395,64 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 1
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912074
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 77
+  indentLevel: 0
+  storyText: It was clear that the vampire was struggling to keep in control of their
+    hunger as they spoke to you.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912075
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 76
+  indentLevel: 0
+  storyText: '"This... is the f-feeding room...
+
+    I don''t have a choice... I
+    don''t want to feed... on you..."'
+  description: 
+  character: {fileID: 1726157580}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
