@@ -280,6 +280,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1726479639}
+  - {fileID: 1423546333}
   m_Father: {fileID: 937131484}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &460857755
@@ -730,10 +731,6 @@ GameObject:
   - component: {fileID: 1021912097}
   - component: {fileID: 1021912096}
   - component: {fileID: 1021912102}
-  - component: {fileID: 1021912101}
-  - component: {fileID: 1021912100}
-  - component: {fileID: 1021912099}
-  - component: {fileID: 1021912098}
   - component: {fileID: 1021912107}
   - component: {fileID: 1021912106}
   - component: {fileID: 1021912105}
@@ -831,18 +828,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1058.469, y: -161.52528}
+  scrollPos: {x: 299.8283, y: -298.7169}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.45999998
+  zoom: 0.923333
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1021912070}
   selectedCommands: []
   variables:
   - {fileID: 1021912032}
@@ -2123,7 +2121,7 @@ MonoBehaviour:
     y: 354.6539
     width: 96.82
     height: 40
-  tint: {r: 0.7214744, g: 0.9547169, b: 0.5746315, a: 1}
+  tint: {r: 0.54828995, g: 0.9622642, b: 0.28867915, a: 1}
   useCustomTint: 1
   itemId: 38
   blockName: Passive
@@ -2155,11 +2153,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 25.440805
-    y: 407.4765
+    x: -133.46335
+    y: 423.9148
     width: 138.81
     height: 40
-  tint: {r: 0.93207544, g: 0.92849314, b: 0.6313492, a: 1}
+  tint: {r: 0.7248499, g: 0.97735846, b: 0.5661303, a: 1}
   useCustomTint: 1
   itemId: 56
   blockName: Next (Passive)
@@ -3271,11 +3269,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 318.2398
-    y: 411.95975
+    x: 448.65082
+    y: 428.39807
     width: 115.85
     height: 40
-  tint: {r: 0.9622642, g: 0.48476326, b: 0.49728623, a: 1}
+  tint: {r: 0.9169811, g: 0.3650622, b: 0.37874603, a: 1}
   useCustomTint: 1
   itemId: 73
   blockName: Next (Bad)
@@ -3306,8 +3304,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 168.38942
-    y: 413.05716
+    x: 91.677185
+    y: 450.31738
     width: 136.89
     height: 40
   tint: {r: 1, g: 0.7462798, b: 0.435849, a: 1}
@@ -3845,7 +3843,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 101
   indentLevel: 0
-  storyText: 
+  storyText: Your fists clench and you struggle against the restraints, constantly,
+    with your body feeling as if it were ablaze as they begin to feed on you.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3886,110 +3885,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1021912098
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 179.59628
-    y: 545.4563
-    width: 123.48
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 106
-  blockName: New Block3
-  description: 
-  eventHandler: {fileID: 0}
-  commandList: []
-  suppressAllAutoSelections: 0
---- !u!114 &1021912099
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 332.15567
-    y: 475.94012
-    width: 123.07
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 105
-  blockName: New Block2
-  description: 
-  eventHandler: {fileID: 0}
-  commandList: []
-  suppressAllAutoSelections: 0
---- !u!114 &1021912100
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 176.62805
-    y: 471.91568
-    width: 121.24
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 104
-  blockName: New Block1
-  description: 
-  eventHandler: {fileID: 0}
-  commandList: []
-  suppressAllAutoSelections: 0
---- !u!114 &1021912101
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 36.20563
-    y: 465.5553
-    width: 115.21
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 103
-  blockName: New Block
-  description: 
-  eventHandler: {fileID: 0}
-  commandList: []
-  suppressAllAutoSelections: 0
 --- !u!114 &1021912102
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4436,14 +4331,14 @@ RectTransform:
   m_GameObject: {fileID: 1381306401}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.860022, y: 0.860022, z: 0.860022}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 862619943}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -19, y: -20}
+  m_AnchoredPosition: {x: -75, y: -8}
   m_SizeDelta: {x: 39.7053, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1381306403
@@ -4488,19 +4383,19 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 2194
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
   m_fontSize: 72
-  m_fontSizeBase: 50
+  m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_fontStyle: 3
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -4509,7 +4404,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
+  m_TextWrappingMode: 2
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -4628,6 +4523,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1423546332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1423546333}
+  - component: {fileID: 1423546334}
+  m_Layer: 0
+  m_Name: Adrian
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1423546333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423546332}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -556.9646, y: -381.08154, z: 923.7715}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 400719704}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1423546334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423546332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Adrian
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
 --- !u!1 &1515882852
 GameObject:
   m_ObjectHideFlags: 0
@@ -4737,7 +4683,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Character Name
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0.89433956, g: 0.50481737, b: 0.079309314, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
@@ -4774,7 +4720,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Cairii
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0.55563545, g: 0.9601194, b: 0.98490566, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
@@ -5001,7 +4947,7 @@ Transform:
   m_GameObject: {fileID: 2090600593}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 926, y: 2515, z: -1082}
+  m_LocalPosition: {x: 926, y: 1574, z: -1082}
   m_LocalScale: {x: 1.7355, y: 3.471, z: 1.7355}
   m_ConstrainProportionsScale: 1
   m_Children: []
