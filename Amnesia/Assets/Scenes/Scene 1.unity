@@ -641,7 +641,6 @@ GameObject:
   - component: {fileID: 1021911997}
   - component: {fileID: 1021911996}
   - component: {fileID: 1021911993}
-  - component: {fileID: 1021912000}
   - component: {fileID: 1021911999}
   - component: {fileID: 1021912003}
   - component: {fileID: 1021912002}
@@ -770,6 +769,7 @@ GameObject:
   - component: {fileID: 1021912148}
   - component: {fileID: 1021912147}
   - component: {fileID: 1021912146}
+  - component: {fileID: 1021912153}
   m_Layer: 0
   m_Name: Main Flowchart
   m_TagString: Untagged
@@ -838,7 +838,7 @@ MonoBehaviour:
   itemId: 0
   blockName: Start of Chapter
   description: 
-  eventHandler: {fileID: 1021912000}
+  eventHandler: {fileID: 1021912153}
   commandList:
   - {fileID: 1021911999}
   - {fileID: 1021912002}
@@ -873,9 +873,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1021912129}
-  selectedCommands:
-  - {fileID: 1021912148}
+  - {fileID: 1021911996}
+  selectedCommands: []
   variables:
   - {fileID: 1021912032}
   - {fileID: 1021912107}
@@ -934,20 +933,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1021912000
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff5d850a887844fe87ae7d366d3ab5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1021911996}
-  suppressBlockAutoSelect: 0
 --- !u!114 &1021912001
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4345,8 +4330,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -203.5482
-    y: 300.72153
+    x: -211.29004
+    y: 259.4312
     width: 123.48
     height: 40
   tint: {r: 0.24308003, g: 0.5698112, b: 0.029028073, a: 1}
@@ -4960,7 +4945,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &1021912146
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4972,9 +4957,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 154
   indentLevel: 0
-  storyText: 
+  storyText: '"So.... it''s a prison for vampires?"'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1726479638}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4987,7 +4972,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1021912147
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4999,7 +4984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 153
   indentLevel: 0
-  storyText: 
+  storyText: '"We''re in a secret facility... built to contain problematic vampires."'
   description: 
   character: {fileID: 1726157580}
   portrait: {fileID: 0}
@@ -5014,7 +4999,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1021912148
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5026,7 +5011,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 152
   indentLevel: 0
-  storyText: 
+  storyText: You frown a little and tilt your head, as you were a little confused.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5041,7 +5026,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1021912149
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5053,7 +5038,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 151
   indentLevel: 0
-  storyText: 
+  storyText: Your tone had a slight hint of disbelief and sarcasm as you spoke.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5068,7 +5053,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1021912150
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5080,7 +5065,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 150
   indentLevel: 0
-  storyText: 
+  storyText: The vampire hesitates for a moment, gazing at you still restrained to
+    the bed.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5095,7 +5081,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1021912151
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5148,6 +5134,20 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1021912153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff5d850a887844fe87ae7d366d3ab5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1021911996}
+  suppressBlockAutoSelect: 1
 --- !u!1 &1178771871
 GameObject:
   m_ObjectHideFlags: 0
@@ -5935,6 +5935,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 400719704}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1812395277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1812395278}
+  m_Layer: 0
+  m_Name: Main Menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1812395278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812395277}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2772.0066, y: -4933.5103, z: 11786.429}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1825140731
 GameObject:
   m_ObjectHideFlags: 0
@@ -6159,3 +6190,4 @@ SceneRoots:
   - {fileID: 1302111454}
   - {fileID: 1393893906}
   - {fileID: 1178771873}
+  - {fileID: 1812395278}
