@@ -861,11 +861,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 2161.3352, y: 68.53705}
+  scrollPos: {x: 1016.4706, y: -50.96469}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.31
+  zoom: 0.6400001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -873,8 +873,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1021911996}
-  selectedCommands: []
+  - {fileID: 1021912129}
+  selectedCommands:
+  - {fileID: 1021912149}
   variables:
   - {fileID: 1021912032}
   - {fileID: 1021912107}
@@ -5038,14 +5039,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 151
   indentLevel: 0
-  storyText: Your tone had a slight hint of disbelief and sarcasm as you spoke.
+  storyText: ' Your tone had a slight hint of disbelief and sarcasm as you spoke.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
-  extendPrevious: 0
+  extendPrevious: 1
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
@@ -5136,7 +5137,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1021912153
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
