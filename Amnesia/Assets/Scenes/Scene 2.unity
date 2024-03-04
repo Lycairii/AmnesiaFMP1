@@ -738,7 +738,6 @@ GameObject:
   - component: {fileID: 1237066432}
   - component: {fileID: 1237066441}
   - component: {fileID: 1237066440}
-  - component: {fileID: 1237066444}
   - component: {fileID: 1237066443}
   - component: {fileID: 1237066442}
   m_Layer: 0
@@ -912,7 +911,7 @@ MonoBehaviour:
   itemId: 0
   blockName: Character Select Sequence
   description: 
-  eventHandler: {fileID: 1237066444}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1237066443}
   - {fileID: 1237066442}
@@ -998,20 +997,6 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 3
   durationOLD: 0
---- !u!114 &1237066444
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237066430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff5d850a887844fe87ae7d366d3ab5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1237066438}
-  suppressBlockAutoSelect: 0
 --- !u!1 &1303895914
 GameObject:
   m_ObjectHideFlags: 1
