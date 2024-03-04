@@ -417,7 +417,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.14987183, y: -20.377869}
+  m_AnchoredPosition: {x: 0.14990234, y: -20.377869}
   m_SizeDelta: {x: 70.14529, y: -26.80363}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &833263677
@@ -639,7 +639,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4364034832326165938, guid: 37a4414ffecd1ab4d8540416f5eb2ee8, type: 3}
+  m_Sprite: {fileID: 8422037315295040307, guid: 2448ca5093cdbcf4fbd11368f57a3dc5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -731,12 +731,16 @@ GameObject:
   - component: {fileID: 1237066439}
   - component: {fileID: 1237066431}
   - component: {fileID: 1237066438}
-  - component: {fileID: 1237066437}
   - component: {fileID: 1237066436}
   - component: {fileID: 1237066435}
   - component: {fileID: 1237066434}
   - component: {fileID: 1237066433}
   - component: {fileID: 1237066432}
+  - component: {fileID: 1237066441}
+  - component: {fileID: 1237066440}
+  - component: {fileID: 1237066444}
+  - component: {fileID: 1237066443}
+  - component: {fileID: 1237066442}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -775,7 +779,7 @@ MonoBehaviour:
   stepPause: 0
   colorCommands: 1
   hideComponents: 1
-  saveSelection: 1
+  saveSelection: 0
   localizationId: 
   showLineNumbers: 0
   hideCommands: []
@@ -798,7 +802,7 @@ MonoBehaviour:
   _sceneName:
     stringRef: {fileID: 0}
     stringVal: Scene 1
-  loadingImage: {fileID: 2800000, guid: 2448ca5093cdbcf4fbd11368f57a3dc5, type: 3}
+  loadingImage: {fileID: 2800000, guid: 623178790971eb74c857d1369ef1fca1, type: 3}
   sceneNameOLD: 
 --- !u!114 &1237066433
 MonoBehaviour:
@@ -844,8 +848,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 252.40002
-    y: 133.80002
+    x: 265.2
+    y: 143.40002
     width: 80.88
     height: 40
   tint: {r: 0.5661303, g: 0.9634063, b: 0.97735846, a: 1}
@@ -856,6 +860,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1237066433}
   commandList:
   - {fileID: 1237066432}
+  - {fileID: 1237066440}
   suppressAllAutoSelections: 0
 --- !u!114 &1237066436
 MonoBehaviour:
@@ -871,8 +876,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 139.60004
-    y: 136.20006
+    x: 124.40004
+    y: 139.40007
     width: 89.72
     height: 40
   tint: {r: 1, g: 0.3150943, b: 0.3150943, a: 1}
@@ -881,22 +886,9 @@ MonoBehaviour:
   blockName: Adrian
   description: 
   eventHandler: {fileID: 1237066434}
-  commandList: []
+  commandList:
+  - {fileID: 1237066441}
   suppressAllAutoSelections: 0
---- !u!114 &1237066437
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237066430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff5d850a887844fe87ae7d366d3ab5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1237066438}
-  suppressBlockAutoSelect: 0
 --- !u!114 &1237066438
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -912,7 +904,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 110.20001
-    y: 71.600006
+    y: 74.00001
     width: 218.13
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -920,8 +912,10 @@ MonoBehaviour:
   itemId: 0
   blockName: Character Select Sequence
   description: 
-  eventHandler: {fileID: 1237066437}
-  commandList: []
+  eventHandler: {fileID: 1237066444}
+  commandList:
+  - {fileID: 1237066443}
+  - {fileID: 1237066442}
   suppressAllAutoSelections: 0
 --- !u!4 &1237066439
 Transform:
@@ -938,6 +932,86 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1237066440
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237066430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1ca510a57aa47568a5e4ee558ff41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 11
+  indentLevel: 0
+--- !u!114 &1237066441
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237066430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1ca510a57aa47568a5e4ee558ff41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 10
+  indentLevel: 0
+--- !u!114 &1237066442
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237066430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  indentLevel: 0
+  duration: 3
+  targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 29
+--- !u!114 &1237066443
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237066430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 12
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 3
+  durationOLD: 0
+--- !u!114 &1237066444
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237066430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff5d850a887844fe87ae7d366d3ab5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1237066438}
+  suppressBlockAutoSelect: 0
 --- !u!1 &1303895914
 GameObject:
   m_ObjectHideFlags: 1
