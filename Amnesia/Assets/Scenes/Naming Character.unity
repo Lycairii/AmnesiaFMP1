@@ -778,7 +778,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 65.4
+    x: 66.200005
     y: 70.00001
     width: 115.21
     height: 40
@@ -824,7 +824,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1766488234}
   selectedCommands:
-  - {fileID: 1766488244}
+  - {fileID: 1766488242}
   variables:
   - {fileID: 1766488240}
   description: 
@@ -947,7 +947,7 @@ MonoBehaviour:
   targetInputField: {fileID: 2067488066}
 --- !u!114 &1766488244
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -974,7 +974,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1766488245
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -988,7 +988,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &1766488246
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1140,7 +1140,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1766488247
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
