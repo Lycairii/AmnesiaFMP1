@@ -180,10 +180,10 @@ GameObject:
   - component: {fileID: 238293710}
   - component: {fileID: 238293709}
   - component: {fileID: 238293724}
-  - component: {fileID: 238293730}
   - component: {fileID: 238293729}
+  - component: {fileID: 238293730}
   m_Layer: 0
-  m_Name: Flowchart
+  m_Name: MainMenu Flowchart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -471,8 +471,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks: []
-  selectedCommands:
-  - {fileID: 238293729}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
