@@ -772,7 +772,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Character Name
+  m_Text: 
 --- !u!222 &508415095
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2029,7 +2029,6 @@ GameObject:
   - component: {fileID: 1021912064}
   - component: {fileID: 1021912063}
   - component: {fileID: 1021912062}
-  - component: {fileID: 1021912060}
   - component: {fileID: 1021912059}
   - component: {fileID: 1021912058}
   - component: {fileID: 1021912057}
@@ -2147,7 +2146,6 @@ GameObject:
   - component: {fileID: 1021912221}
   - component: {fileID: 1021912220}
   - component: {fileID: 1021912219}
-  - component: {fileID: 1021912232}
   - component: {fileID: 1021912231}
   - component: {fileID: 1021912230}
   - component: {fileID: 1021912229}
@@ -2157,6 +2155,19 @@ GameObject:
   - component: {fileID: 1021912225}
   - component: {fileID: 1021912224}
   - component: {fileID: 1021912223}
+  - component: {fileID: 1021912233}
+  - component: {fileID: 1021912234}
+  - component: {fileID: 1021912245}
+  - component: {fileID: 1021912244}
+  - component: {fileID: 1021912243}
+  - component: {fileID: 1021912242}
+  - component: {fileID: 1021912241}
+  - component: {fileID: 1021912240}
+  - component: {fileID: 1021912239}
+  - component: {fileID: 1021912238}
+  - component: {fileID: 1021912237}
+  - component: {fileID: 1021912236}
+  - component: {fileID: 1021912235}
   m_Layer: 0
   m_Name: Cairii's Flowchart
   m_TagString: Untagged
@@ -2178,8 +2189,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 149.68192
-    y: 106.817856
+    x: 146.48196
+    y: 110.01784
     width: 72.020004
     height: 40
   tint: {r: 0.6255947, g: 0.8867924, b: 0.58059806, a: 1}
@@ -2255,19 +2266,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 2455.236, y: 144.66188}
+  scrollPos: {x: 3196.203, y: 149.15219}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.30999973
+  zoom: 0.25
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1021912117}
+  selectedCommands:
+  - {fileID: 1021912236}
   variables:
   - {fileID: 1021912032}
   - {fileID: 1021912107}
@@ -3122,7 +3135,7 @@ MonoBehaviour:
   itemId: 32
   blockName: Choice 1
   description: ' Proper first choice in the game. '
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1021912234}
   commandList:
   - {fileID: 1021912053}
   - {fileID: 1021912050}
@@ -3462,8 +3475,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 319.56113
-    y: 375.09222
+    x: 309.96127
+    y: 355.8922
     width: 73.86
     height: 40
   tint: {r: 0.7660377, g: 0.14309, b: 0.14309, a: 1}
@@ -3517,9 +3530,8 @@ MonoBehaviour:
   - {fileID: 1021912204}
   - {fileID: 1021912197}
   - {fileID: 1021912223}
-  - {fileID: 1021912232}
+  - {fileID: 1021912233}
   - {fileID: 1021912059}
-  - {fileID: 1021912060}
   - {fileID: 1021912062}
   suppressAllAutoSelections: 0
 --- !u!114 &1021912038
@@ -4401,35 +4413,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  storyText: '"Unm... because if we can work together.. Instead of feeding on me;
-    you can feed on the guards instead? I''m sure they deserve it more."'
-  description: 
-  character: {fileID: 1726479638}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1021912060
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 66
-  indentLevel: 0
-  storyText: 
+  storyText: You keep your composure, with a small expression of uncertanity on your
+    face.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5407,9 +5392,20 @@ MonoBehaviour:
   - {fileID: 1021912212}
   - {fileID: 1021912210}
   - {fileID: 1021912214}
-  - {fileID: 1021912228}
   - {fileID: 1021912227}
+  - {fileID: 1021912228}
+  - {fileID: 1021912245}
   - {fileID: 1021912213}
+  - {fileID: 1021912244}
+  - {fileID: 1021912243}
+  - {fileID: 1021912241}
+  - {fileID: 1021912240}
+  - {fileID: 1021912242}
+  - {fileID: 1021912239}
+  - {fileID: 1021912238}
+  - {fileID: 1021912237}
+  - {fileID: 1021912235}
+  - {fileID: 1021912236}
   - {fileID: 1021912175}
   suppressAllAutoSelections: 0
 --- !u!114 &1021912121
@@ -5453,8 +5449,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 250.95703
-    y: 447.0481
+    x: 254.15698
+    y: 450.2481
     width: 130.9
     height: 40
   tint: {r: 0.8113208, g: 0.38792777, b: 0.059700873, a: 1}
@@ -7358,7 +7354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 216
   indentLevel: 0
-  storyText: 
+  storyText: '"How did you find me?"'
   description: 
   character: {fileID: 1726479638}
   portrait: {fileID: 0}
@@ -7742,11 +7738,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 232
   indentLevel: 0
-  display: 2
+  display: 1
   stage: {fileID: 0}
   character: {fileID: 1726479638}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 9066571463846406944, guid: d5e5705dd4f72494bb318ea3c091010a, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -7779,7 +7775,7 @@ MonoBehaviour:
   portrait: {fileID: 83179573037407379, guid: a0792ec676c223d42a9ea1736e147826, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 1701178630}
+  toPosition: {fileID: 1118423905}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -7806,7 +7802,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1726479638}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 594318413343068850, guid: b0c5e7fc58db22d4d9e28dda2516ae38, type: 3}
+  portrait: {fileID: -3924190032742187860, guid: 5cd00e4cc864c984d953da28be5f000c, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1176190534}
@@ -7848,7 +7844,7 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &1021912232
+--- !u!114 &1021912233
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7860,16 +7856,344 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 228
+  itemId: 238
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
   character: {fileID: 1726479638}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: -8558339788886477559, guid: dc393fbf1cf97ab4e9e77a8bc6940b58, type: 3}
+  portrait: {fileID: 9066571463846406944, guid: d5e5705dd4f72494bb318ea3c091010a, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1701178630}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1021912234
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1021912029}
+  suppressBlockAutoSelect: 0
+  targetButton: {fileID: 0}
+--- !u!114 &1021912235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 250
+  indentLevel: 0
+  storyText: '"You had my blood in your system from when you were attacked in the
+    forest. Well, once you were bitten again, in here; it triggered the blood in
+    you and alerted me to you being in danger."'
+  description: 
+  character: {fileID: 1423546334}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 249
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 1423546334}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 248
+  indentLevel: 0
+  storyText: 'Adrian inhales then exhales lightly, composing himself to explain to
+    you. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 247
+  indentLevel: 0
+  storyText: '"You just answered it yourself... But... I''ll elaborate." '
+  description: 
+  character: {fileID: 1423546334}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 246
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1423546334}
+  replacedCharacter: {fileID: 1726479638}
+  portrait: {fileID: -4924026597028718939, guid: fd97373874642c84db95416ea783aab2, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1701178630}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1021912240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 245
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1726479638}
+  replacedCharacter: {fileID: 1726479638}
+  portrait: {fileID: 9066571463846406944, guid: d5e5705dd4f72494bb318ea3c091010a, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1176190534}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1021912241
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 244
+  indentLevel: 0
+  storyText: He speaks bluntly, with a darkened expression on his face. You gaze
+    at him as if waiting for more
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912242
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 243
+  indentLevel: 0
+  storyText: '"A detective and vampire... That doesn''t answer my question though.."'
+  description: 
+  character: {fileID: 1726479638}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912243
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 242
+  indentLevel: 0
+  storyText: '"I''m a detective, remember?"'
+  description: 
+  character: {fileID: 1423546334}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912244
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 241
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1423546334}
+  replacedCharacter: {fileID: 1726479638}
+  portrait: {fileID: -4924026597028718939, guid: fd97373874642c84db95416ea783aab2, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1701178630}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1021912245
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 239
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1726479638}
+  replacedCharacter: {fileID: 1726479638}
+  portrait: {fileID: 594318413343068850, guid: b0c5e7fc58db22d4d9e28dda2516ae38, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -8438,7 +8762,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 1
-  m_AdditionalShaderChannelsFlag: -1
+  m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 1
@@ -9834,7 +10158,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Story text
+  m_Text: 
 --- !u!222 &2030578377
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10018,6 +10342,6 @@ SceneRoots:
   - {fileID: 937131484}
   - {fileID: 362914263}
   - {fileID: 1021911998}
+  - {fileID: 1296901281}
   - {fileID: 579546739}
   - {fileID: 691705010}
-  - {fileID: 1296901281}
