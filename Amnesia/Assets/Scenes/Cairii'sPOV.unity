@@ -756,7 +756,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Name Text
+  m_Text: '{$PlayerName}'
 --- !u!222 &508415095
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -839,7 +839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5176471}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.87058824}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2371,8 +2371,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1021912071}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 1021912032}
@@ -5061,7 +5060,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 79
   indentLevel: 0
-  storyText: 
+  storyText: 'It took mere seconds for the vampire to free you from the restraints.
+    Despite them being starving; they were still incredibly strong. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8610,7 +8610,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1021912259
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8630,7 +8630,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1021912260
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10134,9 +10134,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Character Name
-  nameColor: {r: 0.89433956, g: 0.50481737, b: 0.079309314, a: 1}
+  nameColor: {r: 0.7584905, g: 0.44998187, b: 0.113057934, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: -2728749085681037817, guid: 62678f80307be6b4797eb220cc6735aa, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: A character that you don't know the name of. A vampire that hungers
@@ -10171,7 +10172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Cairii
-  nameColor: {r: 0.031719424, g: 0.4398899, b: 0.6226415, a: 1}
+  nameColor: {r: 0.35905296, g: 0.73292524, b: 0.90188676, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 621222158458474870, guid: 6f5b0836830ef4e4eb918339d3f3f4f4, type: 3}
