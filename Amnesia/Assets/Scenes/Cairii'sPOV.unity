@@ -626,7 +626,7 @@ Transform:
   m_GameObject: {fileID: 476060614}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2012.8579, y: 4577.2217, z: -924}
+  m_LocalPosition: {x: -2012.8579, y: 4577.2217, z: -1032}
   m_LocalScale: {x: 5544.9697, y: 4122.921, z: 89.54585}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -720,8 +720,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1174, y: -233.62}
-  m_SizeDelta: {x: 1461.8269, y: 467.24}
+  m_AnchoredPosition: {x: 1284, y: -275.79407}
+  m_SizeDelta: {x: 1296.4749, y: 551.5879}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &508415094
 MonoBehaviour:
@@ -744,19 +744,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bb145366ce7024469a5758b08d31802c, type: 3}
+    m_Font: {fileID: 12800000, guid: 38fb69338d588b64ea5f2c219db3056b, type: 3}
     m_FontSize: 120
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 130
     m_Alignment: 3
     m_AlignByGeometry: 0
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: Name Text
 --- !u!222 &508415095
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1877,8 +1877,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.41940188, g: 0.59607846, b: 0.9611182, a: 1}
+    m_PressedColor: {r: 0.65541303, g: 0.3235386, b: 0.9169811, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -2254,6 +2254,9 @@ GameObject:
   - component: {fileID: 1021912250}
   - component: {fileID: 1021912257}
   - component: {fileID: 1021912256}
+  - component: {fileID: 1021912258}
+  - component: {fileID: 1021912260}
+  - component: {fileID: 1021912259}
   m_Layer: 0
   m_Name: Cairii's Flowchart
   m_TagString: Untagged
@@ -2276,7 +2279,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 21.10865
-    y: 55.092552
+    y: 53.353424
     width: 72.020004
     height: 40
   tint: {r: 0.6255947, g: 0.8867924, b: 0.58059806, a: 1}
@@ -2296,6 +2299,7 @@ MonoBehaviour:
   - {fileID: 1021912250}
   - {fileID: 1021912021}
   - {fileID: 1021912022}
+  - {fileID: 1021912258}
   - {fileID: 1021912019}
   - {fileID: 1021912018}
   - {fileID: 1021912020}
@@ -2356,11 +2360,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1259.4901, y: 14.187016}
+  scrollPos: {x: 1446.6047, y: 7.7127104}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.54999995
+  zoom: 0.45999998
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2368,9 +2372,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1021911996}
+  - {fileID: 1021912010}
   selectedCommands:
-  - {fileID: 1021912217}
+  - {fileID: 1021912259}
   variables:
   - {fileID: 1021912032}
   - {fileID: 1021912107}
@@ -2663,8 +2667,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 315.91266
-    y: 66.487885
+    x: 336.78217
+    y: 71.70528
     width: 67.55
     height: 40
   tint: {r: 0.98490566, g: 0.74636364, b: 0.45156989, a: 1}
@@ -2694,7 +2698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 160.95012
+    x: 183.55876
     y: 183.25685
     width: 105.369995
     height: 40
@@ -2706,6 +2710,8 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1021912024}
+  - {fileID: 1021912260}
+  - {fileID: 1021912259}
   - {fileID: 1021912025}
   - {fileID: 1021912026}
   - {fileID: 1021912028}
@@ -3194,7 +3200,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 158.84964
-    y: 240.89749
+    y: 256.54968
     width: 102.5
     height: 40
   tint: {r: 0.81886786, g: 0.7956924, b: 0.7956924, a: 1}
@@ -8573,6 +8579,76 @@ MonoBehaviour:
     booleanVal: 0
   affectChildren: 1
   visibleOLD: 0
+--- !u!114 &1021912258
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 264
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 1726479638}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1021912259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 266
+  indentLevel: 0
+  spriteRenderer: {fileID: 476060616}
+  _visible:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  affectChildren: 1
+  visibleOLD: 0
+--- !u!114 &1021912260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 265
+  indentLevel: 0
+  spriteRenderer: {fileID: 1334575741}
+  _visible:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  affectChildren: 1
+  visibleOLD: 0
 --- !u!1 &1178771871
 GameObject:
   m_ObjectHideFlags: 0
@@ -10574,7 +10650,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.2603773, g: 0.2603773, b: 0.2603773, a: 1}
+  m_BackGroundColor: {r: 0.10188681, g: 0.091313645, b: 0.091313645, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 1
