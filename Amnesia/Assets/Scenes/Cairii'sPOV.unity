@@ -720,8 +720,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1284, y: -275.79407}
-  m_SizeDelta: {x: 1296.4749, y: 551.5879}
+  m_AnchoredPosition: {x: 861.57, y: -275.79407}
+  m_SizeDelta: {x: 1233.3, y: 551.5879}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &508415094
 MonoBehaviour:
@@ -736,7 +736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.25882354, g: 0.25490198, b: 0.2627451, a: 1}
+  m_Color: {r: 0.5471698, g: 0.056781713, b: 0.36012122, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -745,14 +745,14 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 38fb69338d588b64ea5f2c219db3056b, type: 3}
-    m_FontSize: 120
-    m_FontStyle: 0
-    m_BestFit: 0
+    m_FontSize: 139
+    m_FontStyle: 3
+    m_BestFit: 1
     m_MinSize: 1
-    m_MaxSize: 130
+    m_MaxSize: 139
     m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 0
+    m_AlignByGeometry: 1
+    m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
@@ -839,7 +839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.07924521, g: 0.07924521, b: 0.07924521, a: 0.94509804}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.5176471}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -847,14 +847,14 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: e8ab00ef0d9684dcb9deb52811d91218, type: 3}
-  m_Type: 3
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 0
+  m_UseSpriteMesh: 1
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &517947331
 CanvasRenderer:
@@ -1852,7 +1852,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 5, y: 114}
+  m_AnchoredPosition: {x: -216, y: 273}
   m_SizeDelta: {x: 116.8969, y: 171.1341}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &981478961
@@ -2360,11 +2360,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1446.6047, y: 7.7127104}
+  scrollPos: {x: 1050.926, y: -66.50115}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.45999998
+  zoom: 0.36999997
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2372,9 +2372,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1021912010}
-  selectedCommands:
-  - {fileID: 1021912259}
+  - {fileID: 1021912071}
+  selectedCommands: []
   variables:
   - {fileID: 1021912032}
   - {fileID: 1021912107}
@@ -9615,7 +9614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Adrian
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0.5999999, g: 0.012452815, b: 0.012452815, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 621222158458474870, guid: 04d1d674f8f46b24da5593eb08cd8bac, type: 3}
@@ -10172,7 +10171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Cairii
-  nameColor: {r: 0.5568628, g: 0.86633575, b: 0.9843137, a: 1}
+  nameColor: {r: 0.031719424, g: 0.4398899, b: 0.6226415, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 621222158458474870, guid: 6f5b0836830ef4e4eb918339d3f3f4f4, type: 3}
@@ -10474,8 +10473,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.78700006}
-  m_AnchoredPosition: {x: -20.135742, y: 108.0719}
-  m_SizeDelta: {x: -1338.1973, y: -389.7737}
+  m_AnchoredPosition: {x: -20.05664, y: 7.178894}
+  m_SizeDelta: {x: -529.9243, y: -407.1299}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2030578375
 MonoBehaviour:
@@ -10519,18 +10518,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 79197ecfbc3a4294a89ce589dac02cf2, type: 3}
-    m_FontSize: 130
+    m_FontSize: 135
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 130
+    m_MaxSize: 140
     m_Alignment: 0
     m_AlignByGeometry: 0
-    m_RichText: 0
+    m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: 
+  m_Text: Story Text
 --- !u!222 &2030578377
 CanvasRenderer:
   m_ObjectHideFlags: 0
