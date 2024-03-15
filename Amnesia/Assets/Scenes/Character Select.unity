@@ -567,16 +567,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1237066439}
   - component: {fileID: 1237066431}
-  - component: {fileID: 1237066438}
-  - component: {fileID: 1237066436}
   - component: {fileID: 1237066435}
-  - component: {fileID: 1237066434}
   - component: {fileID: 1237066433}
   - component: {fileID: 1237066432}
-  - component: {fileID: 1237066443}
-  - component: {fileID: 1237066442}
-  - component: {fileID: 1237066444}
-  - component: {fileID: 1237066445}
   m_Layer: 0
   m_Name: Character Select Flowchart
   m_TagString: Untagged
@@ -655,21 +648,6 @@ MonoBehaviour:
   parentBlock: {fileID: 1237066435}
   suppressBlockAutoSelect: 0
   targetButton: {fileID: 0}
---- !u!114 &1237066434
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237066430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1237066436}
-  suppressBlockAutoSelect: 0
-  targetButton: {fileID: 0}
 --- !u!114 &1237066435
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -684,8 +662,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 256.0703
-    y: 140.36275
+    x: 264.82028
+    y: 74.11274
     width: 80.88
     height: 40
   tint: {r: 0.5661303, g: 0.9634063, b: 0.97735846, a: 1}
@@ -696,62 +674,6 @@ MonoBehaviour:
   eventHandler: {fileID: 1237066433}
   commandList:
   - {fileID: 1237066432}
-  - {fileID: 1237066444}
-  suppressAllAutoSelections: 0
---- !u!114 &1237066436
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237066430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 111.20416
-    y: 143.64992
-    width: 89.72
-    height: 40
-  tint: {r: 1, g: 0.3150943, b: 0.3150943, a: 1}
-  useCustomTint: 1
-  itemId: 4
-  blockName: Adrian
-  description: 
-  eventHandler: {fileID: 1237066434}
-  commandList:
-  - {fileID: 1237066445}
-  suppressAllAutoSelections: 0
---- !u!114 &1237066438
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237066430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 108.55055
-    y: 74.00001
-    width: 218.13
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 1
-  itemId: 0
-  blockName: Character Select Sequence
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 1237066443}
-  - {fileID: 1237066442}
   suppressAllAutoSelections: 0
 --- !u!4 &1237066439
 Transform:
@@ -768,90 +690,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1237066442
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237066430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 13
-  indentLevel: 0
-  duration: 3
-  targetAlpha: 0
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
-  fadeTweenType: 29
---- !u!114 &1237066443
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237066430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 12
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 3
-  durationOLD: 0
---- !u!114 &1237066444
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237066430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 14
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1237066445
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237066430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 15
-  indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: Adrian's POV
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
 --- !u!1 &1303895914
 GameObject:
   m_ObjectHideFlags: 1

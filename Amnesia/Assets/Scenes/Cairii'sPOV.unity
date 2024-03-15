@@ -2360,18 +2360,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1050.926, y: -66.50115}
+  scrollPos: {x: 1989.7428, y: 5.6894608}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.36999997
+  zoom: 0.25
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1021912070}
   selectedCommands: []
   variables:
   - {fileID: 1021912032}
@@ -2665,8 +2666,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 336.78217
-    y: 71.70528
+    x: 319.0829
+    y: 149.79744
     width: 67.55
     height: 40
   tint: {r: 0.98490566, g: 0.74636364, b: 0.45156989, a: 1}
@@ -2696,8 +2697,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 183.55876
-    y: 183.25685
+    x: 171.79405
+    y: 206.78624
     width: 105.369995
     height: 40
   tint: {r: 0.87618923, g: 0.7830188, b: 1, a: 1}
@@ -3197,8 +3198,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 158.84964
-    y: 256.54968
+    x: 161.20255
+    y: 275.37317
     width: 102.5
     height: 40
   tint: {r: 0.81886786, g: 0.7956924, b: 0.7956924, a: 1}
@@ -4724,7 +4725,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 382.48007
+    x: 376.08017
     y: 298.72113
     width: 115.85
     height: 40
@@ -5371,7 +5372,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 777.1132
-    y: 220.19229
+    y: 216.99228
     width: 131.42
     height: 40
   tint: {r: 0.3207547, g: 0.03086507, b: 0.18233891, a: 1}
@@ -9625,7 +9626,9 @@ MonoBehaviour:
   - {fileID: 3994633309236049083, guid: 8778d9b2d602db9428bd91d8696ce31c, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
-  description: 
+  description: "Adrian is the deutagonist, as in the second protagonist of the game,
+    and will be able to be selected so players can see events in his eyes. \nIt also
+    occurs in the books. "
 --- !u!1 &1515882852
 GameObject:
   m_ObjectHideFlags: 0
@@ -10188,7 +10191,7 @@ MonoBehaviour:
   - {fileID: 9066571463846406944, guid: d5e5705dd4f72494bb318ea3c091010a, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
-  description: 
+  description: Cairii is the main protagonist of the books and the game.
 --- !u!4 &1726479639
 Transform:
   m_ObjectHideFlags: 0
