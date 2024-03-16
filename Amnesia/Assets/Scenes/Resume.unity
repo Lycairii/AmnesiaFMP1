@@ -528,7 +528,10 @@ GameObject:
   - component: {fileID: 666481708}
   - component: {fileID: 666481707}
   - component: {fileID: 666481706}
-  - component: {fileID: 666481705}
+  - component: {fileID: 666481712}
+  - component: {fileID: 666481714}
+  - component: {fileID: 666481713}
+  - component: {fileID: 666481711}
   m_Layer: 0
   m_Name: Resume Flowchart
   m_TagString: Untagged
@@ -551,7 +554,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 71
-    y: 69.19999
+    y: 70.79999
     width: 89.61
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -561,7 +564,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 666481708}
   commandList:
-  - {fileID: 666481705}
+  - {fileID: 666481712}
+  - {fileID: 666481711}
   suppressAllAutoSelections: 0
 --- !u!114 &666481703
 MonoBehaviour:
@@ -590,7 +594,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 666481702}
   selectedCommands:
-  - {fileID: 666481705}
+  - {fileID: 666481711}
   variables: []
   description: 
   stepPause: 0
@@ -617,22 +621,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &666481705
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 666481701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23c657364a3b24e16bdf5946729a8b7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 3
-  indentLevel: 0
-  key: SaveP
-  variable: {fileID: 0}
 --- !u!114 &666481706
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -692,7 +680,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 183.6
+    x: 182.8
     y: 69
     width: 91.44
     height: 40
@@ -702,7 +690,8 @@ MonoBehaviour:
   blockName: Save 2
   description: 
   eventHandler: {fileID: 666481707}
-  commandList: []
+  commandList:
+  - {fileID: 666481714}
   suppressAllAutoSelections: 0
 --- !u!114 &666481710
 MonoBehaviour:
@@ -728,8 +717,70 @@ MonoBehaviour:
   blockName: Save 3
   description: 
   eventHandler: {fileID: 666481706}
-  commandList: []
+  commandList:
+  - {fileID: 666481713}
   suppressAllAutoSelections: 0
+--- !u!114 &666481711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666481701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c657364a3b24e16bdf5946729a8b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 6
+  indentLevel: 0
+  key: SaveGame
+  variable: {fileID: 0}
+--- !u!114 &666481712
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666481701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a240aa44597844f89e6d1ba15a96b04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3
+  indentLevel: 0
+  saveProfileName: Game Save 1
+--- !u!114 &666481713
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666481701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a240aa44597844f89e6d1ba15a96b04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 5
+  indentLevel: 0
+  saveProfileName: SaveB
+--- !u!114 &666481714
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666481701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a240aa44597844f89e6d1ba15a96b04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 4
+  indentLevel: 0
+  saveProfileName: Save Choice
 --- !u!1 &708253429
 GameObject:
   m_ObjectHideFlags: 0
@@ -1706,7 +1757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
+  selectedFlowchart: {fileID: 666481703}
 --- !u!4 &2146524821
 Transform:
   m_ObjectHideFlags: 1
