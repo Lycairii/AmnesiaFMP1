@@ -630,7 +630,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Naming Character
+    stringVal: Cairii'sPOV
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1237066433
@@ -662,7 +662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 264.82028
+    x: 263.57025
     y: 74.11274
     width: 80.88
     height: 40

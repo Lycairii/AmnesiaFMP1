@@ -2033,7 +2033,6 @@ GameObject:
   - component: {fileID: 1021912174}
   - component: {fileID: 1021912176}
   - component: {fileID: 1021912175}
-  - component: {fileID: 1021912180}
   - component: {fileID: 1021912181}
   - component: {fileID: 1021912190}
   - component: {fileID: 1021912189}
@@ -2197,6 +2196,9 @@ GameObject:
   - component: {fileID: 1021912347}
   - component: {fileID: 1021912346}
   - component: {fileID: 1021912345}
+  - component: {fileID: 1021912356}
+  - component: {fileID: 1021912358}
+  - component: {fileID: 1021912357}
   m_Layer: 0
   m_Name: Cairii's Flowchart
   m_TagString: Untagged
@@ -2272,7 +2274,7 @@ MonoBehaviour:
   itemId: 0
   blockName: Start of Chapter
   description: 
-  eventHandler: {fileID: 1021912180}
+  eventHandler: {fileID: 1021912356}
   commandList:
   - {fileID: 1021912217}
   - {fileID: 1021912218}
@@ -2302,11 +2304,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1290.5907, y: -96.01049}
+  scrollPos: {x: 970.3383, y: -105.6991}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.36999965
+  zoom: 0.39999962
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2314,7 +2316,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1021912322}
+  - {fileID: 1021912125}
   selectedCommands: []
   variables:
   - {fileID: 1021912032}
@@ -3608,7 +3610,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -199.89166
+    x: -202.74876
     y: 313.30203
     width: 138.81
     height: 40
@@ -5481,7 +5483,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 264.81287
-    y: 452.5484
+    y: 458.2627
     width: 130.9
     height: 40
   tint: {r: 0.8113208, g: 0.38792777, b: 0.059700873, a: 1}
@@ -6875,20 +6877,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1021912180
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff5d850a887844fe87ae7d366d3ab5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1021911996}
-  suppressBlockAutoSelect: 0
 --- !u!114 &1021912181
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8678,7 +8666,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 273
   indentLevel: 0
-  storyText: 
+  storyText: 'The vampire eventually lets go, pulling themselves away and licking
+    their lips after tasting your elven blood. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8717,6 +8706,8 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1021912265}
+  - {fileID: 1021912357}
+  - {fileID: 1021912358}
   - {fileID: 1021912264}
   suppressAllAutoSelections: 0
 --- !u!114 &1021912267
@@ -11254,6 +11245,74 @@ MonoBehaviour:
     booleanVal: 1
   affectChildren: 1
   visibleOLD: 0
+--- !u!114 &1021912356
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff5d850a887844fe87ae7d366d3ab5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1021911996}
+  suppressBlockAutoSelect: 0
+--- !u!114 &1021912357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 367
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 366
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1178771871
 GameObject:
   m_ObjectHideFlags: 0

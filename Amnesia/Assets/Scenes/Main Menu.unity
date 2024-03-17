@@ -249,8 +249,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 38.799973
-    y: 84.200005
+    x: 40.502098
+    y: 83.34894
     width: 75.66
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -407,8 +407,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 41.19998
-    y: 135.4
+    x: 40.348923
+    y: 136.25107
     width: 99.03
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -461,11 +461,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -0.7999878, y: 0}
+  scrollPos: {x: 31.303099, y: 4.8596125}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.94000006
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -532,7 +532,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Character Select
+    stringVal: Cairii'sPOV
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &238293730
@@ -1387,7 +1387,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1304190075}
   - component: {fileID: 1304190074}
-  - component: {fileID: 1304190073}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: Untagged
@@ -1395,14 +1394,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1304190073
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1304190072}
-  m_Enabled: 1
 --- !u!20 &1304190074
 Camera:
   m_ObjectHideFlags: 0
@@ -1746,7 +1737,6 @@ GameObject:
   - component: {fileID: 1735613761}
   - component: {fileID: 1735613760}
   - component: {fileID: 1735613759}
-  - component: {fileID: 1735613758}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1754,20 +1744,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1735613758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1735613757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d49b7c1bcd2e07499844da127be038d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_ForceModuleActive: 0
 --- !u!114 &1735613759
 MonoBehaviour:
   m_ObjectHideFlags: 0
