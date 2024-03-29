@@ -226,7 +226,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CairiiV2_0: 5761851036905273599
+      CairiiV2_1: 757619200905407054
+      CairiiV2_2: -7334859697225628542
+      CairiiV2_3: 4693805883278702869
+      CairiiV2_4: -1036811650383645214
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
