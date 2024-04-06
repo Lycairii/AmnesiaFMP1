@@ -1073,8 +1073,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 971.62, y: -277.08936}
-  m_SizeDelta: {x: 1581.2, y: 344.3479}
+  m_AnchoredPosition: {x: 1005.5, y: -277.08936}
+  m_SizeDelta: {x: 1513.4, y: 344.3479}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &508415094
 MonoBehaviour:
@@ -1192,7 +1192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.87058824}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.93333334}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3448,6 +3448,7 @@ GameObject:
   - component: {fileID: 1021912687}
   - component: {fileID: 1021912688}
   - component: {fileID: 1021912689}
+  - component: {fileID: 1021912693}
   m_Layer: 0
   m_Name: Cairii's Flowchart
   m_TagString: Untagged
@@ -3572,10 +3573,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1021912439}
-  selectedCommands:
-  - {fileID: 1021912436}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1021912032}
   - {fileID: 1021912107}
@@ -5923,6 +5922,7 @@ MonoBehaviour:
   - {fileID: 1021912400}
   - {fileID: 1021912405}
   - {fileID: 1021912399}
+  - {fileID: 1021912693}
   - {fileID: 1021912398}
   - {fileID: 1021912397}
   - {fileID: 1021912396}
@@ -13790,9 +13790,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 721
   indentLevel: 0
-  storyText: 
+  storyText: ' "Unless you wish to be arrested for obstructing law enforcement. 
+    You could all go down for abduction and attempted murder."
+
+    He continues,
+    his tone becoming professional and serious as he switches to his ''detective
+    mode''.'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1423546334}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -13818,9 +13823,7 @@ MonoBehaviour:
   itemId: 722
   indentLevel: 0
   storyText: '"You {i} shall{/i} let me and the {b}lady{/b} pass." He speaks sternly,
-    then he reaches into the pocket of his jacket and pulls out his detective badge.
-    "Unless you wish to be arrested for obstructing law enforcement.  You could all
-    go down for abduction and attempted murder."'
+    then he reaches into the pocket of his jacket and pulls out his detective badge.'
   description: 
   character: {fileID: 1423546334}
   portrait: {fileID: 0}
@@ -13881,6 +13884,36 @@ MonoBehaviour:
     floatVal: 10
   targetBlock: {fileID: 1021912559}
   durationOLD: 0
+--- !u!114 &1021912693
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 723
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 1726157580}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1 &1023633197
 GameObject:
   m_ObjectHideFlags: 0
