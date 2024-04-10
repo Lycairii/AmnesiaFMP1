@@ -18,7 +18,7 @@ TextureImporter:
       213: 3802077871238183865
     second: CairiiV2 facing right_4
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -92,7 +92,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -105,7 +104,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -226,7 +224,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CairiiV2 facing right_0: -2850348858701778945
+      CairiiV2 facing right_1: -2206713286969001680
+      CairiiV2 facing right_2: -8689666505578987256
+      CairiiV2 facing right_3: -6244038745937880180
+      CairiiV2 facing right_4: 3802077871238183865
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
