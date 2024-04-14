@@ -759,6 +759,7 @@ GameObject:
   - component: {fileID: 1766488244}
   - component: {fileID: 1766488243}
   - component: {fileID: 1766488242}
+  - component: {fileID: 1766488251}
   m_Layer: 0
   m_Name: Character Name
   m_TagString: Untagged
@@ -819,9 +820,11 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1766488249}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1766488242}
   variables:
   - {fileID: 1766488240}
+  - {fileID: 1766488251}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -861,7 +864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: PlayerName
-  value: 
+  value: '{$PlayerName} '
 --- !u!114 &1766488241
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1193,6 +1196,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 1766488234}
   suppressBlockAutoSelect: 0
+--- !u!114 &1766488251
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766488233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: PlayerName1
+  value: Cairii
 --- !u!1 &2059764188
 GameObject:
   m_ObjectHideFlags: 0

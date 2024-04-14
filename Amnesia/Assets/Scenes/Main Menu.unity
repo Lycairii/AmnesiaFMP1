@@ -514,7 +514,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Cairii'sPOV
+    stringVal: Welcome
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &238293731
@@ -556,7 +556,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &238293734
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

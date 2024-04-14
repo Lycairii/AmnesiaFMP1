@@ -1336,7 +1336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1021911997}
+  selectedFlowchart: {fileID: 0}
 --- !u!4 &362914263
 Transform:
   m_ObjectHideFlags: 1
@@ -4165,7 +4165,6 @@ GameObject:
   - component: {fileID: 1021912344}
   - component: {fileID: 1021912343}
   - component: {fileID: 1021912341}
-  - component: {fileID: 1021912359}
   - component: {fileID: 1021912364}
   - component: {fileID: 1021912365}
   - component: {fileID: 1021912370}
@@ -4507,10 +4506,6 @@ GameObject:
   - component: {fileID: 1021912763}
   - component: {fileID: 1021912766}
   - component: {fileID: 1021912765}
-  - component: {fileID: 1021912762}
-  - component: {fileID: 1021912759}
-  - component: {fileID: 1021912760}
-  - component: {fileID: 1021912761}
   - component: {fileID: 1021912768}
   - component: {fileID: 1021912767}
   - component: {fileID: 1021912770}
@@ -4545,16 +4540,33 @@ GameObject:
   - component: {fileID: 1021912787}
   - component: {fileID: 1021912786}
   - component: {fileID: 1021912785}
+  - component: {fileID: 1021912808}
+  - component: {fileID: 1021912804}
+  - component: {fileID: 1021912805}
+  - component: {fileID: 1021912803}
+  - component: {fileID: 1021912806}
+  - component: {fileID: 1021912807}
+  - component: {fileID: 1021912815}
+  - component: {fileID: 1021912814}
+  - component: {fileID: 1021912813}
+  - component: {fileID: 1021912812}
   - component: {fileID: 1021912802}
+  - component: {fileID: 1021912811}
   - component: {fileID: 1021912810}
   - component: {fileID: 1021912809}
-  - component: {fileID: 1021912811}
-  - component: {fileID: 1021912808}
-  - component: {fileID: 1021912807}
-  - component: {fileID: 1021912806}
-  - component: {fileID: 1021912805}
-  - component: {fileID: 1021912804}
-  - component: {fileID: 1021912803}
+  - component: {fileID: 1021912820}
+  - component: {fileID: 1021912821}
+  - component: {fileID: 1021912819}
+  - component: {fileID: 1021912816}
+  - component: {fileID: 1021912817}
+  - component: {fileID: 1021912818}
+  - component: {fileID: 1021912827}
+  - component: {fileID: 1021912826}
+  - component: {fileID: 1021912825}
+  - component: {fileID: 1021912824}
+  - component: {fileID: 1021912823}
+  - component: {fileID: 1021912822}
+  - component: {fileID: 1021912828}
   m_Layer: 0
   m_Name: Cairii's Flowchart
   m_TagString: Untagged
@@ -4627,8 +4639,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 114.74709
-    y: -22.752987
+    x: 100.99703
+    y: -26.503004
     width: 149.58
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4636,7 +4648,7 @@ MonoBehaviour:
   itemId: 0
   blockName: Start of Chapter
   description: 
-  eventHandler: {fileID: 1021912359}
+  eventHandler: {fileID: 1021912828}
   commandList:
   - {fileID: 1021912217}
   - {fileID: 1021912371}
@@ -4670,11 +4682,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 371.0659, y: -48.395866}
+  scrollPos: {x: 298.39966, y: 216.61047}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 200
-  zoom: 0.5499999
+  blockViewHeight: 203.2
+  zoom: 0.6399998
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -4682,9 +4694,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1021912782}
-  selectedCommands:
-  - {fileID: 1021912803}
+  - {fileID: 1021911996}
+  selectedCommands: []
   variables:
   - {fileID: 1021912032}
   - {fileID: 1021912107}
@@ -4696,6 +4707,7 @@ MonoBehaviour:
   - {fileID: 1021912465}
   - {fileID: 1021912464}
   - {fileID: 1021912549}
+  - {fileID: 1021912802}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -6561,20 +6573,6 @@ MonoBehaviour:
   itemId: 351
   indentLevel: 0
   saveProfileName: Save Choice
---- !u!114 &1021912359
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff5d850a887844fe87ae7d366d3ab5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1021911996}
-  suppressBlockAutoSelect: 0
 --- !u!114 &1021912364
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13742,8 +13740,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 996.721
-    y: 382.0923
+    x: 985.2925
+    y: 383.23514
     width: 153.29001
     height: 40
   tint: {r: 0.9547169, g: 0.5962477, b: 0.6762631, a: 1}
@@ -13770,7 +13768,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1220.332
-    y: 220.45695
+    y: 219.3141
     width: 106.57
     height: 40
   tint: {r: 0.4415095, g: 0.14244927, b: 0.14244927, a: 1}
@@ -14802,8 +14800,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 703
   indentLevel: 0
-  storyText: '"Hehe, what''s the matter, Detective? You can''t fight them and save
-    her at the same time."'
+  storyText: '"Hehe, what''s the matter, Detective? You can''t fight them and keep
+    her from harm at the same time; you''re surrounded on both sides."'
   description: 
   character: {fileID: 1726157580}
   portrait: {fileID: 0}
@@ -15437,8 +15435,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1258.9911
-    y: 274.76514
+    x: 1234.9912
+    y: 259.90805
     width: 107.91
     height: 40
   tint: {r: 0.23773581, g: 0.01390529, b: 0.01390529, a: 1}
@@ -15658,10 +15656,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 749
   indentLevel: 0
-  storyText: '"What would you prefer to do, love?
+  storyText: '"What would you prefer to do, love?"
 
-    Bare in mind; you''re still
-    rather weak..."'
+    Adrian asks you curiously,
+    allowing you to make the decision.'
   description: 
   character: {fileID: 1423546334}
   portrait: {fileID: 0}
@@ -15719,8 +15717,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1446.5421
-    y: 373.10934
+    x: 1418.2589
+    y: 345.85687
     width: 116.45
     height: 40
   tint: {r: 0.36862746, g: 0, b: 0.23137255, a: 1}
@@ -15732,11 +15730,10 @@ MonoBehaviour:
   commandList:
   - {fileID: 1021912764}
   - {fileID: 1021912763}
-  - {fileID: 1021912762}
-  - {fileID: 1021912761}
-  - {fileID: 1021912760}
-  - {fileID: 1021912759}
-  - {fileID: 1021912802}
+  - {fileID: 1021912815}
+  - {fileID: 1021912812}
+  - {fileID: 1021912813}
+  - {fileID: 1021912814}
   - {fileID: 1021912811}
   - {fileID: 1021912781}
   suppressAllAutoSelections: 0
@@ -15754,8 +15751,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1404.5613
-    y: 312.0315
+    x: 1391.99
+    y: 283.46014
     width: 127.21
     height: 40
   tint: {r: 0.645283, g: 0.0036524923, b: 0.21351807, a: 1}
@@ -15792,8 +15789,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1238.9584
-    y: 361.38913
+    x: 1235.8815
+    y: 349.0813
     width: 121.28
     height: 40
   tint: {r: 0.64705884, g: 0.003921569, b: 0.21568628, a: 1}
@@ -16349,7 +16346,7 @@ MonoBehaviour:
   _duration:
     floatRef: {fileID: 0}
     floatVal: 5
-  targetBlock: {fileID: 1021912723}
+  targetBlock: {fileID: 1021912722}
   durationOLD: 0
 --- !u!114 &1021912731
 MonoBehaviour:
@@ -16422,10 +16419,10 @@ MonoBehaviour:
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
-  extendPrevious: 0
+  extendPrevious: 1
   fadeWhenDone: 1
   waitForClick: 1
-  stopVoiceover: 1
+  stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1021912734
@@ -17791,8 +17788,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1577.2128
-    y: 301.2861
+    x: 1544.0703
+    y: 276.14334
     width: 178.24
     height: 40
   tint: {r: 0.3660378, g: 0, b: 0.22883506, a: 1}
@@ -17831,8 +17828,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1272.998
-    y: 425.53952
+    x: 1229.9207
+    y: 431.69342
     width: 160.4
     height: 40
   tint: {r: 0.4264151, g: 0.0024136354, b: 0.24506196, a: 1}
@@ -17843,120 +17840,6 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList: []
   suppressAllAutoSelections: 0
---- !u!114 &1021912759
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 792
-  indentLevel: 0
-  storyText: '"Oh, I highly doubt that, elf. I''ve tasted your blood, I can hear
-    your heart beating like a jack-hammer."'
-  description: 
-  character: {fileID: 1726157580}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1021912760
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 793
-  indentLevel: 0
-  storyText: The vampire frowns in disbelief in response to your words, arching an
-    eyebrow upwards.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1021912761
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 794
-  indentLevel: 0
-  storyText: '"I may be weak right now, thanks to you and those other bastards, but
-    I can assure you; with Adrian''s blood coursing through my veins; I''ll be able
-    to take you on."'
-  description: 
-  character: {fileID: 1726479638}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1021912762
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 791
-  indentLevel: 0
-  storyText: '"I don''t think so. You''re both outnumbered and outmatched. Especially
-    you, delicious; you''d lose in a fight, given your current state. You''re dead
-    weight." '
-  description: 
-  character: {fileID: 1726157580}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1021912763
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18969,27 +18852,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1562.1345
-    y: 416.19052
-    width: 139.66
+    x: 1509.3453
+    y: 405.0367
+    width: 153.14
     height: 40
   tint: {r: 0.53333336, g: 0.04313725, b: 0.13725491, a: 1}
   useCustomTint: 1
   itemId: 816
-  blockName: Cairii Vs Daren
+  blockName: Cairii Vs Vampire
   description: Player Vs Daren
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1021912801}
   - {fileID: 1021912800}
-  - {fileID: 1021912810}
-  - {fileID: 1021912809}
   - {fileID: 1021912808}
   - {fileID: 1021912807}
   - {fileID: 1021912806}
+  - {fileID: 1021912803}
   - {fileID: 1021912805}
   - {fileID: 1021912804}
-  - {fileID: 1021912803}
+  - {fileID: 1021912821}
+  - {fileID: 1021912820}
+  - {fileID: 1021912819}
+  - {fileID: 1021912816}
+  - {fileID: 1021912818}
+  - {fileID: 1021912817}
+  - {fileID: 1021912827}
+  - {fileID: 1021912826}
+  - {fileID: 1021912825}
+  - {fileID: 1021912824}
+  - {fileID: 1021912823}
+  - {fileID: 1021912822}
   suppressAllAutoSelections: 0
 --- !u!114 &1021912783
 MonoBehaviour:
@@ -19026,8 +18919,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1643.5168
-    y: 247.82465
+    x: 1689.1877
+    y: 224.39584
     width: 206.68
     height: 40
   tint: {r: 0.5471698, g: 0.060911313, b: 0.22642013, a: 1}
@@ -19752,15 +19645,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 1021911992}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: PlayerName1
+  value: Cairii
+--- !u!114 &1021912803
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 835
+  itemId: 842
   indentLevel: 0
-  storyText: '"I could kill you in a milisecond, and your detective boyfriend wouldn''t
-    be able to stop me, as he''s occupied with keeping the guards and science freaks
-    at bay." His tone was filled with aggression, a deadly promise that he {b}will{/b}
-    kill you. '
+  storyText: 'The unknown vampire chuckles at the sudden change in your stance and
+    strength.
+
+    "You still don''t stand a chance against me, but I will humour
+    youu with this. Let''s fight, elfy."'
   description: 
   character: {fileID: 1726157580}
   portrait: {fileID: 0}
@@ -19773,36 +19682,9 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1021912803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 844
-  indentLevel: 0
-  storyText: You straighten yourself up
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1021912804
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -19812,12 +19694,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 843
+  itemId: 840
   indentLevel: 0
-  storyText: "He lunges forward, towards you, and you side step to the left, to avoid
-    his brutal attack. \n"
+  storyText: '"No promises, Adrian.. But I''ll try my best."
+
+    You whisper back
+    to him, keeping your eyes on your opponent.'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1726479638}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -19830,7 +19714,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1021912805
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -19840,16 +19724,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 842
+  itemId: 841
   indentLevel: 0
-  storyText: '"You''re in no position to save her, Detective, so say goodbye to your
-    little girlfriend."
-
-    Daren speaks in a threatening tone, which sounded like
-    a purr as he was about to attack you, about to get his revenge on the detective
-    that had arrested him years before.'
+  storyText: "\"Don't get hurt, love...\" \nAdrian pleads with you within a whisper
+    under his breath, clearly worried about your welfare."
   description: 
-  character: {fileID: 693484078}
+  character: {fileID: 1423546334}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -19862,7 +19742,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1021912806
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -19872,9 +19752,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 841
+  itemId: 843
   indentLevel: 0
-  storyText: You process the information with your eyes remaining on Daren.
+  storyText: 'The adrenaline, and the mix of blood in your system strengthened you
+    incredibly.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -19889,7 +19772,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1021912807
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -19899,13 +19782,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 840
+  itemId: 844
   indentLevel: 0
-  storyText: '"His name is Daren... I arrested him years ago. He''s supposed to be
-    in a secure prison, not in here." Adrian informs you without taking his eyes
-    away from the facility workers in front of him.'
+  storyText: 'You feel Adrian''s blood mixing with your own elven blood, making you
+    feel incredibly strong, which was alot different from the weakened state you
+    had felt previously. It was as if you had woken up from a hazy dream. '
   description: 
-  character: {fileID: 1423546334}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -19918,7 +19801,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1021912808
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -19930,10 +19813,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 839
   indentLevel: 0
-  storyText: '"Who is he, Adrian?" You ask without taking your eyes off the vampire
-    in front of you. '
+  storyText: 'You shift your posture to ready yourself to fight the vampire in front
+    of you. You weren''t restrained atop a bed this time, so you could fight back
+    now. '
   description: 
-  character: {fileID: 1726479638}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -19953,25 +19837,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1021911992}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 837
-  indentLevel: 0
-  storyText: 'You roll your eyes lightly as they seemed to be going in circles with
-    their threats. '
+  nodeRect:
+    serializedVersion: 2
+    x: 1618.2706
+    y: 354.9271
+    width: 157.94
+    height: 40
+  tint: {r: 0.6301887, g: 0, b: 0, a: 1}
+  useCustomTint: 1
+  itemId: 851
+  blockName: The End of Cairii?
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
 --- !u!114 &1021912810
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19981,25 +19863,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1021911992}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 836
-  indentLevel: 0
-  storyText: "\"Don't you even {i}think{/i} about laying a hand on her.\" He says
-    between clenched teeth. \n"
+  nodeRect:
+    serializedVersion: 2
+    x: 1021.3473
+    y: 474.92914
+    width: 115.21
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 850
+  blockName: New Block
   description: 
-  character: {fileID: 1423546334}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
 --- !u!114 &1021912811
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20012,10 +19892,158 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 838
+  itemId: 849
   indentLevel: 0
-  storyText: An aggressive and threatening sound of dispproval emits from Adrian's
-    throat again in response to the vampire's fierce words of intimadation.
+  storyText: '"Adrian... calm down... Focus on the foes in front of you... I can
+    hopefully handle a single vampire." You attempt to reassure him, to keep him
+    focused on those in front of him, rather than him being distracted by the vampire
+    you''re facing.'
+  description: 
+  character: {fileID: 1726479638}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912812
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 848
+  indentLevel: 0
+  storyText: '"Not a chance in hell; you''ve had enough of my blood and almost killed
+    me. " You speak sternly, before Adrian could comment, knowing that he would be
+    aggressive in his response, when attempting to protect you. '
+  description: 
+  character: {fileID: 1726479638}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912813
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 847
+  indentLevel: 0
+  storyText: '"Fair enough, beautiful. I shall just have to take you by force, and
+    he can''t do shit about it with those goons in front of him, pointing their primitive
+    weapons."
+
+    Their tone was sadistic as they stared at you. They knew Adrian
+    couldn''t step in and help you, because of the guards and scientists.'
+  description: 
+  character: {fileID: 1726157580}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912814
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 846
+  indentLevel: 0
+  storyText: '{b}"Don''t you {i}dare{/i} touch her."{/b} Adrian threatens with a
+    deep and aggressive rumble in his throat. '
+  description: 
+  character: {fileID: 1423546334}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912815
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 845
+  indentLevel: 0
+  storyText: '"I refuse to team up with a detective... unless..." The vampire pauses,
+    glancing at you with their fangs exposed, and their pupils dialated. '
+  description: 
+  character: {fileID: 1726157580}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912816
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 855
+  indentLevel: 0
+  storyText: Daren does indeed collide with some of the guards, allowing Adrian to
+    have an opening in dodging numerous projectiles, whilst Daren seemingly gets
+    hit with some of them.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -20028,6 +20056,330 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1021912817
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 856
+  indentLevel: 0
+  storyText: He lunges forward again towards you, but this time; he was too fast
+    for you to dodge and you end up being thrown backwards in the corridor.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912818
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 857
+  indentLevel: 0
+  storyText: "However; Daren seems unfazed and any injuries he had contained seemed
+    to already be healed. \nYour eyes dialate in reaction as he focuses on you, and
+    you turn to face him. "
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912819
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 854
+  indentLevel: 0
+  storyText: "Daren laughs and lunges forward, at the same time that Adrian moved
+    towards the guards and labcoats on his side of the corridor. \nYou move at the
+    same time, side-stepping out of the way at a swift pace, hoping Daren would knock
+    out some of the gaurds, at least, in front of Adrian. "
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912820
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 852
+  indentLevel: 0
+  storyText: '"I wish I could say {i}''it''s a pleasure to meet you''{/i}, but I''d
+    be lying. Let''s just get this over with, Daren. I won''t give you the luxury
+    in knowing my name." You stand your ground as you speak and move your arms up
+    in front of your body.'
+  description: 
+  character: {fileID: 1726479638}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912821
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 853
+  indentLevel: 0
+  storyText: '"Before I kill you; I may as well tell you my name. It''s the last
+    thing you''ll hear before I rip you to peices." The vampire smirks sadistically
+    before he continues. "The name''s Daren." '
+  description: 
+  character: {fileID: 1726157580}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912822
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 865
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1021912809}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1021912823
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 864
+  indentLevel: 0
+  storyText: You struggle against Daren, glaring up at him as he keeps a tight hold
+    on your throat.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912824
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 861
+  indentLevel: 0
+  storyText: '"Cairii, is it? Cute name, for such a delicatible taste of blood, and
+    a feisty personality."'
+  description: 
+  character: {fileID: 693484078}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912825
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 860
+  indentLevel: 0
+  storyText: '"Cairii?!" Adrian exclaims loudly, getting distracted from his own
+    fight as he witnesses your situation. '
+  description: 
+  character: {fileID: 1423546334}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912826
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 859
+  indentLevel: 0
+  storyText: "You cry out in pain from the impact, with your vision blurred slightly
+    around the edges. \nYou lift your head up and attempt to get off the floor, yet
+    before you can; Daren was over you, with one hand grasping around your throat,
+    putting preassure against your windpipe."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912827
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 858
+  indentLevel: 0
+  storyText: 'You land on your back, against the cold floor with such force it felt
+    as if you''d broken your back, and you landed quite a large distance away from
+    the original location. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021912828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff5d850a887844fe87ae7d366d3ab5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1021911996}
+  suppressBlockAutoSelect: 0
 --- !u!1 &1024521893
 GameObject:
   m_ObjectHideFlags: 0
