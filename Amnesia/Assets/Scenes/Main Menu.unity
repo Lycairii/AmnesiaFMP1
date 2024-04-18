@@ -170,9 +170,7 @@ GameObject:
   - component: {fileID: 238293721}
   - component: {fileID: 238293720}
   - component: {fileID: 238293719}
-  - component: {fileID: 238293718}
   - component: {fileID: 238293717}
-  - component: {fileID: 238293716}
   - component: {fileID: 238293715}
   - component: {fileID: 238293714}
   - component: {fileID: 238293711}
@@ -291,21 +289,6 @@ MonoBehaviour:
   parentBlock: {fileID: 238293720}
   suppressBlockAutoSelect: 0
   targetButton: {fileID: 1140462797}
---- !u!114 &238293716
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238293707}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10eaeba5e91be479e95d4fa48679f549, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 238293718}
-  suppressBlockAutoSelect: 0
-  targetButton: {fileID: 0}
 --- !u!114 &238293717
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -321,32 +304,6 @@ MonoBehaviour:
   parentBlock: {fileID: 238293719}
   suppressBlockAutoSelect: 0
   targetButton: {fileID: 981664048}
---- !u!114 &238293718
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238293707}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 41.999947
-    y: 181.80002
-    width: 153.12
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 3
-  blockName: Character Select
-  description: 
-  eventHandler: {fileID: 238293716}
-  commandList: []
-  suppressAllAutoSelections: 0
 --- !u!114 &238293719
 MonoBehaviour:
   m_ObjectHideFlags: 2
