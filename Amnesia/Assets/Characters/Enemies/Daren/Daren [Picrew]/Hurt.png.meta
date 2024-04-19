@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3d389c00be28bf347a8d336e87122cf6
+guid: 52f6d1657b0b2ea47a2fa60d281061e7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 767345195581400080
-    second: Disbelief_0
+      213: -2048800907179887802
+    second: Hurt_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Disbelief_0
+      name: Hurt_0
       rect:
         serializedVersion: 2
-        x: 58
+        x: 21
         y: 0
-        width: 542
-        height: 600
+        width: 579
+        height: 570
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0146bbac36826aa00800000000000000
-      internalID: 767345195581400080
+      spriteID: 6437b001e623193e0800000000000000
+      internalID: -2048800907179887802
       vertices: []
       indices: 
       edges: []

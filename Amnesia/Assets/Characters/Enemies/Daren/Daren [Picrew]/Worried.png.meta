@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: c0f3e5751697efb49b816c81e0741d9d
+guid: c37477b73e6646346a1c5d55e368e60f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5761851036905273599
-    second: CairiiV2_0
-  - first:
-      213: 757619200905407054
-    second: CairiiV2_1
-  - first:
-      213: -7334859697225628542
-    second: CairiiV2_2
-  - first:
-      213: 4693805883278702869
-    second: CairiiV2_3
-  - first:
-      213: -1036811650383645214
-    second: CairiiV2_4
+      213: 3994633309236049083
+    second: Worried_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,34 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CairiiV2_0
+      name: Worried_0
       rect:
         serializedVersion: 2
-        x: 41
-        y: 379
-        width: 14
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ff8747f8df436ff40800000000000000
-      internalID: 5761851036905273599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CairiiV2_1
-      rect:
-        serializedVersion: 2
-        x: 46
+        x: 21
         y: 0
-        width: 374
-        height: 551
+        width: 579
+        height: 570
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,71 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4a6bf036aa938a00800000000000000
-      internalID: 757619200905407054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CairiiV2_2
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 403
-        width: 21
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 284898597f7553a90800000000000000
-      internalID: -7334859697225628542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CairiiV2_3
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 364
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 519377df49fb32140800000000000000
-      internalID: 4693805883278702869
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CairiiV2_4
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 152
-        width: 6
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e575e71c418c91f0800000000000000
-      internalID: -1036811650383645214
+      spriteID: bb435fc84d9cf6730800000000000000
+      internalID: 3994633309236049083
       vertices: []
       indices: 
       edges: []
@@ -226,12 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      CairiiV2_0: 5761851036905273599
-      CairiiV2_1: 757619200905407054
-      CairiiV2_2: -7334859697225628542
-      CairiiV2_3: 4693805883278702869
-      CairiiV2_4: -1036811650383645214
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

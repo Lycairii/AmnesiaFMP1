@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e88eccb33dc992f41927f1fc2e29bf33
+guid: 18c8af520b3228f4ab8798e1713d248e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 594318413343068850
-    second: Confused_0
+      213: -3653799113980525837
+    second: Unconscious_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Confused_0
+      name: Unconscious_0
       rect:
         serializedVersion: 2
-        x: 58
+        x: 21
         y: 0
-        width: 542
-        height: 600
+        width: 579
+        height: 570
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b299c6b2717f3800800000000000000
-      internalID: 594318413343068850
+      spriteID: 3f2cd8280191b4dc0800000000000000
+      internalID: -3653799113980525837
       vertices: []
       indices: 
       edges: []

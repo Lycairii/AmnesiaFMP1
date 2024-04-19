@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ae901a536a681134ea30b1f088090242
+guid: 4a9df4d00b51eac48a158a16e737c5c3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1651289583666063477
-    second: Devil Smirk_0
+      213: 3792186341625177849
+    second: Conflicted_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Devil Smirk_0
+      name: Conflicted_0
       rect:
         serializedVersion: 2
-        x: 58
+        x: 21
         y: 0
-        width: 542
-        height: 600
+        width: 579
+        height: 570
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 578e7bf902f8ae610800000000000000
-      internalID: 1651289583666063477
+      spriteID: 9f628a6c26d80a430800000000000000
+      internalID: 3792186341625177849
       vertices: []
       indices: 
       edges: []

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f125e1948e50ee444877e4bea30c4760
+guid: fe6319bdab9face4988bcf2b9dcd3bd1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6981828771824253084
-    second: Glancing at Prey_0
+      213: 2060260107459497941
+    second: Distain_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Glancing at Prey_0
+      name: Distain_0
       rect:
         serializedVersion: 2
-        x: 58
+        x: 21
         y: 0
-        width: 542
-        height: 600
+        width: 579
+        height: 570
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46740dc29bf8b1f90800000000000000
-      internalID: -6981828771824253084
+      spriteID: 5df080ae6a3879c10800000000000000
+      internalID: 2060260107459497941
       vertices: []
       indices: 
       edges: []

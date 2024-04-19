@@ -103,10 +103,10 @@ TextureImporter:
       name: Annoyed_0
       rect:
         serializedVersion: 2
-        x: 58
+        x: 21
         y: 0
-        width: 542
-        height: 600
+        width: 579
+        height: 570
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
