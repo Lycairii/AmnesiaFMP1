@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4a9df4d00b51eac48a158a16e737c5c3
+guid: d119da944a6280e4ca406eb446d436a7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3792186341625177849
-    second: Conflicted_0
+      213: -7218551720973875261
+    second: Wide Smile with Fangs_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Conflicted_0
+      name: Wide Smile with Fangs_0
       rect:
         serializedVersion: 2
-        x: 21
+        x: 0
         y: 0
-        width: 579
-        height: 570
+        width: 600
+        height: 598
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9f628a6c26d80a430800000000000000
-      internalID: 3792186341625177849
+      spriteID: 3c7419e847d82db90800000000000000
+      internalID: -7218551720973875261
       vertices: []
       indices: 
       edges: []

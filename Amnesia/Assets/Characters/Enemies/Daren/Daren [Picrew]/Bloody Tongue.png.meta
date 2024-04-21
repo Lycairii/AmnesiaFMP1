@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 52f6d1657b0b2ea47a2fa60d281061e7
+guid: 7ca59805a216aa64cbb487903d4dd16d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2048800907179887802
-    second: Hurt_0
+      213: -6640211898909860023
+    second: Bloody Tongue_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hurt_0
+      name: Bloody Tongue_0
       rect:
         serializedVersion: 2
-        x: 21
+        x: 0
         y: 0
-        width: 579
-        height: 570
+        width: 600
+        height: 598
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6437b001e623193e0800000000000000
-      internalID: -2048800907179887802
+      spriteID: 94fd724957a39d3a0800000000000000
+      internalID: -6640211898909860023
       vertices: []
       indices: 
       edges: []

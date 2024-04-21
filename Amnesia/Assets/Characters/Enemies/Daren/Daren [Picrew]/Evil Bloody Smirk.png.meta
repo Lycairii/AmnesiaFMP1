@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 894b565d806d3b744bcc111bf97e2552
+guid: b8c03b037243a814d89414f68f888ea5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7985626363670038235
-    second: Happy_0
+      213: 4271334895100898704
+    second: Evil Bloody Smirk_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Happy_0
+      name: Evil Bloody Smirk_0
       rect:
         serializedVersion: 2
         x: 0
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd60c8b3ed4a2de60800000000000000
-      internalID: 7985626363670038235
+      spriteID: 09d2833e474d64b30800000000000000
+      internalID: 4271334895100898704
       vertices: []
       indices: 
       edges: []

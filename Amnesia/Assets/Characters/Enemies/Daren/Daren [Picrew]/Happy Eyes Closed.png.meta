@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 894b565d806d3b744bcc111bf97e2552
+guid: 394cda6c26e3be545b913b852742171c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7985626363670038235
-    second: Happy_0
+      213: -2518769261853224147
+    second: Happy Eyes Closed_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Happy_0
+      name: Happy Eyes Closed_0
       rect:
         serializedVersion: 2
         x: 0
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd60c8b3ed4a2de60800000000000000
-      internalID: 7985626363670038235
+      spriteID: d23d01c83b88b0dd0800000000000000
+      internalID: -2518769261853224147
       vertices: []
       indices: 
       edges: []

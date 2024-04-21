@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0f466d4cbe144e34684b1911850fd0b1
+guid: 1de2dbd43b464ac4db3fea6e776e1f57
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2708788149929445101
-    second: Glaring_0
+      213: -7565764307672213199
+    second: Bloody Smile_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Glaring_0
+      name: Bloody Smile_0
       rect:
         serializedVersion: 2
-        x: 21
+        x: 0
         y: 0
-        width: 579
-        height: 570
+        width: 600
+        height: 598
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 319faa78783786ad0800000000000000
-      internalID: -2708788149929445101
+      spriteID: 1395ed28271010790800000000000000
+      internalID: -7565764307672213199
       vertices: []
       indices: 
       edges: []

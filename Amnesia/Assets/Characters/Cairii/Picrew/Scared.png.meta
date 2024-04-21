@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 18c8af520b3228f4ab8798e1713d248e
+guid: 505e26356b67cba4b9eefbd21bb6351a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3653799113980525837
-    second: Unconscious_0
+      213: 6217520884255543542
+    second: Scared_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Unconscious_0
+      name: Scared_0
       rect:
         serializedVersion: 2
-        x: 21
+        x: 62
         y: 0
-        width: 579
-        height: 570
+        width: 465
+        height: 546
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f2cd8280191b4dc0800000000000000
-      internalID: -3653799113980525837
+      spriteID: 6f0df996d42194650800000000000000
+      internalID: 6217520884255543542
       vertices: []
       indices: 
       edges: []

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 894b565d806d3b744bcc111bf97e2552
+guid: 1ad0e3080074d1c4a94c9795a04674d2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7985626363670038235
-    second: Happy_0
+      213: -994743826047709311
+    second: Skeptical_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Happy_0
+      name: Skeptical_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 62
         y: 0
-        width: 600
-        height: 598
+        width: 465
+        height: 546
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd60c8b3ed4a2de60800000000000000
-      internalID: 7985626363670038235
+      spriteID: 18fc9e5b2c5f132f0800000000000000
+      internalID: -994743826047709311
       vertices: []
       indices: 
       edges: []

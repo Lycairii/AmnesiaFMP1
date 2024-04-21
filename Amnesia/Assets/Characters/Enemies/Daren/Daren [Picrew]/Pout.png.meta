@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 83d1ff5ae1edeff4da1fd1b56f8744c4
+guid: 58018a96a3f85984bb8a077dcf54dddc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2862917018616856736
-    second: Annoyed_0
+      213: 3705570748736463740
+    second: Pout_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Annoyed_0
+      name: Pout_0
       rect:
         serializedVersion: 2
-        x: 21
+        x: 0
         y: 0
-        width: 579
-        height: 570
+        width: 600
+        height: 598
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a0041c2cdf1bb720800000000000000
-      internalID: 2862917018616856736
+      spriteID: c73e38886f4dc6330800000000000000
+      internalID: 3705570748736463740
       vertices: []
       indices: 
       edges: []

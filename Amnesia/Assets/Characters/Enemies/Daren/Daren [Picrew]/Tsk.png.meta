@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5814cc8bec217a840870e3ebe8322e02
+guid: a4fd45ebb97f1604b938ffd79fe65ac2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4716560673762309446
-    second: Drooling_0
+      213: -5064839794885426350
+    second: Tsk_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Drooling_0
+      name: Tsk_0
       rect:
         serializedVersion: 2
-        x: 21
+        x: 0
         y: 0
-        width: 579
-        height: 570
+        width: 600
+        height: 598
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aba02de7e096b8eb0800000000000000
-      internalID: -4716560673762309446
+      spriteID: 253879d8a0316b9b0800000000000000
+      internalID: -5064839794885426350
       vertices: []
       indices: 
       edges: []

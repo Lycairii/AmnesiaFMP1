@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0124bb0fcee91b64d830e076a7aebbd1
+guid: a5b13da392d2f1f408db680112f76dec
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6504533043834447420
-    second: Smirk_0
+      213: 7732575246470666395
+    second: Gritting Teeth_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Smirk_0
+      name: Gritting Teeth_0
       rect:
         serializedVersion: 2
-        x: 21
+        x: 62
         y: 0
-        width: 579
-        height: 570
+        width: 465
+        height: 546
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c9157cb8a14bb5a0800000000000000
-      internalID: -6504533043834447420
+      spriteID: b98dcdcb730af4b60800000000000000
+      internalID: 7732575246470666395
       vertices: []
       indices: 
       edges: []
