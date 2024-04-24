@@ -298,7 +298,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f637c5ce9d10e45c7855ed89bfc6b97e, type: 3}
   - {fileID: 8300000, guid: c53b7c20372e444c6bd7f2ac0729bbe2, type: 3}
   soundEffect: {fileID: 0}
-  inputSound: {fileID: 8300000, guid: 14a396b1562834718b2d52b9c4639264, type: 3}
+  inputSound: {fileID: 8300000, guid: c18ae2c530c264a6880266d5e0a71337, type: 3}
 --- !u!114 &45670817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -979,7 +979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1629687901}
   - component: {fileID: 1629687900}
-  - component: {fileID: 1629687899}
+  - component: {fileID: 1629687902}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -987,14 +987,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1629687899
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1629687898}
-  m_Enabled: 1
 --- !u!20 &1629687900
 Camera:
   m_ObjectHideFlags: 0
@@ -1061,6 +1053,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &1629687902
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629687898}
+  m_Enabled: 1
 --- !u!1 &1740467630
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,6 +1156,7 @@ GameObject:
   - component: {fileID: 1766488263}
   - component: {fileID: 1766488262}
   - component: {fileID: 1766488264}
+  - component: {fileID: 1766488265}
   m_Layer: 0
   m_Name: Character Name
   m_TagString: Untagged
@@ -1190,7 +1191,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1766488249}
   selectedCommands:
-  - {fileID: 1766488264}
+  - {fileID: 1766488265}
   variables:
   - {fileID: 1766488240}
   description: 
@@ -1259,6 +1260,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1766488251}
   commandList:
   - {fileID: 1766488250}
+  - {fileID: 1766488265}
   - {fileID: 1766488259}
   - {fileID: 1766488264}
   - {fileID: 1766488261}
@@ -1404,7 +1406,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1766488264
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1429,6 +1431,22 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1766488265
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766488233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bef7966140464bd5a3ef4da2ff236b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 24
+  indentLevel: 0
+  key: '{$PlayerName}'
+  variable: {fileID: 1766488240}
 --- !u!1 &1900158080
 GameObject:
   m_ObjectHideFlags: 0
