@@ -106,37 +106,16 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wary_0
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 546
-        width: 56
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d660988adddb75d40800000000000000
-      internalID: 5573131823607252589
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Wary_1
       rect:
         serializedVersion: 2
-        x: 33
+        x: 34
         y: 0
-        width: 535
+        width: 509
         height: 577
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 20, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -156,7 +135,7 @@ TextureImporter:
         width: 70
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,17 +147,41 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Wary_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 524
+        width: 15
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845e91f175ebd8c4491fff7fe4cc8487
+      internalID: -273614219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: df128ac2d99bdad4984d4526498abd50
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wary_0: -273614219
+      Wary_1: -3152769902884331505
+      Wary_2: 8233876359372515511
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -109,13 +109,13 @@ TextureImporter:
       name: Upset_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 546
-        width: 56
-        height: 54
+        x: 5
+        y: 0
+        width: 563
+        height: 600
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 50, y: 0, z: 0, w: 21}
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -135,8 +135,8 @@ TextureImporter:
         width: 535
         height: 577
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -156,7 +156,7 @@ TextureImporter:
         width: 70
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -171,14 +171,17 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1fe378f632e300c40b5f69e1dd2e948f
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Upset_0: 3740009398500155495
+      Upset_1: 4797023189713760642
+      Upset_2: -172186947552116672
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

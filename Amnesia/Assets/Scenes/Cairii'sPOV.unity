@@ -1101,15 +1101,15 @@ RectTransform:
   m_GameObject: {fileID: 265156139}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -76.7018}
-  m_LocalScale: {x: 3.0310838, y: 5.8240504, z: 9.172842}
+  m_LocalScale: {x: 1.3391328, y: 2.5730655, z: 4.0525618}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1955308323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -6010, y: 8860}
-  m_SizeDelta: {x: 396.7325, y: 1377.0159}
+  m_AnchoredPosition: {x: -6372, y: 8774}
+  m_SizeDelta: {x: 1012.5674, y: 1739.8679}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &265156141
 MonoBehaviour:
@@ -5432,11 +5432,11 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1021913154}
   commandList:
-  - {fileID: 1021912217}
   - {fileID: 1021912371}
+  - {fileID: 1021913215}
+  - {fileID: 1021912217}
   - {fileID: 1021912218}
   - {fileID: 1021912364}
-  - {fileID: 1021913215}
   - {fileID: 1021912900}
   - {fileID: 1021911999}
   - {fileID: 1021912002}
@@ -5465,19 +5465,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 2827.3137, y: 273.77454}
+  scrollPos: {x: 1952.2908, y: 472.77853}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 203.2
-  zoom: 0.25
+  zoom: 0.30999997
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1021912009}
+  selectedCommands:
+  - {fileID: 1021912015}
   variables:
   - {fileID: 1021912032}
   - {fileID: 1021912107}
@@ -5532,7 +5534,7 @@ MonoBehaviour:
     you, indicating that the chloroform was beginning to wear off. '
   description: 
   character: {fileID: 1178771872}
-  portrait: {fileID: 7985626363670038235, guid: cc7a38ccee66a2f4c8add4311e9cca47, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 0
   showCount: 1
@@ -5673,7 +5675,7 @@ MonoBehaviour:
     to your side, as you walked the street towards home. '
   description: 
   character: {fileID: 1178771872}
-  portrait: {fileID: 5573131823607252589, guid: 8224c3e1cd1a6054bba1528a3e44f654, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5905,7 +5907,7 @@ MonoBehaviour:
     here, and your attempt to escape.'
   description: 
   character: {fileID: 1178771872}
-  portrait: {fileID: 3740009398500155495, guid: a3a77235e3555854dae5b43c65f716aa, type: 3}
+  portrait: {fileID: 7985626363670038235, guid: cc7a38ccee66a2f4c8add4311e9cca47, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6915,7 +6917,7 @@ MonoBehaviour:
   storyText: Your vision begins to become clearer and you could begin to make out
     objects, and eventually the entire room you were in.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8000,7 +8002,7 @@ MonoBehaviour:
     y: 363.16998
     width: 94.9
     height: 40
-  tint: {r: 0.93962264, g: 0.78276736, b: 0.515906, a: 1}
+  tint: {r: 0.9411765, g: 0.8865967, b: 0.5176471, a: 1}
   useCustomTint: 1
   itemId: 411
   blockName: Neutral
@@ -27704,7 +27706,7 @@ MonoBehaviour:
     y: 434.10257
     width: 194.58
     height: 40
-  tint: {r: 0.5169811, g: 0.23978525, b: 0.022434972, a: 1}
+  tint: {r: 0.7509433, g: 0.72691417, b: 0.04392306, a: 1}
   useCustomTint: 1
   itemId: 1109
   blockName: Yes, He Has Permission
@@ -28494,7 +28496,7 @@ MonoBehaviour:
     y: 443.6356
     width: 179.01
     height: 40
-  tint: {r: 0.5169811, g: 0.23978525, b: 0.022434972, a: 1}
+  tint: {r: 0.8591025, g: 0.86415094, b: 0.07011029, a: 1}
   useCustomTint: 1
   itemId: 1196
   blockName: 'No, you can''t let him '
@@ -28985,7 +28987,7 @@ MonoBehaviour:
     y: 361.96307
     width: 134.26999
     height: 40
-  tint: {r: 0.8415094, g: 0.4608792, b: 0.04922032, a: 1}
+  tint: {r: 0.84313726, g: 0.81744665, b: 0.050980378, a: 1}
   useCustomTint: 1
   itemId: 1143
   blockName: Appreciation?
@@ -30403,7 +30405,7 @@ MonoBehaviour:
     y: 463.2721
     width: 104.91
     height: 40
-  tint: {r: 0.8113208, g: 0.4094546, b: 0.07194728, a: 1}
+  tint: {r: 0.8117647, g: 0.7645865, b: 0.070588216, a: 1}
   useCustomTint: 1
   itemId: 1203
   blockName: Stay firm
@@ -30446,7 +30448,7 @@ MonoBehaviour:
     y: 375.25308
     width: 101.93
     height: 40
-  tint: {r: 0.7207546, g: 0.36774755, b: 0.118312515, a: 1}
+  tint: {r: 0.72156864, g: 0.6906177, b: 0.11764704, a: 1}
   useCustomTint: 1
   itemId: 1202
   blockName: Let him?
@@ -31228,11 +31230,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 210.92865
-    y: 498.0583
+    x: 209.47412
+    y: 499.51285
     width: 205.27
     height: 40
-  tint: {r: 0.93207544, g: 0.67277527, b: 0, a: 1}
+  tint: {r: 0.93333334, g: 0.89808244, b: 0, a: 1}
   useCustomTint: 1
   itemId: 1230
   blockName: Neutral Cell Dislike Daren
@@ -31845,7 +31847,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1257
   indentLevel: 0
-  spriteRenderer: {fileID: 0}
+  spriteRenderer: {fileID: 1897701282}
   _visible:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -32088,7 +32090,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1269
   indentLevel: 0
-  spriteRenderer: {fileID: 0}
+  spriteRenderer: {fileID: 1897701282}
   _visible:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -32112,7 +32114,7 @@ MonoBehaviour:
     y: 312.34756
     width: 107.58
     height: 40
-  tint: {r: 1, g: 0.6887473, b: 0.4509434, a: 1}
+  tint: {r: 1, g: 0.9830416, b: 0.45098042, a: 1}
   useCustomTint: 1
   itemId: 1274
   blockName: Flirt Back
@@ -32523,7 +32525,7 @@ MonoBehaviour:
     y: 383.3332
     width: 127.86
     height: 40
-  tint: {r: 0.9547169, g: 0.6739705, b: 0.2936204, a: 1}
+  tint: {r: 0.9529412, g: 0.9269972, b: 0.2941177, a: 1}
   useCustomTint: 1
   itemId: 1275
   blockName: With Disgust
@@ -33372,7 +33374,7 @@ MonoBehaviour:
     y: 494.85837
     width: 197.07
     height: 40
-  tint: {r: 0.93207544, g: 0.67277527, b: 0, a: 1}
+  tint: {r: 0.91946954, g: 0.93333334, b: 0, a: 1}
   useCustomTint: 1
   itemId: 1311
   blockName: Neutral Cell Likes Daren
@@ -34042,7 +34044,7 @@ MonoBehaviour:
     y: 557.46655
     width: 207.91
     height: 40
-  tint: {r: 1, g: 0.38916478, b: 0.035848916, a: 1}
+  tint: {r: 1, g: 0.96643126, b: 0.035294116, a: 1}
   useCustomTint: 1
   itemId: 1333
   blockName: Flirtatious Neutral Escape
@@ -34067,8 +34069,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1059363844}
+  portrait: {fileID: 7508317822236499539, guid: a5536340032908d4bbbbbfd0948abd34, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -34096,7 +34098,7 @@ MonoBehaviour:
     y: 557.39374
     width: 186.6
     height: 40
-  tint: {r: 0.8490566, g: 0.35862553, b: 0.08170166, a: 1}
+  tint: {r: 0.8509804, g: 0.85042125, b: 0.082352914, a: 1}
   useCustomTint: 1
   itemId: 1344
   blockName: Dislike Neutral Escape
@@ -34620,7 +34622,7 @@ MonoBehaviour:
   portraits:
   - {fileID: 7985626363670038235, guid: cc7a38ccee66a2f4c8add4311e9cca47, type: 3}
   - {fileID: 3740009398500155495, guid: a3a77235e3555854dae5b43c65f716aa, type: 3}
-  - {fileID: 5573131823607252589, guid: 8224c3e1cd1a6054bba1528a3e44f654, type: 3}
+  - {fileID: -3152769902884331505, guid: 8224c3e1cd1a6054bba1528a3e44f654, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 1955308328}
   description: 
@@ -36733,8 +36735,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.78700006}
-  m_AnchoredPosition: {x: 34.980957, y: 29.568787}
-  m_SizeDelta: {x: -334.44, y: -422.7324}
+  m_AnchoredPosition: {x: 79.55957, y: 29.568787}
+  m_SizeDelta: {x: -423.5967, y: -422.7324}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1559826601
 MonoBehaviour:
@@ -37327,81 +37329,6 @@ MonoBehaviour:
       ","$type":"System.String"},"typeHandle":{"Identification":"System.String, mscorlib,
       Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!1 &1760773928
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1760773931}
-  - component: {fileID: 1760773930}
-  - component: {fileID: 1760773929}
-  m_Layer: 0
-  m_Name: StagePosition
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1760773929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1760773928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1760773930
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1760773928}
-  m_CullTransparentMesh: 1
---- !u!224 &1760773931
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1760773928}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2589}
-  m_LocalScale: {x: 2.3166022, y: 2.3166022, z: 2.3166022}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -3680.584, y: -16742.285}
-  m_SizeDelta: {x: 27400.133, y: 14514.238}
-  m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &1843587789
 GameObject:
   m_ObjectHideFlags: 0
@@ -37503,8 +37430,8 @@ Transform:
   m_GameObject: {fileID: 1897701280}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 592.625, y: 4093.1746, z: -1656}
-  m_LocalScale: {x: 4609.3843, y: 4455.6055, z: 59.29969}
+  m_LocalPosition: {x: 2105, y: 7399, z: -2478}
+  m_LocalScale: {x: 2790.5671, y: 2697.468, z: 33.00488}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 579546739}
@@ -38060,8 +37987,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.78700006}
-  m_AnchoredPosition: {x: -4.572998, y: 28.122986}
-  m_SizeDelta: {x: -413.5454, y: -425.62}
+  m_AnchoredPosition: {x: 67.867676, y: 28.122986}
+  m_SizeDelta: {x: -669.8711, y: -425.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2030578375
 MonoBehaviour:
@@ -38161,8 +38088,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.78700006}
-  m_AnchoredPosition: {x: -4.572998, y: 28.122986}
-  m_SizeDelta: {x: -413.5454, y: -425.62}
+  m_AnchoredPosition: {x: 56.722656, y: 28.122986}
+  m_SizeDelta: {x: -536.1367, y: -425.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2037899479
 MonoBehaviour:
@@ -38278,7 +38205,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2047800267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38651,7 +38578,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 2090600596}
   - {fileID: 2047800268}
-  - {fileID: 1760773931}
   - {fileID: 937131484}
   - {fileID: 362914263}
   - {fileID: 1021911998}

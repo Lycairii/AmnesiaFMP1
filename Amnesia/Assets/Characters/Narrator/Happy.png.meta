@@ -109,12 +109,12 @@ TextureImporter:
       name: Happy_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 546
-        width: 56
-        height: 54
+        x: 5
+        y: 547
+        width: 54
+        height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -130,12 +130,12 @@ TextureImporter:
       name: Happy_1
       rect:
         serializedVersion: 2
-        x: 33
+        x: 57
         y: 0
-        width: 535
+        width: 510
         height: 577
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -156,7 +156,7 @@ TextureImporter:
         width: 70
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -171,14 +171,17 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f6e1dcc1a5671094eb15fa02f7887563
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Happy_0: 7985626363670038235
+      Happy_1: 230064946218503653
+      Happy_2: 8980492921325942086
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
