@@ -1060,7 +1060,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1629687898}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!1 &1740467630
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,12 +1153,12 @@ GameObject:
   - component: {fileID: 1766488259}
   - component: {fileID: 1766488260}
   - component: {fileID: 1766488263}
-  - component: {fileID: 1766488262}
   - component: {fileID: 1766488264}
   - component: {fileID: 1766488265}
   - component: {fileID: 1766488266}
+  - component: {fileID: 1766488267}
   m_Layer: 0
-  m_Name: Character Name
+  m_Name: Naming Cairii
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1190,7 +1190,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1766488249}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1766488259}
   variables:
   - {fileID: 1766488240}
   description: 
@@ -1247,8 +1248,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 231.58232
-    y: 87.80515
+    x: 224.77377
+    y: 120.996635
     width: 108.56
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1258,11 +1259,11 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1766488251}
   commandList:
-  - {fileID: 1766488266}
   - {fileID: 1766488250}
   - {fileID: 1766488265}
   - {fileID: 1766488259}
   - {fileID: 1766488264}
+  - {fileID: 1766488267}
   - {fileID: 1766488260}
   suppressAllAutoSelections: 0
 --- !u!114 &1766488250
@@ -1323,7 +1324,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 45670818}
 --- !u!114 &1766488260
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1343,20 +1344,6 @@ MonoBehaviour:
     stringVal: Cairii'sPOV
   loadingImage: {fileID: 0}
   sceneNameOLD: 
---- !u!114 &1766488262
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1766488233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff5d850a887844fe87ae7d366d3ab5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1766488263}
-  suppressBlockAutoSelect: 0
 --- !u!114 &1766488263
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1371,8 +1358,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 78.219734
-    y: 45.47424
+    x: 113.96441
+    y: 53.984875
     width: 115.21
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1380,7 +1367,7 @@ MonoBehaviour:
   itemId: 22
   blockName: New Block
   description: 
-  eventHandler: {fileID: 1766488262}
+  eventHandler: {fileID: 1766488266}
   commandList: []
   suppressAllAutoSelections: 0
 --- !u!114 &1766488264
@@ -1409,7 +1396,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 45670818}
 --- !u!114 &1766488265
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1435,15 +1422,38 @@ MonoBehaviour:
   m_GameObject: {fileID: 1766488233}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Script: {fileID: 11500000, guid: 8ff5d850a887844fe87ae7d366d3ab5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1766488263}
+  suppressBlockAutoSelect: 0
+--- !u!114 &1766488267
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766488233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 2
-  durationOLD: 0
+  storyText: 'P.S.... You''re awesome!! '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 45670818}
 --- !u!1 &1900158080
 GameObject:
   m_ObjectHideFlags: 0

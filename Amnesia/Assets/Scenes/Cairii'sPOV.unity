@@ -1073,102 +1073,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!1 &265156139
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 265156140}
-  - component: {fileID: 265156143}
-  - component: {fileID: 265156142}
-  - component: {fileID: 265156141}
-  m_Layer: 5
-  m_Name: SayImg_Narrator
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &265156140
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 265156139}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -76.7018}
-  m_LocalScale: {x: 1.3391328, y: 2.5730655, z: 4.0525618}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1955308323}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -6372, y: 8774}
-  m_SizeDelta: {x: 1012.5674, y: 1739.8679}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &265156141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 265156139}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: -1
-  m_MinHeight: -1
-  m_PreferredWidth: 350
-  m_PreferredHeight: 350
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
---- !u!114 &265156142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 265156139}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 4797023189713760642, guid: a3a77235e3555854dae5b43c65f716aa, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &265156143
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 265156139}
-  m_CullTransparentMesh: 1
 --- !u!1 &267371967
 GameObject:
   m_ObjectHideFlags: 0
@@ -1571,7 +1475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1021911997}
+  selectedFlowchart: {fileID: 0}
 --- !u!4 &362914263
 Transform:
   m_ObjectHideFlags: 1
@@ -1992,7 +1896,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 43bce127d27b74a66a29b68d0de90ddb, type: 3}
+    m_Font: {fileID: 12800000, guid: 146b4b592b171a848a299a060bc87a24, type: 3}
     m_FontSize: 120
     m_FontStyle: 1
     m_BestFit: 1
@@ -2003,7 +1907,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
-    m_LineSpacing: 1.5
+    m_LineSpacing: 1
   m_Text: Cairii
 --- !u!222 &508415095
 CanvasRenderer:
@@ -3264,9 +3168,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Daren
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0.9547169, g: 0.5059282, b: 0.034225564, a: 1}
   soundEffect: {fileID: 0}
   portraits:
+  - {fileID: -4811646283614182172, guid: a9a7710e256e0244f82bab3d2c7f8899, type: 3}
   - {fileID: 2862917018616856736, guid: 1bdae1e34cbb0e144af10d3e7902194a, type: 3}
   - {fileID: 30127186256043200, guid: d76d05a8a1c04e5448eb2ff8f36832b4, type: 3}
   - {fileID: 6118901353462634594, guid: 93eefcc82867a6043b3abb8132bf44c9, type: 3}
@@ -5349,6 +5254,8 @@ GameObject:
   - component: {fileID: 1021913272}
   - component: {fileID: 1021913284}
   - component: {fileID: 1021913285}
+  - component: {fileID: 1021913287}
+  - component: {fileID: 1021913286}
   m_Layer: 0
   m_Name: Cairii's Flowchart
   m_TagString: Untagged
@@ -5465,21 +5372,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1952.2908, y: 472.77853}
+  scrollPos: {x: 1531.7361, y: -330.60986}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 203.2
-  zoom: 0.30999997
+  zoom: 0.37
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1021912009}
-  selectedCommands:
-  - {fileID: 1021912015}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1021912032}
   - {fileID: 1021912107}
@@ -5647,7 +5552,7 @@ MonoBehaviour:
     you here.
   description: 
   character: {fileID: 1178771872}
-  portrait: {fileID: 3740009398500155495, guid: a3a77235e3555854dae5b43c65f716aa, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6177,7 +6082,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'The hair on the back of your neck raises, indicating danger. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6205,7 +6110,7 @@ MonoBehaviour:
   storyText: Something or someone was near you, watching you, stalking you in the
     dark.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6232,7 +6137,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: You were food to them; a warm, living and breathing blood bag.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6260,7 +6165,7 @@ MonoBehaviour:
   storyText: You stay still and quiet for a brief moment, noticing the familar glow
     of vibrant blood-thirsty eyes glaring at you.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6719,7 +6624,7 @@ MonoBehaviour:
   storyText: Your eyes lock onto the glowing crimson hue of death of the hunter,
     who was gradually making their way out of the shadows.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7568,7 +7473,7 @@ MonoBehaviour:
   storyText: There was some sort of magic being used, tricking the eyes of anyone
     who entered, or who was placed within, or so it seemed.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7596,7 +7501,7 @@ MonoBehaviour:
   storyText: 'Your eyes shift from the hunter in confusion. A slight glimmer in the
     corner of your eye caught your attention. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8953,7 +8858,7 @@ MonoBehaviour:
   storyText: They stop a few feet away of the bed you were restrained in, as they
     ready themselves to feed on your blood, your life essence.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8981,7 +8886,7 @@ MonoBehaviour:
   storyText: 'Your eyes swiftly dart back to the hungry vampire, with their white
     fangs now glinting in the dim light. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -31740,7 +31645,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1252
   indentLevel: 0
-  storyText: '"What, no {i}''I''m sorry for almost {punch=10,0.5} {b}killing{b} you''{/b}?
+  storyText: '{punch=10,0.5}"What, no {i}''I''m sorry for almost  {b}killing{b} you''{/b}{/i}?
     Fucking typical..." You were a little irritated, to say the least, that he didn''t
     have any manners for almost draining you. '
   description: 
@@ -34135,6 +34040,58 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1021913286
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 439.61526
+    y: 683.5829
+    width: 143.68
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 1347
+  blockName: Chosing Adrian
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1021913287
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -151.19571
+    y: 698.7179
+    width: 140.43
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 1346
+  blockName: Chosing Daren
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
 --- !u!1 &1039806522
 GameObject:
   m_ObjectHideFlags: 0
@@ -34619,10 +34576,7 @@ MonoBehaviour:
   nameText: Narrator
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
-  portraits:
-  - {fileID: 7985626363670038235, guid: cc7a38ccee66a2f4c8add4311e9cca47, type: 3}
-  - {fileID: 3740009398500155495, guid: a3a77235e3555854dae5b43c65f716aa, type: 3}
-  - {fileID: -3152769902884331505, guid: 8224c3e1cd1a6054bba1528a3e44f654, type: 3}
+  portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 1955308328}
   description: 
@@ -35219,7 +35173,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 43bce127d27b74a66a29b68d0de90ddb, type: 3}
+    m_Font: {fileID: 12800000, guid: 146b4b592b171a848a299a060bc87a24, type: 3}
     m_FontSize: 120
     m_FontStyle: 1
     m_BestFit: 1
@@ -35836,7 +35790,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 43bce127d27b74a66a29b68d0de90ddb, type: 3}
+    m_Font: {fileID: 12800000, guid: 146b4b592b171a848a299a060bc87a24, type: 3}
     m_FontSize: 120
     m_FontStyle: 1
     m_BestFit: 1
@@ -36344,8 +36298,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.78700006}
-  m_AnchoredPosition: {x: 34.980957, y: 29.568787}
-  m_SizeDelta: {x: -334.44, y: -422.7324}
+  m_AnchoredPosition: {x: 60.84131, y: 29.568787}
+  m_SizeDelta: {x: -613.7319, y: -422.7324}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1446359307
 MonoBehaviour:
@@ -36399,7 +36353,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 1.5
   m_Text: 'Welcome to the game :)
 
 
@@ -36610,8 +36564,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1531004094}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1439}
-  m_LocalScale: {x: 2.705951, y: 2.705951, z: 2.705951}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1618990508}
@@ -36621,9 +36575,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 926, y: 2566}
-  m_SizeDelta: {x: 2133.3335, y: 1200}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!225 &1531004096
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -36685,7 +36639,7 @@ Canvas:
   m_GameObject: {fileID: 1531004094}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 2
+  m_RenderMode: 1
   m_Camera: {fileID: 2090600595}
   m_PlaneDistance: 100
   m_PixelPerfect: 1
@@ -36798,7 +36752,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 1.5
   m_Text: 'hello, my name '
 --- !u!1 &1579128597
 GameObject:
@@ -36944,7 +36898,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -5639, y: 8932.031}
+  m_AnchoredPosition: {x: -5615, y: 8932.031}
   m_SizeDelta: {x: 396.7325, y: 1696.0686}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1623232751
@@ -37218,6 +37172,7 @@ MonoBehaviour:
   nameColor: {r: 0.7584905, g: 0.44998187, b: 0.113057934, a: 1}
   soundEffect: {fileID: 0}
   portraits:
+  - {fileID: -4811646283614182172, guid: a9a7710e256e0244f82bab3d2c7f8899, type: 3}
   - {fileID: -4163389191366955148, guid: 7276a784c4a15ad4b9798403dff40aac, type: 3}
   - {fileID: 30127186256043200, guid: d76d05a8a1c04e5448eb2ff8f36832b4, type: 3}
   - {fileID: 6118901353462634594, guid: 93eefcc82867a6043b3abb8132bf44c9, type: 3}
@@ -37228,6 +37183,8 @@ MonoBehaviour:
   - {fileID: -6045028611908468259, guid: a6c43d8a1adf67648a91515c8160bd01, type: 3}
   - {fileID: 4271334895100898704, guid: b8c03b037243a814d89414f68f888ea5, type: 3}
   - {fileID: -2518769261853224147, guid: 394cda6c26e3be545b913b852742171c, type: 3}
+  - {fileID: 1710687449355238878, guid: 3576c4b4ee55b19488865b59bca2a9cd, type: 3}
+  - {fileID: 1710687449355238878, guid: 3576c4b4ee55b19488865b59bca2a9cd, type: 3}
   - {fileID: 7985626363670038235, guid: 894b565d806d3b744bcc111bf97e2552, type: 3}
   - {fileID: -5064873243018364556, guid: 764288b6fcbbbe7428d7c2d89649caf5, type: 3}
   - {fileID: -2263164560756889242, guid: 3d9633d7340d8fc40a03724be492e396, type: 3}
@@ -37563,7 +37520,6 @@ RectTransform:
   m_LocalScale: {x: 4.46211, y: 2.16252, z: 0.9}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 265156140}
   - {fileID: 125398366}
   m_Father: {fileID: 277032579}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -37747,7 +37703,7 @@ MonoBehaviour:
   nameTextGO: {fileID: 0}
   storyText: {fileID: 1446359308}
   storyTextGO: {fileID: 0}
-  characterImage: {fileID: 265156142}
+  characterImage: {fileID: 0}
   fitTextWithImage: 1
   closeOtherDialogs: 0
 --- !u!114 &1955308329
@@ -38042,7 +37998,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 1.5
   m_Text: 
 --- !u!222 &2030578377
 CanvasRenderer:
@@ -38143,7 +38099,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 2
+    m_LineSpacing: 1.5
   m_Text: 
 --- !u!222 &2037899481
 CanvasRenderer:
@@ -38205,7 +38161,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2047800267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38273,14 +38229,14 @@ RectTransform:
   m_GameObject: {fileID: 2053861038}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.95053, y: 0.95053, z: 0.95053}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 125398366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 936, y: -262.08}
+  m_AnchoredPosition: {x: 929, y: -262.08}
   m_SizeDelta: {x: 1467.6, y: 247.34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2053861040
@@ -38304,7 +38260,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 43bce127d27b74a66a29b68d0de90ddb, type: 3}
+    m_Font: {fileID: 12800000, guid: 146b4b592b171a848a299a060bc87a24, type: 3}
     m_FontSize: 120
     m_FontStyle: 1
     m_BestFit: 1
