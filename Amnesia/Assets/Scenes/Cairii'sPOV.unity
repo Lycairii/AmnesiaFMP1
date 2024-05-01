@@ -1897,11 +1897,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 146b4b592b171a848a299a060bc87a24, type: 3}
-    m_FontSize: 150
+    m_FontSize: 180
     m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 1
-    m_MaxSize: 150
+    m_MaxSize: 180
     m_Alignment: 3
     m_AlignByGeometry: 1
     m_RichText: 1
@@ -5401,8 +5401,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1021911996}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 1021912032}
@@ -35676,11 +35675,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 146b4b592b171a848a299a060bc87a24, type: 3}
-    m_FontSize: 150
+    m_FontSize: 180
     m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 1
-    m_MaxSize: 150
+    m_MaxSize: 180
     m_Alignment: 3
     m_AlignByGeometry: 1
     m_RichText: 1
@@ -36293,11 +36292,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 146b4b592b171a848a299a060bc87a24, type: 3}
-    m_FontSize: 150
+    m_FontSize: 180
     m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 1
-    m_MaxSize: 150
+    m_MaxSize: 180
     m_Alignment: 3
     m_AlignByGeometry: 1
     m_RichText: 1
@@ -37393,15 +37392,15 @@ RectTransform:
   m_GameObject: {fileID: 1623232749}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -76.7018}
-  m_LocalScale: {x: 3.2015965, y: 8.32086, z: 8.84571}
+  m_LocalScale: {x: 3.075889, y: 7.99415, z: 8.498392}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 653763945}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -5615, y: 8932.031}
-  m_SizeDelta: {x: 396.7325, y: 1696.0686}
+  m_AnchoredPosition: {x: -5634, y: 8880}
+  m_SizeDelta: {x: 396.7325, y: 2505.7517}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1623232751
 MonoBehaviour:
@@ -38763,11 +38762,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 146b4b592b171a848a299a060bc87a24, type: 3}
-    m_FontSize: 150
+    m_FontSize: 180
     m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 1
-    m_MaxSize: 150
+    m_MaxSize: 180
     m_Alignment: 3
     m_AlignByGeometry: 1
     m_RichText: 1

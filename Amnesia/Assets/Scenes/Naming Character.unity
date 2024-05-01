@@ -443,17 +443,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 802710874}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.065799, y: 0.065799, z: 0.065799}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1900158081}
+  m_Father: {fileID: 1076682181}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.78700006}
-  m_AnchoredPosition: {x: 165, y: -36}
-  m_SizeDelta: {x: -61, y: -63}
+  m_AnchoredPosition: {x: -1.2161713, y: -26.254051}
+  m_SizeDelta: {x: 1089.6536, y: 53.400154}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &802710876
 MonoBehaviour:
@@ -488,7 +488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.89433956, g: 0.86554444, b: 0.24805266, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -709,6 +709,7 @@ RectTransform:
   - {fileID: 833263676}
   - {fileID: 2067488069}
   - {fileID: 45670813}
+  - {fileID: 802710875}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1156,7 +1157,6 @@ GameObject:
   - component: {fileID: 1766488264}
   - component: {fileID: 1766488265}
   - component: {fileID: 1766488266}
-  - component: {fileID: 1766488267}
   m_Layer: 0
   m_Name: Naming Cairii
   m_TagString: Untagged
@@ -1188,10 +1188,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1766488249}
-  selectedCommands:
-  - {fileID: 1766488259}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1766488240}
   description: 
@@ -1263,7 +1261,6 @@ MonoBehaviour:
   - {fileID: 1766488265}
   - {fileID: 1766488259}
   - {fileID: 1766488264}
-  - {fileID: 1766488267}
   - {fileID: 1766488260}
   suppressAllAutoSelections: 0
 --- !u!114 &1766488250
@@ -1427,33 +1424,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 1766488263}
   suppressBlockAutoSelect: 0
---- !u!114 &1766488267
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1766488233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 25
-  indentLevel: 0
-  storyText: 'P.S.... You''re awesome!! '
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 45670818}
 --- !u!1 &1900158080
 GameObject:
   m_ObjectHideFlags: 0
@@ -1483,16 +1453,15 @@ RectTransform:
   m_GameObject: {fileID: 1900158080}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7311, y: 0.7311, z: 0.7311}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 802710875}
+  m_Children: []
   m_Father: {fileID: 45670813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -750.0001, y: 0}
-  m_SizeDelta: {x: 1566, y: 322.68164}
+  m_AnchoredPosition: {x: -578, y: 80}
+  m_SizeDelta: {x: 1566, y: 252.727}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1900158082
 MonoBehaviour:
@@ -1555,7 +1524,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e8ab00ef0d9684dcb9deb52811d91218, type: 3}
+  m_Sprite: {fileID: -8110626241233687249, guid: 1fdc6ced764881e45bbf3cbd26963ca7, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
