@@ -5231,7 +5231,6 @@ GameObject:
   - component: {fileID: 1021913260}
   - component: {fileID: 1021913259}
   - component: {fileID: 1021913267}
-  - component: {fileID: 1021913268}
   - component: {fileID: 1021913269}
   - component: {fileID: 1021913270}
   - component: {fileID: 1021913271}
@@ -5308,6 +5307,21 @@ GameObject:
   - component: {fileID: 1021913323}
   - component: {fileID: 1021913322}
   - component: {fileID: 1021913311}
+  - component: {fileID: 1021913358}
+  - component: {fileID: 1021913357}
+  - component: {fileID: 1021913356}
+  - component: {fileID: 1021913355}
+  - component: {fileID: 1021913354}
+  - component: {fileID: 1021913353}
+  - component: {fileID: 1021913347}
+  - component: {fileID: 1021913364}
+  - component: {fileID: 1021913363}
+  - component: {fileID: 1021913362}
+  - component: {fileID: 1021913361}
+  - component: {fileID: 1021913360}
+  - component: {fileID: 1021913359}
+  - component: {fileID: 1021913366}
+  - component: {fileID: 1021913365}
   m_Layer: 0
   m_Name: Cairii's Flowchart
   m_TagString: Untagged
@@ -5424,11 +5438,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 976.8544, y: -148.0251}
+  scrollPos: {x: 937.41016, y: -185.91875}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 200
-  zoom: 0.60999995
+  zoom: 0.6399999
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -5436,9 +5450,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1021913233}
+  - {fileID: 1021913191}
   selectedCommands:
-  - {fileID: 1021913326}
+  - {fileID: 1021913365}
   variables:
   - {fileID: 1021912032}
   - {fileID: 1021912107}
@@ -30360,8 +30374,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 464.37677
-    y: 448.38837
+    x: 465.68823
+    y: 447.07687
     width: 104.91
     height: 40
   tint: {r: 0.8117647, g: 0.7645865, b: 0.070588216, a: 1}
@@ -31168,8 +31182,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 82.84823
-    y: 514.1953
+    x: 67.09483
+    y: 517.9488
     width: 205.27
     height: 40
   tint: {r: 0.93333334, g: 0.89808244, b: 0, a: 1}
@@ -31186,6 +31200,8 @@ MonoBehaviour:
   - {fileID: 1021913308}
   - {fileID: 1021913307}
   - {fileID: 1021913306}
+  - {fileID: 1021913366}
+  - {fileID: 1021913365}
   - {fileID: 1021913281}
   suppressAllAutoSelections: 0
 --- !u!114 &1021913192
@@ -31939,8 +31955,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -206.45476
-    y: 362.6331
+    x: -227.43843
+    y: 320.66556
     width: 107.58
     height: 40
   tint: {r: 1, g: 0.9830416, b: 0.45098042, a: 1}
@@ -32350,8 +32366,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -105.44865
-    y: 411.53006
+    x: -109.44449
+    y: 420.71045
     width: 127.86
     height: 40
   tint: {r: 1, g: 0.9862422, b: 0.6698113, a: 1}
@@ -32362,6 +32378,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1021913232}
+  - {fileID: 1021913347}
   - {fileID: 1021913231}
   - {fileID: 1021913247}
   - {fileID: 1021913244}
@@ -32382,7 +32399,18 @@ MonoBehaviour:
   - {fileID: 1021913323}
   - {fileID: 1021913311}
   - {fileID: 1021913322}
-  - {fileID: 1021913268}
+  - {fileID: 1021913358}
+  - {fileID: 1021913357}
+  - {fileID: 1021913356}
+  - {fileID: 1021913355}
+  - {fileID: 1021913354}
+  - {fileID: 1021913353}
+  - {fileID: 1021913364}
+  - {fileID: 1021913363}
+  - {fileID: 1021913362}
+  - {fileID: 1021913360}
+  - {fileID: 1021913359}
+  - {fileID: 1021913361}
   suppressAllAutoSelections: 0
 --- !u!114 &1021913234
 MonoBehaviour:
@@ -33212,8 +33240,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -208.21037
-    y: 489.47025
+    x: -332.80066
+    y: 391.10886
     width: 197.07
     height: 40
   tint: {r: 0.91946954, g: 0.93333334, b: 0, a: 1}
@@ -33295,27 +33323,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1021913268
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1313
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1021913191}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
 --- !u!114 &1021913269
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -33887,8 +33894,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -159.04364
-    y: 558.34436
+    x: -354.45352
+    y: 465.22943
     width: 207.91
     height: 40
   tint: {r: 1, g: 0.74396384, b: 0, a: 1}
@@ -33953,7 +33960,7 @@ MonoBehaviour:
     y: 573.10046
     width: 186.6
     height: 40
-  tint: {r: 1, g: 0.9916873, b: 0.1566037, a: 1}
+  tint: {r: 1, g: 0.74509805, b: 0, a: 1}
   useCustomTint: 1
   itemId: 1344
   blockName: Dislike Neutral Escape
@@ -34528,14 +34535,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1368
   indentLevel: 0
-  storyText: 
+  storyText: 'His attitude towards you was all over the place it seemed, like switches
+    of personality. He seemed rather annoyed now, though you couldn''t figure out
+    why. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
-  extendPrevious: 0
+  extendPrevious: 1
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
@@ -34555,10 +34564,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1367
   indentLevel: 0
-  storyText: 
+  storyText: '"You''re so clumsy... Please be careful.." '
   description: 
   character: {fileID: 693484078}
-  portrait: {fileID: 0}
+  portrait: {fileID: 2862917018616856736, guid: 1bdae1e34cbb0e144af10d3e7902194a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -34611,8 +34620,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 341.45993
-    y: 390.18045
+    x: 371.6239
+    y: 395.4264
     width: 158.88
     height: 40
   tint: {r: 1, g: 0.86805296, b: 0.3226415, a: 1}
@@ -34717,7 +34726,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 136.52205
+    x: 124.71872
     y: 624.4452
     width: 143.57
     height: 40
@@ -34951,10 +34960,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1404
   indentLevel: 0
-  storyText: 
+  storyText: '"H-how do I know you didn''t do on purpose, just to get more blood?"'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1059363844}
+  portrait: {fileID: 3705570748736463740, guid: 442e57906ffed624c828d68673975815, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -35546,6 +35555,409 @@ MonoBehaviour:
   indentLevel: 0
   key: '{$PlayerName}'
   variable: {fileID: 1021912181}
+--- !u!114 &1021913347
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c657364a3b24e16bdf5946729a8b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1419
+  indentLevel: 0
+  key: '{$PlayerName}'
+  variable: {fileID: 1021912181}
+--- !u!114 &1021913353
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1411
+  indentLevel: 0
+  storyText: 'You exhale again, sighing heavily. '
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021913354
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1410
+  indentLevel: 0
+  storyText: '"The name''s Daren, by the way. As it seems we''re going to be stuck
+    with each other for a while; we may as well know each other by name." '
+  description: 
+  character: {fileID: 1726157580}
+  portrait: {fileID: -7645888817525227343, guid: a540c501ea0a5774494e02bbc33ff3d2, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021913355
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1409
+  indentLevel: 0
+  storyText: 'However, just because it may have been an accident; didn''t mean you
+    could trust him. It would take alot more than freeing you from the restraints
+    to actually begin to put faith in him, that you could even begin to allow yourself
+    to trust him. '
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021913356
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1408
+  indentLevel: 0
+  storyText: 'The creature had a fair point in regards to wounding you, that if he
+    actually wanted to inflict injury; it would''ve been alot worse. '
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021913357
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1407
+  indentLevel: 0
+  storyText: '"Well, if I meant to harm you; it would''ve been a much larger wound,
+    don''t you think? You need to trust me...
+
+    Though, even if you don''t; I
+    won''t allow other vampires to taste you." '
+  description: 
+  character: {fileID: 1726157580}
+  portrait: {fileID: 3705570748736463740, guid: 58018a96a3f85984bb8a077dcf54dddc, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021913358
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1406
+  indentLevel: 0
+  storyText: You ask him with your voice wary and skeptical, which matched your facial
+    expression.
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 1
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021913359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1433
+  indentLevel: 0
+  storyText: 'He claps his hands together once, startling you slightly as his focus
+    shifts from you and to around the room briefly. '
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 1
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021913360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1432
+  indentLevel: 0
+  storyText: '"Now, let''s find a way out of here, shall we?" '
+  description: 
+  character: {fileID: 693484078}
+  portrait: {fileID: 7985626363670038235, guid: 894b565d806d3b744bcc111bf97e2552, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021913361
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1431
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1021913191}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1021913362
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1429
+  indentLevel: 0
+  storyText: 'Daren seemed oddly happy that you had introduced yourself back. It
+    seemed you may have little choice but to put some trust in him, even if you were
+    unsure of his intentions, and wary of him in general. '
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 1
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021913363
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1428
+  indentLevel: 0
+  storyText: '"The pleasure''s all mine, beautiful."'
+  description: 
+  character: {fileID: 693484078}
+  portrait: {fileID: -757630189579833598, guid: b984905989f3f714ebf3511cceac55a3, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021913364
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1427
+  indentLevel: 0
+  storyText: '"I''m {$PlayerName}.. It''s a pleasure to make your acquaintance I
+    suppose.." '
+  description: 
+  character: {fileID: 1059363844}
+  portrait: {fileID: -7802581581814841297, guid: ad747045a836f7e49bd63954ff3e75b2, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 1
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021913365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1435
+  indentLevel: 0
+  storyText: 'Daren seemed hesitant, surprised even as you had thanked him for catching
+    you. He clearly wasn''t used to people showing gratitude towards him. '
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 1330962535254233593, guid: 8b7c51f0e3b76174884c4df1a14d24cd, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 1
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021913366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1434
+  indentLevel: 0
+  storyText: '"Thanks for catching me.."'
+  description: 
+  character: {fileID: 1059363844}
+  portrait: {fileID: 1330962535254233593, guid: 8b7c51f0e3b76174884c4df1a14d24cd, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1039806522
 GameObject:
   m_ObjectHideFlags: 0
@@ -36621,7 +37033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.8479416, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.60144424, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
