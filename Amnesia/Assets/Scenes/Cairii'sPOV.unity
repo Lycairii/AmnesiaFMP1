@@ -5581,7 +5581,6 @@ GameObject:
   - component: {fileID: 1021913659}
   - component: {fileID: 1021913662}
   - component: {fileID: 1021913661}
-  - component: {fileID: 1021913658}
   - component: {fileID: 1021913663}
   - component: {fileID: 1021913664}
   - component: {fileID: 1021913675}
@@ -5918,8 +5917,14 @@ GameObject:
   - component: {fileID: 1021914053}
   - component: {fileID: 1021914052}
   - component: {fileID: 1021914051}
+  - component: {fileID: 1021914123}
+  - component: {fileID: 1021914124}
+  - component: {fileID: 1021914125}
+  - component: {fileID: 1021914126}
   - component: {fileID: 1021914119}
   - component: {fileID: 1021914120}
+  - component: {fileID: 1021914121}
+  - component: {fileID: 1021914122}
   m_Layer: 0
   m_Name: Cairii's Flowchart
   m_TagString: Untagged
@@ -6038,19 +6043,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 2448.9604, y: -521.8945}
+  scrollPos: {x: 1513.9769, y: -480.3252}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 217.5
-  zoom: 0.25
+  zoom: 0.34
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1021913717}
+  selectedCommands:
+  - {fileID: 1021913724}
   variables:
   - {fileID: 1021912032}
   - {fileID: 1021912107}
@@ -28581,8 +28588,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 698.4426
-    y: 1403.4417
+    x: 397.64258
+    y: 1313.843
     width: 151.44
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -28614,8 +28621,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -193.77472
-    y: 1321.873
+    x: -187.37482
+    y: 1302.6733
     width: 148.19
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -35930,8 +35937,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 1021913593}
   - {fileID: 1021913592}
-  - {fileID: 1021913658}
   - {fileID: 1021913664}
+  - {fileID: 1021914126}
   - {fileID: 1021913663}
   - {fileID: 1021913722}
   - {fileID: 1021913723}
@@ -35939,7 +35946,6 @@ MonoBehaviour:
   - {fileID: 1021913661}
   - {fileID: 1021913660}
   - {fileID: 1021913659}
-  - {fileID: 1021914119}
   suppressAllAutoSelections: 0
 --- !u!114 &1021913606
 MonoBehaviour:
@@ -37030,33 +37036,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1021913658
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1800
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1021913659
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -37665,8 +37644,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -834.33636
-    y: 1072.5564
+    x: -824.9246
+    y: 1067.8506
     width: 180.44
     height: 40
   tint: {r: 1, g: 0.6586385, b: 0, a: 1}
@@ -37694,8 +37673,15 @@ MonoBehaviour:
   - {fileID: 1021913897}
   - {fileID: 1021913896}
   - {fileID: 1021913895}
+  - {fileID: 1021914125}
+  - {fileID: 1021914124}
+  - {fileID: 1021914123}
   - {fileID: 1021913894}
   - {fileID: 1021913724}
+  - {fileID: 1021914122}
+  - {fileID: 1021914121}
+  - {fileID: 1021914120}
+  - {fileID: 1021914119}
   - {fileID: 1021913708}
   suppressAllAutoSelections: 0
 --- !u!114 &1021913718
@@ -37814,9 +37800,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1877
   indentLevel: 0
-  storyText: 
+  storyText: 'You do as the guard says, and lay back down on the bed, wanting to
+    save Daren. As soon as you''re down on the bed; they re-secure the restraints,
+    which seem heavier than before. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -41856,10 +41844,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2071
   indentLevel: 0
-  storyText: 
+  storyText: '"If any of you dare make a move towards me; I will arrest you for obstructing
+    police, on top of kidnapping and other unlawful acts."'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1423546334}
+  portrait: {fileID: -2708788149929445101, guid: 4a51315d758bfda4396b509ef5a27157, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -41883,9 +41872,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2072
   indentLevel: 0
-  storyText: 
+  storyText: You fight back the sensation and force yourself to stay awake, slightly
+    moving your head in Daren's direction.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -41910,9 +41900,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2073
   indentLevel: 0
-  storyText: 
+  storyText: 'The guard captain steps back from the bed and towards Daren, but you
+    felt weird, and barely able to keep your eyes open. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -41937,10 +41928,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2074
   indentLevel: 0
-  storyText: 
+  storyText: '"Stop that! You''ll kill her!" Daren shouts at the guards, clearly
+    worried about your health. You hear a small thud then a grunt, as one of the
+    guards smacks him in the stomach. '
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 693484078}
+  portrait: {fileID: 621222158458474870, guid: 5f9fa400c5bb4c84e87e5b75054d7b54, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -41964,9 +41957,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2075
   indentLevel: 0
-  storyText: 
+  storyText: 'Yet the guard wasn''t finished there; you feel a small pain in your
+    wrist, causing you to wince. They were hooking you up to something. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -46537,30 +46531,113 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1021914119
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1021911992}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2333
+  itemId: 2334
   indentLevel: 0
-  text: I have to decide? Can't I choose both?
+  storyText: 
   description: 
-  targetBlock: {fileID: 1021914120}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1021914120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2335
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021914121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2336
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021914122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2337
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021914123
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -46569,23 +46646,97 @@ MonoBehaviour:
   m_GameObject: {fileID: 1021911992}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 71.39784
-    y: 1428.1489
-    width: 88.990005
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 1
-  itemId: 2334
-  blockName: Both?!
+  itemId: 2330
+  indentLevel: 0
+  storyText: 'A figure stands over you, though unhooks you from whatever the guard
+    had done. '
   description: 
-  eventHandler: {fileID: 0}
-  commandList: []
-  suppressAllAutoSelections: 0
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021914124
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2331
+  indentLevel: 0
+  storyText: 'The sudden sound of a large smash right to your left catches you off
+    guard and makes you visibly flinch. '
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021914125
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2332
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 88569668c8eb6b749affacc2e02dee0e, type: 3}
+  volume: 1
+  waitUntilFinished: 0
+--- !u!114 &1021914126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2333
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1039806522
 GameObject:
   m_ObjectHideFlags: 0
