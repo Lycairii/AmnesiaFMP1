@@ -404,8 +404,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 665716043}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -492,10 +491,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: 'To continue dialogue; press anywhere within the dialogue box.
-
-    To
-    quit the game; press the ''esc'' key. '
+  storyText: "To continue dialogue; press anywhere within the dialogue box or the
+    continue button on the bottom right. \nTo quit the game; press the 'esc' key. "
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -522,8 +519,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: You will be experiencing {b}Chapter Four{/b} of the story from either
-    Adrian's Perspective or Cairii's, depending on who you chose.
+  storyText: You will be experiencing {b}Chapter Four{/b} of the story from Cairii's
+    perspective.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -552,7 +549,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Character Select
+    stringVal: Naming Character
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &665716049
