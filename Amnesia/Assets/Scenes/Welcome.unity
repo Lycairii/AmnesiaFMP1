@@ -393,19 +393,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: 172.07976, y: 46.890358}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.64000034
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 665716043}
+  selectedCommands:
+  - {fileID: 665716047}
   variables: []
   description: 
   stepPause: 0
@@ -432,7 +434,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 70.200005
-    y: 70.00001
+    y: 68.750015
     width: 115.21
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -519,8 +521,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: You will be experiencing {b}Chapter Four{/b} of the story from Cairii's
-    perspective.
+  storyText: 'You will be experiencing {b}Chapter Four{/b} of the story from th main
+    female protagonist''s perspective, Cairii. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -549,7 +551,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Naming Character
+    stringVal: Cairii'sPOV
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &665716049
@@ -1395,7 +1397,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -750.0001, y: 199.55402}
+  m_AnchoredPosition: {x: -831, y: 199.55402}
   m_SizeDelta: {x: 1769.9854, y: 282.1768}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &1974783461
@@ -1433,8 +1435,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.78700006}
-  m_AnchoredPosition: {x: 3, y: 22.815}
-  m_SizeDelta: {x: -61, y: -45.63}
+  m_AnchoredPosition: {x: -21.182373, y: 22.815002}
+  m_SizeDelta: {x: -27.3646, y: -45.63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1974783463
 MonoBehaviour:

@@ -273,108 +273,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 34237887}
   m_CullTransparentMesh: 1
---- !u!1 &39324138
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 39324139}
-  - component: {fileID: 39324142}
-  - component: {fileID: 39324141}
-  - component: {fileID: 39324140}
-  m_Layer: 5
-  m_Name: RepCanvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &39324139
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 39324138}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 573552552}
-  m_Father: {fileID: 1579128598}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
---- !u!114 &39324140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 39324138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &39324141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 39324138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &39324142
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 39324138}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 1
-  m_AdditionalShaderChannelsFlag: 0
-  m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
 --- !u!1 &42026926
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,6 +1490,108 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &375113159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 375113160}
+  - component: {fileID: 375113163}
+  - component: {fileID: 375113162}
+  - component: {fileID: 375113161}
+  m_Layer: 5
+  m_Name: Rep
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &375113160
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375113159}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1146117664}
+  m_Father: {fileID: 1579128598}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &375113161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375113159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &375113162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375113159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &375113163
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375113159}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &386227862
 GameObject:
   m_ObjectHideFlags: 0
@@ -1673,8 +1673,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1414517681}
-  - {fileID: 1726479639}
   - {fileID: 1059363842}
+  - {fileID: 1537515933}
   - {fileID: 1423546333}
   - {fileID: 1726157579}
   - {fileID: 693484077}
@@ -2647,142 +2647,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 551595461}
   m_CullTransparentMesh: 1
---- !u!1 &573552551
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 573552552}
-  - component: {fileID: 573552554}
-  - component: {fileID: 573552553}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &573552552
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 573552551}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 39324139}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 902, y: 363}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &573552553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 573552551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: '{$Rep} '
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &573552554
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 573552551}
-  m_CullTransparentMesh: 1
 --- !u!1 &579546738
 GameObject:
   m_ObjectHideFlags: 0
@@ -3566,6 +3430,142 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706590634}
+  m_CullTransparentMesh: 1
+--- !u!1 &709076367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 709076368}
+  - component: {fileID: 709076370}
+  - component: {fileID: 709076369}
+  m_Layer: 5
+  m_Name: Increase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &709076368
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709076367}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1146117664}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 64, y: -2}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &709076369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709076367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Increased
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 154f89b9d44dfb04d96389a6c9b28640, type: 2}
+  m_sharedMaterial: {fileID: 2420294284269108500, guid: 154f89b9d44dfb04d96389a6c9b28640, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278451988
+  m_fontColor: {r: 0.07977399, g: 1, b: 0.013207495, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -356.51498, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &709076370
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709076367}
   m_CullTransparentMesh: 1
 --- !u!1 &729594085
 GameObject:
@@ -5581,13 +5581,10 @@ GameObject:
   - component: {fileID: 1021913659}
   - component: {fileID: 1021913662}
   - component: {fileID: 1021913661}
-  - component: {fileID: 1021913663}
   - component: {fileID: 1021913664}
   - component: {fileID: 1021913675}
   - component: {fileID: 1021913705}
   - component: {fileID: 1021913704}
-  - component: {fileID: 1021913723}
-  - component: {fileID: 1021913722}
   - component: {fileID: 1021913718}
   - component: {fileID: 1021913707}
   - component: {fileID: 1021913717}
@@ -5920,11 +5917,11 @@ GameObject:
   - component: {fileID: 1021914123}
   - component: {fileID: 1021914124}
   - component: {fileID: 1021914125}
-  - component: {fileID: 1021914126}
-  - component: {fileID: 1021914119}
-  - component: {fileID: 1021914120}
-  - component: {fileID: 1021914121}
-  - component: {fileID: 1021914122}
+  - component: {fileID: 1021914128}
+  - component: {fileID: 1021914127}
+  - component: {fileID: 1021914131}
+  - component: {fileID: 1021914130}
+  - component: {fileID: 1021914129}
   m_Layer: 0
   m_Name: Cairii's Flowchart
   m_TagString: Untagged
@@ -5996,8 +5993,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 104.3687
-    y: -29.661861
+    x: 98.65428
+    y: -26.804735
     width: 149.58
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6043,11 +6040,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1513.9769, y: -480.3252}
+  scrollPos: {x: 2333.8518, y: 160.65659}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 217.5
-  zoom: 0.34
+  zoom: 0.25
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -6055,9 +6052,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1021913717}
-  selectedCommands:
-  - {fileID: 1021913724}
+  - {fileID: 1021913637}
+  selectedCommands: []
   variables:
   - {fileID: 1021912032}
   - {fileID: 1021912107}
@@ -6650,7 +6646,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"Adrian, help!"'
   description: 
-  character: {fileID: 1726479638}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7602,7 +7598,7 @@ MonoBehaviour:
   storyText: "\"Where... am I...? How.. did I... get here?\"\n You mutter under your
     breath, in a strained voice."
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 594318413343068850, guid: 9ba51fc128f73944ba57c93351cdad27, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8765,7 +8761,7 @@ MonoBehaviour:
   storyText: '"What is this place?! Where the hell am I?!" You couldn''t hide the
     fear in your expression or voice, though you were still quite aggressive.'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 6217520884255543542, guid: 505e26356b67cba4b9eefbd21bb6351a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9055,7 +9051,7 @@ MonoBehaviour:
   storyText: '"Would you rather feed, or would you rather find a way out of this
     place?"'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 3622792381989719942, guid: 648d5dcf33c5c6345b98ba1ba352445a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9111,7 +9107,7 @@ MonoBehaviour:
   storyText: '"Stay the fuck away from me, vampire! I''m warning you." You speak
     in a fierce tone, glaring at the figure standing over you. '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 621222158458474870, guid: 415cb1c6ffbc68e448916309fd1bfaac, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9873,8 +9869,8 @@ MonoBehaviour:
     "Alright..." You shift your gaze towards one
     direction, then the other, trying to figure out which one to pick.'
   description: 
-  character: {fileID: 1059363844}
-  portrait: {fileID: 0}
+  character: {fileID: 1537515935}
+  portrait: {fileID: 767345195581400080, guid: 0e9692511837d314b817dd11d38735b2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9932,8 +9928,8 @@ MonoBehaviour:
     confused to why he was letting \nyou choose which direction to head towards,
     in order to escape the facility. "
   description: 
-  character: {fileID: 1059363844}
-  portrait: {fileID: 0}
+  character: {fileID: 1537515935}
+  portrait: {fileID: 594318413343068850, guid: 9ba51fc128f73944ba57c93351cdad27, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9980,7 +9976,7 @@ MonoBehaviour:
   storyText: '"Adrian.... {i}Please{/i} put me down.... You need your hands free,
     and I need to be able to stand on my own two feet.."'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1537515935}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -10056,7 +10052,7 @@ MonoBehaviour:
   storyText: 'Adrian stops swiftly, just as the end of the corridor is in view; a
     dead end. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -10210,7 +10206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1999.0797
+    x: 1993.9186
     y: 330.8856
     width: 81.729996
     height: 40
@@ -10602,7 +10598,7 @@ MonoBehaviour:
   storyText: '"I appreciate it, Adrian... Let''s just focus on getting out of here
     though... We shouldn''t keep stopping... I''ll be alright."'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -11509,7 +11505,7 @@ MonoBehaviour:
 
 '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -11829,6 +11825,8 @@ MonoBehaviour:
   - {fileID: 1021912923}
   - {fileID: 1021912922}
   - {fileID: 1021912921}
+  - {fileID: 1021914131}
+  - {fileID: 1021914130}
   - {fileID: 1021912920}
   - {fileID: 1021912919}
   - {fileID: 1021912918}
@@ -13860,8 +13858,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1979.5477
-    y: 425.3169
+    x: 1974.3865
+    y: 427.89755
     width: 177.79001
     height: 40
   tint: {r: 0.4264151, g: 0.0024136354, b: 0.24506196, a: 1}
@@ -14592,7 +14590,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 2436.129
-    y: 408.75772
+    y: 411.11066
     width: 153.14
     height: 40
   tint: {r: 0.53333336, g: 0.04313725, b: 0.13725491, a: 1}
@@ -14694,7 +14692,7 @@ MonoBehaviour:
   storyText: '"If the vampire attacks either me or Adrian; they''ll go for you next.
     They''re strong enough, with my blood in their system-"'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -15969,8 +15967,8 @@ MonoBehaviour:
     You cry out to Adrian, only managing to say his
     name due to how strong Daren''s grip was against your wind pipe.'
   description: 
-  character: {fileID: 1059363844}
-  portrait: {fileID: 0}
+  character: {fileID: 1537515935}
+  portrait: {fileID: 5540750684357441153, guid: 0dbd74cc18d76d7469ee40a5f9e95e31, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16077,6 +16075,7 @@ MonoBehaviour:
   - {fileID: 1021912865}
   - {fileID: 1021912881}
   - {fileID: 1021912880}
+  - {fileID: 1021914129}
   - {fileID: 1021912879}
   - {fileID: 1021912878}
   - {fileID: 1021912883}
@@ -16103,8 +16102,8 @@ MonoBehaviour:
     after a few minutes after entering the corridor, with your eyes darting around
     the surroundings. '
   description: 
-  character: {fileID: 1059363844}
-  portrait: {fileID: 0}
+  character: {fileID: 1537515935}
+  portrait: {fileID: 594318413343068850, guid: 9ba51fc128f73944ba57c93351cdad27, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17058,7 +17057,7 @@ MonoBehaviour:
   storyText: '"I''m fine... I''m here... Don''t worry." You speak in a small, yet
     reassuring voice as your vision focuses on his face.'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 5123946773269254311, guid: d8b2fe3bdfb922242b9a1b5accff6b64, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -17111,12 +17110,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 917
   indentLevel: 0
-  storyText: '"{$PlayerName} ?! Love, it''s over... you did it.. Come on, focus...
-    Snap out of it... Don''t make me bite you.."
+  storyText: '"Cairii?! Love, it''s over... you did it.. Come on, focus... Snap out
+    of it... Don''t make me bite you.."
 
-    Adrian''s voice was close to
-    you, and frantic, yet there was a strong hint of complete shock and admiration
-    in his tone.'
+'
   description: 
   character: {fileID: 1423546334}
   portrait: {fileID: 0}
@@ -17291,8 +17288,8 @@ MonoBehaviour:
     You say uneasily. He chuckles
     lightly and gives you a delicate kiss upon the top of your head.'
   description: 
-  character: {fileID: 1059363844}
-  portrait: {fileID: 0}
+  character: {fileID: 1537515935}
+  portrait: {fileID: -2872899670157825706, guid: 477c17332da2ed34aa392b6c7c537192, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17319,7 +17316,7 @@ MonoBehaviour:
   storyText: Adrian turns around, with you still in his arms, and he begins to head
     back in the direction you came., until you reach the fork in the road like before.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -17351,7 +17348,7 @@ MonoBehaviour:
     tone.'
   description: 
   character: {fileID: 1423546334}
-  portrait: {fileID: 0}
+  portrait: {fileID: 2862917018616856736, guid: 6ce3221977244d54aa0c97ff4db13d1b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18195,7 +18192,7 @@ MonoBehaviour:
   storyText: '"What the detective means is; assist us we won''t call this in to higher
     up authorities, and you allow me leave with him."'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -18222,10 +18219,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"Well, you have an obligation to return order to this organised crime
     building. And don''t attempt to deny it; there''s alot of questionable practises
-    here." Adrian speaks sternly, his tone filled with authority as he crosses his
-    arms over his chest. It was a threat, to turn them into the authorities if they
-    didn''t help us, that he was willing to glance the other way if they allowed
-    you both to leave, and helped them with the vampire. '
+    here." '
   description: 
   character: {fileID: 1423546334}
   portrait: {fileID: 0}
@@ -18450,7 +18444,7 @@ MonoBehaviour:
   storyText: '"Let... go of me..."  You speak sternly, though your voice is strained
     as they were cutting off your air, squeezing your windpipe in brief intervals. '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 621222158458474870, guid: 415cb1c6ffbc68e448916309fd1bfaac, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -19247,7 +19241,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 2285.0752
-    y: 413.93488
+    y: 406.87607
     width: 130.68
     height: 40
   tint: {r: 0.7207546, g: 0.1509505, b: 0.1509505, a: 1}
@@ -19327,7 +19321,7 @@ MonoBehaviour:
   storyText: '"You can''t be serious, Adrian... There''s no way I''d stay here; especially
     since they abducted me from the fucking street."'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 621222158458474870, guid: 415cb1c6ffbc68e448916309fd1bfaac, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -20530,7 +20524,7 @@ MonoBehaviour:
   display: 1
   stage: {fileID: 0}
   character: {fileID: 1726157580}
-  replacedCharacter: {fileID: 1726479638}
+  replacedCharacter: {fileID: 0}
   portrait: {fileID: 8100426479800741977, guid: ff15824d28a54f04bbec1178546fa24d, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
@@ -20560,7 +20554,7 @@ MonoBehaviour:
   display: 2
   stage: {fileID: 0}
   character: {fileID: 1726157580}
-  replacedCharacter: {fileID: 1726479638}
+  replacedCharacter: {fileID: 0}
   portrait: {fileID: 0}
   offset: 0
   fromPosition: {fileID: 0}
@@ -20650,7 +20644,7 @@ MonoBehaviour:
     your eyes as you disliked the sensation of his tongue on your skin. It brought
     back the truama from when he drained you before. "
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 7732575246470666395, guid: a5b13da392d2f1f408db680112f76dec, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -20679,7 +20673,7 @@ MonoBehaviour:
     tone had a challenging hint to it, as you''d rather they shoot you than be fed
     upon again.'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 5123946773269254311, guid: d8b2fe3bdfb922242b9a1b5accff6b64, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -20992,8 +20986,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1041
   indentLevel: 0
-  storyText: '"{$PlayerName} " Adrian shouts your name in pure horror as you feel
-    the vampire begin to drain you. '
+  storyText: '"Cairii!" Adrian shouts your name in pure horror as you feel the vampire
+    begin to drain you. '
   description: 
   character: {fileID: 1423546334}
   portrait: {fileID: 621222158458474870, guid: 8591a29df8b3a5246b1a1a37031e0b76, type: 3}
@@ -21077,11 +21071,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1062
   indentLevel: 0
-  storyText: '"Shh, {$PlayerName} ... it''s alright... I''m here..."
+  storyText: '"Shh, Cairii ... it''s alright... I''m here..."
 
-    Adrian''s
-    voice was clearer now, as the pain began to subside and you could feel yourself
-    again. '
+    Adrian''s voice
+    was clearer now, as the pain began to subside and you could feel yourself again. '
   description: 
   character: {fileID: 1423546334}
   portrait: {fileID: 30127186256043200, guid: 29bd063dfabe1e143a3a214f9a9901c8, type: 3}
@@ -21366,7 +21359,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"I... want to sleep...."'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: -7380597284926129676, guid: b7d3aaccfe6db004b8c441cab328ae93, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -21394,7 +21387,7 @@ MonoBehaviour:
   storyText: '"It hurts, Adrian..." You let out a small pained whimper, wanting the
     pain to go away. '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: -7380597284926129676, guid: b7d3aaccfe6db004b8c441cab328ae93, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -22025,7 +22018,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"They''re... purple?" You were deeply confused.'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: -6299308323489136641, guid: 494c7a7a268086b47942ba4ecd7a9401, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -22141,7 +22134,7 @@ MonoBehaviour:
     You were
     honest; you felt fine, and oddly strong, despite all that had happened to you. '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: -8577686149819606926, guid: b59ecbe29c7239946881d77a48839a2d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -22404,7 +22397,7 @@ MonoBehaviour:
   storyText: '!Besides; Adrian had his fingers crossed, so the agreement wasn''t
     valid anyway.. we just needed you to deal with that creep." '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: -272359415565129352, guid: e8c4e6e163ce2c7408f6668f853b3dcf, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -22431,7 +22424,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"That agreement we had was when I was just an elf; not as a vampire."'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: -272359415565129352, guid: e8c4e6e163ce2c7408f6668f853b3dcf, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -22570,7 +22563,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"I''m... like you now? A vampire?"'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: -900521410807891847, guid: 168bcdf23cf38a04caa4c1f090ea383f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -22681,7 +22674,7 @@ MonoBehaviour:
   storyText: '"Oops..." You mutter back, in an apologetically small tone.  "I''m
     so sorry...."'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: -900521410807891847, guid: 168bcdf23cf38a04caa4c1f090ea383f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -22706,8 +22699,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1131
   indentLevel: 0
-  storyText: '"I wasn''t going to tell them that, {$PlayerName}." He mutters to you
-    quietly. '
+  storyText: '"I wasn''t going to tell them that, Cairii." He mutters to you quietly. '
   description: 
   character: {fileID: 1423546334}
   portrait: {fileID: -6111036388457267727, guid: 423aa729e1ec64041950e0ac1924d845, type: 3}
@@ -23076,7 +23068,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 314.17093
+    x: 316.75153
     y: 385.9919
     width: 179.01
     height: 40
@@ -23223,7 +23215,7 @@ MonoBehaviour:
   storyText: '"What do we do now? Fight them?" You ask in a whisper, so only Adrian
     could hear you. '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 3622792381989719942, guid: 648d5dcf33c5c6345b98ba1ba352445a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -23279,7 +23271,7 @@ MonoBehaviour:
   storyText: '"You can let off some steam if you want and fight them.... or I can
     fight with you?" You suggest. '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -24694,7 +24686,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1216
   indentLevel: 0
-  storyText: What will {b}you{b} do, {$PlayerName}?
+  storyText: What will {b}you{b} do?
   description: 
   character: {fileID: 1178771872}
   portrait: {fileID: 0}
@@ -25169,7 +25161,7 @@ MonoBehaviour:
   storyText: '"I''m sorry, but I can''t let you feed... I need my energy...and if
     you take any of my blood... I won''t be able to survive here for long." '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: -994743826047709311, guid: 1ad0e3080074d1c4a94c9795a04674d2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -25584,7 +25576,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"Fine... but please, just take a little..." '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 3622792381989719942, guid: 648d5dcf33c5c6345b98ba1ba352445a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -25845,10 +25837,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1229
   indentLevel: 0
-  storyText: '"I''m {$PlayerName}. Thanks for keeping your word and just taking a
-    little bit..." '
+  storyText: '"I''m Cairii. Thanks for keeping your word and just taking a little
+    bit..." '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 767345195581400080, guid: 0e9692511837d314b817dd11d38735b2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -27345,7 +27337,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"Uh-huh.... Can you remove the restraints for me please?"'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: -994743826047709311, guid: 1ad0e3080074d1c4a94c9795a04674d2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -27372,7 +27364,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"Don''t try to flirt with me; I''m already spoken for."'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: -2976340537264255197, guid: 945028c71beadcc47aababf46015d54c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -27970,7 +27962,7 @@ MonoBehaviour:
   storyText: '"Ugh..." You take a deep breath. "Can you {b}{i}please{/i}{/b} release
     me from these restraints?" '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 3705570748736463740, guid: 442e57906ffed624c828d68673975815, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -28534,7 +28526,7 @@ MonoBehaviour:
   storyText: '"I''m sorry... I thought I''d be fine.." You speak in an apologetic
     tone. '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 7508317822236499539, guid: a5536340032908d4bbbbbfd0948abd34, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -28686,7 +28678,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"W-we should focus on.. getting out of here, Daren..." '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 1330962535254233593, guid: 8b7c51f0e3b76174884c4df1a14d24cd, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -29140,7 +29132,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"H-how do I know you didn''t do on purpose, just to get more blood?"'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 3705570748736463740, guid: 442e57906ffed624c828d68673975815, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -29253,7 +29245,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"L-let go... of my hand..." '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: -5767051369442854808, guid: c8a53b75dd44d0340994cec3417eba38, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -29369,7 +29361,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\"Ow... t-that hurt...\" \n"
   description: 
-  character: {fileID: 1726479638}
+  character: {fileID: 0}
   portrait: {fileID: 7508317822236499539, guid: a5536340032908d4bbbbbfd0948abd34, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -29799,10 +29791,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1427
   indentLevel: 0
-  storyText: '"I''m {$PlayerName}.. It''s a pleasure to make your acquaintance I
-    suppose.." '
+  storyText: '"I''m Cairii.. It''s a pleasure to make your acquaintance I suppose.." '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: -7802581581814841297, guid: ad747045a836f7e49bd63954ff3e75b2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -30397,7 +30388,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"If I didn''t know any better; I''d say you were flustered, Daren."'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 9212916337408032586, guid: d272ab72602208b48ac506858cff302c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -30451,7 +30442,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -668.47864
-    y: 665.5734
+    y: 664.26196
     width: 192.95
     height: 40
   tint: {r: 0.94716984, g: 0.7726986, b: 0.2627056, a: 1}
@@ -31297,7 +31288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1533
   indentLevel: 0
-  storyText: '"{$PlayerName}!" '
+  storyText: '"CAIRII!?" '
   description: 
   character: {fileID: 693484078}
   portrait: {fileID: -5777182867070971659, guid: 977ceff0548ee6c48a5e683eb2795c14, type: 3}
@@ -31630,7 +31621,7 @@ MonoBehaviour:
   storyText: '"I think the main door''s out... Seems to have some sort of energy
     field."'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 3622792381989719942, guid: 648d5dcf33c5c6345b98ba1ba352445a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -32203,8 +32194,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"Yeah, I''m fine... Just some sort of electric shock... "'
   description: 
-  character: {fileID: 1059363844}
-  portrait: {fileID: 0}
+  character: {fileID: 1537515935}
+  portrait: {fileID: -2048800907179887802, guid: c8905485e57dbbf4399f3388620be0e4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -32445,7 +32436,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"I don''t know about you... but to me; this looks like a two-way mirror..." '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 767345195581400080, guid: 0e9692511837d314b817dd11d38735b2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -32848,7 +32839,7 @@ MonoBehaviour:
   storyText: '"Don''t worry, I will... I''m just curious about this section of wall;
     it''s completely different to the rest of the room."'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -32979,7 +32970,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '{i}''A two-way mirror, hmm...?''{/i}'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 3622792381989719942, guid: 648d5dcf33c5c6345b98ba1ba352445a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -33300,7 +33291,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"So, we''re back to square one..."'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 8807667605733969800, guid: e265ae4ad20ddcf478ecba0a8940ce37, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -33355,7 +33346,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"You''re hilarious, Daren." '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: -6504533043834447420, guid: 961c2bdb6934b5b409d509b1c6c7ca1e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -33382,7 +33373,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"I don''t think attempting to break this mirror would be wise..."'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 3705570748736463740, guid: 442e57906ffed624c828d68673975815, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -33856,7 +33847,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '{punch=10, 6.0}"AHH!" '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: -2048800907179887802, guid: c8905485e57dbbf4399f3388620be0e4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -34239,7 +34230,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"I''m sorry... I just want to get out of here... '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: -309459452766167434, guid: 23c1d4f514b370145bdb3d83c6d7cc6d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -34907,8 +34898,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1697
   indentLevel: 0
-  storyText: '"It''s a pleasure to meet you, {$PlayerName}." He sounded genuinely
-    happy to know your name. '
+  storyText: '"It''s a pleasure to meet you, Cairii" He sounded genuinely happy to
+    know your name. '
   description: 
   character: {fileID: 693484078}
   portrait: {fileID: -2518769261853224147, guid: 394cda6c26e3be545b913b852742171c, type: 3}
@@ -34937,8 +34928,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"Daren? Are you there? Is everything ok?"'
   description: 
-  character: {fileID: 1059363844}
-  portrait: {fileID: 0}
+  character: {fileID: 1537515935}
+  portrait: {fileID: 6217520884255543542, guid: 505e26356b67cba4b9eefbd21bb6351a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -35938,10 +35929,6 @@ MonoBehaviour:
   - {fileID: 1021913593}
   - {fileID: 1021913592}
   - {fileID: 1021913664}
-  - {fileID: 1021914126}
-  - {fileID: 1021913663}
-  - {fileID: 1021913722}
-  - {fileID: 1021913723}
   - {fileID: 1021913662}
   - {fileID: 1021913661}
   - {fileID: 1021913660}
@@ -36057,8 +36044,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"You can''t take them all on, Daren; there''s too many of them."'
   description: 
-  character: {fileID: 1059363844}
-  portrait: {fileID: 0}
+  character: {fileID: 1537515935}
+  portrait: {fileID: 5540750684357441153, guid: 0dbd74cc18d76d7469ee40a5f9e95e31, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -36113,7 +36100,7 @@ MonoBehaviour:
   storyText: '"Daren, are you in here?" You call again, but this time your voice
     is quieter than before, not wanting to draw unwanted attention to yourself.'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: -7802581581814841297, guid: ad747045a836f7e49bd63954ff3e75b2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -36198,7 +36185,7 @@ MonoBehaviour:
   storyText: '"Daren?!" You shout his name frantically, as there was now no noise
     coming from the broken panel. '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 5540750684357441153, guid: 0dbd74cc18d76d7469ee40a5f9e95e31, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -36269,7 +36256,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"DAREN! HELP!" '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 6217520884255543542, guid: 505e26356b67cba4b9eefbd21bb6351a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -36352,7 +36339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1781
   indentLevel: 0
-  storyText: '"Stay behind me, {$PlayerName}" '
+  storyText: '"Stay behind me, Cairii." '
   description: 
   character: {fileID: 1423546334}
   portrait: {fileID: -5991442605898612942, guid: 06e718c1492651a48ba7320d6fd4fd10, type: 3}
@@ -36604,6 +36591,7 @@ MonoBehaviour:
   - {fileID: 1021913670}
   - {fileID: 1021913668}
   - {fileID: 1021913669}
+  - {fileID: 1021914127}
   - {fileID: 1021913718}
   suppressAllAutoSelections: 0
 --- !u!114 &1021913639
@@ -36701,7 +36689,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"Adrian?!.... H-how... are you... Am I dreaming right now?"'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 767345195581400080, guid: 0e9692511837d314b817dd11d38735b2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -36821,7 +36809,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -666.05286
-    y: 927.05194
+    y: 925.7405
     width: 197.62
     height: 40
   tint: {r: 0.97735846, g: 0.9075263, b: 0.78741896, a: 1}
@@ -36914,7 +36902,7 @@ MonoBehaviour:
   storyText: '"Who is ''me''? Where''s Daren?" You ask them, more concerned about
     Daren than your current situation.'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -37124,33 +37112,6 @@ MonoBehaviour:
   customDescription: 
   fireEvent: 1
   resumeOnLoad: 1
---- !u!114 &1021913663
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1801
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1021913664
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -37165,9 +37126,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1802
   indentLevel: 0
-  storyText: 
+  storyText: To be Continued
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -37366,7 +37327,7 @@ MonoBehaviour:
     voice, facing Adrian with your arms outstretched to either side of your body,
     blocking his advance. '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 6217520884255543542, guid: 505e26356b67cba4b9eefbd21bb6351a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -37579,7 +37540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1860
   indentLevel: 0
-  storyText: '"{$PlayerName} Hold on! Don''t worry, I''ll be right there!"'
+  storyText: '"Cairii! Hold on! Don''t worry, I''ll be right there!"'
   description: 
   character: {fileID: 693484078}
   portrait: {fileID: -2872899670157825706, guid: be4edb1d3079def4f978b21220ccc418, type: 3}
@@ -37644,8 +37605,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -824.9246
-    y: 1067.8506
+    x: -831.48206
+    y: 1071.785
     width: 180.44
     height: 40
   tint: {r: 1, g: 0.6586385, b: 0, a: 1}
@@ -37678,10 +37639,7 @@ MonoBehaviour:
   - {fileID: 1021914123}
   - {fileID: 1021913894}
   - {fileID: 1021913724}
-  - {fileID: 1021914122}
-  - {fileID: 1021914121}
-  - {fileID: 1021914120}
-  - {fileID: 1021914119}
+  - {fileID: 1021914128}
   - {fileID: 1021913708}
   suppressAllAutoSelections: 0
 --- !u!114 &1021913718
@@ -37705,60 +37663,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &1021913722
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1836
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1021913723
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1835
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1021913724
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -37773,9 +37677,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1876
   indentLevel: 0
-  storyText: 
+  storyText: The figure's voice sounded familiar, and your eyes focus on their facial
+    features. Their red eyes and matching red hair gave you no doubt that it was
+    him. That {B}he{/B} had come for you.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -37999,7 +37905,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"I surrender... please.. I''ll do what you want, just don''t hurt Daren..."'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -38473,7 +38379,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"I already belong to a vampire. Fuck off and leave me alone." '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 621222158458474870, guid: 415cb1c6ffbc68e448916309fd1bfaac, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -38528,7 +38434,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"That doesn''t make sense... why are you prisoners too?"'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 594318413343068850, guid: 9ba51fc128f73944ba57c93351cdad27, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -38611,7 +38517,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1344.1506
+    x: 1341.5701
     y: 228.45667
     width: 185.38
     height: 40
@@ -39554,7 +39460,7 @@ MonoBehaviour:
   storyText: '"A-adrian...?" You stammer his name in a weak voice, your eyes adjusting
     and attempting to regain focus.'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 5123946773269254311, guid: d8b2fe3bdfb922242b9a1b5accff6b64, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -39579,8 +39485,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1920
   indentLevel: 0
-  storyText: '"Hold on, {$PlayerName}. Just let me take out the trash first, and
-    I''ll be right with you." '
+  storyText: '"Hold on, Cairii. Just let me take out the trash first, and I''ll be
+    right with you." '
   description: 
   character: {fileID: 1423546334}
   portrait: {fileID: 30127186256043200, guid: 29bd063dfabe1e143a3a214f9a9901c8, type: 3}
@@ -39719,7 +39625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1910
   indentLevel: 0
-  storyText: Will you drink his unique {color= blue blue blood{/color}?
+  storyText: Will you drink his unique {color= blue} blue blood{/color}?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -39861,7 +39767,7 @@ MonoBehaviour:
   storyText: '"I can walk.... or try to..."  You speak with heavy disapproval in
     your voice, feeling more like a burden at this point.'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 3705570748736463740, guid: 442e57906ffed624c828d68673975815, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -40153,7 +40059,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"Just like I''d do anything for you.." '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: -2697700856362103457, guid: ab6f9be9ef571ca4b8170c08d83a7705, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -40209,7 +40115,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"I feel much better now... Thank you, Adrian."'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: -8577686149819606926, guid: b59ecbe29c7239946881d77a48839a2d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -41679,7 +41585,7 @@ MonoBehaviour:
   storyText: '"Just so you''re aware; I have a partner... so, please don''t try flirting
     with me.."'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 3622792381989719942, guid: 648d5dcf33c5c6345b98ba1ba352445a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -41762,7 +41668,7 @@ MonoBehaviour:
   storyText: '"Yeah, just a head rush... I''ll be alright." You reassure him waiting
     for the sensation to pass before you hop off the bed entirely.'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 3622792381989719942, guid: 648d5dcf33c5c6345b98ba1ba352445a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -41819,7 +41725,7 @@ MonoBehaviour:
     head back up and opening your eyes again, with Daren''s face right in front of
     you.'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 7732575246470666395, guid: a5b13da392d2f1f408db680112f76dec, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -41847,7 +41753,7 @@ MonoBehaviour:
   storyText: '"If any of you dare make a move towards me; I will arrest you for obstructing
     police, on top of kidnapping and other unlawful acts."'
   description: 
-  character: {fileID: 1423546334}
+  character: {fileID: 1414517682}
   portrait: {fileID: -2708788149929445101, guid: 4a51315d758bfda4396b509ef5a27157, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -42071,7 +41977,7 @@ MonoBehaviour:
   storyText: '"Sucks to be you lot...." You mutter under your breath, which caused
     Daren to laugh a little in reaction. '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -42152,8 +42058,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2084
   indentLevel: 0
-  storyText: "\"{$PlayerName}!\" Daren shouts, finally noticing you weren't behind
-    him. \n\"Let her go!\" You hear him demand. "
+  storyText: "\"Cairii!\" Daren shouts, finally noticing you weren't behind him.
+    \n\"Let her go!\" You hear him demand. "
   description: 
   character: {fileID: 693484078}
   portrait: {fileID: -7922584989192927078, guid: 9f264549a5f923a4fa56b026a17ba01b, type: 3}
@@ -42726,7 +42632,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"Unhand me..." You speak in a stern voice, showing no signs of fear. '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 3705570748736463740, guid: 442e57906ffed624c828d68673975815, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -42781,7 +42687,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"Adrian?" You whisper his name softly, as you open your eyes. '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -44493,7 +44399,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"I''m sorry, did you just say {i}''killed''{/I}?! '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 767345195581400080, guid: 0e9692511837d314b817dd11d38735b2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -44548,7 +44454,7 @@ MonoBehaviour:
   storyText: '"I couldn''t move my body...." You recall the last thing you remember.
     "And there was an intense, and aggressive, sensation on my neck...." '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 594318413343068850, guid: 9ba51fc128f73944ba57c93351cdad27, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -44604,7 +44510,7 @@ MonoBehaviour:
   storyText: '"Oh, I have a very average disliking for the guy... But he has tried
     to protect me regardless." '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: -7802581581814841297, guid: ad747045a836f7e49bd63954ff3e75b2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -45249,7 +45155,7 @@ MonoBehaviour:
   storyText: '"Good... you''re the only ally I''ve had here... until now.. So, I''m
     glad you made it..." '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 7985626363670038235, guid: 93f7fda12bccd7d40ad0fe53383b7f78, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -45274,8 +45180,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2310
   indentLevel: 0
-  storyText: '"I''m right here, {$PlayerName}"  Daren''s face appears to your left,
-    with him kneeling at your side. '
+  storyText: '"I''m right here, Cairii"  Daren''s face appears to your left, with
+    him kneeling at your side. '
   description: 
   character: {fileID: 693484078}
   portrait: {fileID: -4811646283614182172, guid: a9a7710e256e0244f82bab3d2c7f8899, type: 3}
@@ -45359,7 +45265,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"D-does that mean.... I''m a vampire?"'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 6217520884255543542, guid: 505e26356b67cba4b9eefbd21bb6351a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -45442,7 +45348,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"I''m sorry, did you just say {i}''killed''{/I}?! '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 767345195581400080, guid: 0e9692511837d314b817dd11d38735b2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -45497,7 +45403,7 @@ MonoBehaviour:
   storyText: '"I couldn''t move my body...." You recall the last thing you remember.
     "And there was an intense, and aggressive, sensation on my neck...." '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 594318413343068850, guid: 9ba51fc128f73944ba57c93351cdad27, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -45780,7 +45686,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"Adrian?" You whisper his name softly, as you open your eyes. '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1423546334}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -46324,7 +46230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2268
   indentLevel: 0
-  storyText: '"I''m right here, {$PlayerName}. Can''t get rid of me that easily." '
+  storyText: '"I''m right here, Cairii. Can''t get rid of me that easily." '
   description: 
   character: {fileID: 693484078}
   portrait: {fileID: 7985626363670038235, guid: 894b565d806d3b744bcc111bf97e2552, type: 3}
@@ -46408,7 +46314,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"Where''s Daren?" You ask Adrian in a slightly irritated tone. '
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 3622792381989719942, guid: 648d5dcf33c5c6345b98ba1ba352445a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -46490,7 +46396,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"D-does that mean.... I''m a vampire?"'
   description: 
-  character: {fileID: 1059363844}
+  character: {fileID: 1537515935}
   portrait: {fileID: 6217520884255543542, guid: 505e26356b67cba4b9eefbd21bb6351a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -46524,114 +46430,6 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 1
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1021914119
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2334
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1021914120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2335
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1021914121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2336
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1021914122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2337
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
@@ -46710,9 +46508,9 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: 88569668c8eb6b749affacc2e02dee0e, type: 3}
   volume: 1
   waitUntilFinished: 0
---- !u!114 &1021914126
+--- !u!114 &1021914127
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -46722,11 +46520,123 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2333
+  itemId: 2339
   indentLevel: 0
-  storyText: 
+  storyText: To be Continued
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021914128
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2338
+  indentLevel: 0
+  storyText: '"Adrian?" '
+  description: 
+  character: {fileID: 1537515935}
+  portrait: {fileID: -3924190032742187860, guid: 03e7373792098f347b6f01b1a814399f, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021914129
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2343
+  indentLevel: 0
+  storyText: Adrian's voice was close to you, and frantic, yet there was a strong
+    hint of complete shock and admiration in his tone.
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021914130
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2342
+  indentLevel: 0
+  storyText: 'It was a threat, to turn them into the authorities if they didn''t
+    help us, that he was willing to glance the other way if they allowed you both
+    to leave, and helped them with the vampire. '
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021914131
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2341
+  indentLevel: 0
+  storyText: 'Adrian speaks sternly, his tone filled with authority as he crosses
+    his arms over his chest. '
+  description: 
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -47194,6 +47104,144 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136923360}
+  m_CullTransparentMesh: 1
+--- !u!1 &1146117663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1146117664}
+  - component: {fileID: 1146117666}
+  - component: {fileID: 1146117665}
+  m_Layer: 5
+  m_Name: Rep
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1146117664
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146117663}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.82280034, y: 0.82280034, z: 0.82280034}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 709076368}
+  - {fileID: 2007652910}
+  m_Father: {fileID: 375113160}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -854, y: 491}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1146117665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146117663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Rep '
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 154f89b9d44dfb04d96389a6c9b28640, type: 2}
+  m_sharedMaterial: {fileID: 2420294284269108500, guid: 154f89b9d44dfb04d96389a6c9b28640, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -356.51498, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1146117666
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146117663}
   m_CullTransparentMesh: 1
 --- !u!1 &1178771871
 GameObject:
@@ -49484,6 +49532,117 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 3
   m_TargetDisplay: 0
+--- !u!1 &1537515932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1537515933}
+  - component: {fileID: 1537515935}
+  - component: {fileID: 1537515934}
+  m_Layer: 0
+  m_Name: Cairii
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1537515933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537515932}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -556.96454, y: -381.08167, z: 923.7715}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 400719704}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1537515934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537515932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"PlayerName","value":{"$content":"{$PlayerName}
+      ","$type":"System.String"},"typeHandle":{"Identification":"System.String, mscorlib,
+      Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &1537515935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537515932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Cairii
+  nameColor: {r: 0.35905296, g: 0.73292524, b: 0.90188676, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 8807667605733969800, guid: e265ae4ad20ddcf478ecba0a8940ce37, type: 3}
+  - {fileID: -4108580140328121606, guid: e71ab90c341a1ac40bb07e36d05e0d44, type: 3}
+  - {fileID: -272359415565129352, guid: e8c4e6e163ce2c7408f6668f853b3dcf, type: 3}
+  - {fileID: -4383255322265979231, guid: fa11b24820c920944b00f94f1b28c9f5, type: 3}
+  - {fileID: 621222158458474870, guid: 415cb1c6ffbc68e448916309fd1bfaac, type: 3}
+  - {fileID: -900521410807891847, guid: 168bcdf23cf38a04caa4c1f090ea383f, type: 3}
+  - {fileID: 1330962535254233593, guid: 8b7c51f0e3b76174884c4df1a14d24cd, type: 3}
+  - {fileID: -6299308323489136641, guid: 494c7a7a268086b47942ba4ecd7a9401, type: 3}
+  - {fileID: 594318413343068850, guid: 9ba51fc128f73944ba57c93351cdad27, type: 3}
+  - {fileID: -7380597284926129676, guid: b7d3aaccfe6db004b8c441cab328ae93, type: 3}
+  - {fileID: -309459452766167434, guid: 23c1d4f514b370145bdb3d83c6d7cc6d, type: 3}
+  - {fileID: 7008314495758819777, guid: 804ccfa5607a6fd47b7115d776b10f31, type: 3}
+  - {fileID: 767345195581400080, guid: 0e9692511837d314b817dd11d38735b2, type: 3}
+  - {fileID: -2697700856362103457, guid: ab6f9be9ef571ca4b8170c08d83a7705, type: 3}
+  - {fileID: -5767051369442854808, guid: c8a53b75dd44d0340994cec3417eba38, type: 3}
+  - {fileID: -2976340537264255197, guid: 945028c71beadcc47aababf46015d54c, type: 3}
+  - {fileID: 5123946773269254311, guid: d8b2fe3bdfb922242b9a1b5accff6b64, type: 3}
+  - {fileID: 7732575246470666395, guid: a5b13da392d2f1f408db680112f76dec, type: 3}
+  - {fileID: 5362241954120233819, guid: df5f847b8fdecf24cae346eb415d05c4, type: 3}
+  - {fileID: -8577686149819606926, guid: b59ecbe29c7239946881d77a48839a2d, type: 3}
+  - {fileID: 6169492501544232927, guid: 6973cdb0f58bf2545b8cc9a2ea2fe889, type: 3}
+  - {fileID: 7985626363670038235, guid: 93f7fda12bccd7d40ad0fe53383b7f78, type: 3}
+  - {fileID: -2048800907179887802, guid: c8905485e57dbbf4399f3388620be0e4, type: 3}
+  - {fileID: 2706404557822990281, guid: 2d2fcef081d7ee446b6cc39e4b4ed033, type: 3}
+  - {fileID: -2872899670157825706, guid: 477c17332da2ed34aa392b6c7c537192, type: 3}
+  - {fileID: 7508317822236499539, guid: a5536340032908d4bbbbbfd0948abd34, type: 3}
+  - {fileID: 3622792381989719942, guid: 648d5dcf33c5c6345b98ba1ba352445a, type: 3}
+  - {fileID: 3705570748736463740, guid: 442e57906ffed624c828d68673975815, type: 3}
+  - {fileID: 793273632904795701, guid: fe005c67df918df4ca23c9e6faf6ab7c, type: 3}
+  - {fileID: 6217520884255543542, guid: 505e26356b67cba4b9eefbd21bb6351a, type: 3}
+  - {fileID: -3924190032742187860, guid: 03e7373792098f347b6f01b1a814399f, type: 3}
+  - {fileID: -1006253830890901128, guid: 21f496e1394dc1044b3d49489188dfd1, type: 3}
+  - {fileID: -994743826047709311, guid: 1ad0e3080074d1c4a94c9795a04674d2, type: 3}
+  - {fileID: -6504533043834447420, guid: 961c2bdb6934b5b409d509b1c6c7ca1e, type: 3}
+  - {fileID: 2226389347320026283, guid: 3e0925a43fb89d049a3c4da52134c2eb, type: 3}
+  - {fileID: 9212916337408032586, guid: d272ab72602208b48ac506858cff302c, type: 3}
+  - {fileID: -7802581581814841297, guid: ad747045a836f7e49bd63954ff3e75b2, type: 3}
+  - {fileID: 9066571463846406944, guid: b129700a60929a04f8ae0733062c1a5e, type: 3}
+  - {fileID: -3653799113980525837, guid: 0d2cc1ee42598e948a0a5d47c1a3bde5, type: 3}
+  - {fileID: 5540750684357441153, guid: 0dbd74cc18d76d7469ee40a5f9e95e31, type: 3}
+  - {fileID: 6571740739174184288, guid: 4bc9b7f0ff8aadd4cbf27ea726127ed6, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 1296901276}
+  description: 'Known by default as Cairii. She is the main protagonist of the game
+    and book series. '
 --- !u!1 &1559826599
 GameObject:
   m_ObjectHideFlags: 0
@@ -49614,10 +49773,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 375113160}
   - {fileID: 809242675}
   - {fileID: 144946139}
   - {fileID: 1393893906}
-  - {fileID: 39324139}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1618990507
@@ -50031,93 +50190,6 @@ MonoBehaviour:
   setSayDialog: {fileID: 547421799}
   description: A character that you don't know the name of. A vampire that hungers
     for your blood.
---- !u!1 &1726479637
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1726479639}
-  - component: {fileID: 1726479638}
-  - component: {fileID: 1726479640}
-  m_Layer: 0
-  m_Name: Cairii
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1726479638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1726479637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameText: 'Cairii '
-  nameColor: {r: 0.35905296, g: 0.73292524, b: 0.90188676, a: 1}
-  soundEffect: {fileID: 0}
-  portraits:
-  - {fileID: -4108580140328121606, guid: e71ab90c341a1ac40bb07e36d05e0d44, type: 3}
-  - {fileID: 621222158458474870, guid: 415cb1c6ffbc68e448916309fd1bfaac, type: 3}
-  - {fileID: 594318413343068850, guid: 9ba51fc128f73944ba57c93351cdad27, type: 3}
-  - {fileID: -7380597284926129676, guid: b7d3aaccfe6db004b8c441cab328ae93, type: 3}
-  - {fileID: -309459452766167434, guid: 23c1d4f514b370145bdb3d83c6d7cc6d, type: 3}
-  - {fileID: -2976340537264255197, guid: 945028c71beadcc47aababf46015d54c, type: 3}
-  - {fileID: 5123946773269254311, guid: d8b2fe3bdfb922242b9a1b5accff6b64, type: 3}
-  - {fileID: 7732575246470666395, guid: a5b13da392d2f1f408db680112f76dec, type: 3}
-  - {fileID: 6169492501544232927, guid: 6973cdb0f58bf2545b8cc9a2ea2fe889, type: 3}
-  - {fileID: 7985626363670038235, guid: 93f7fda12bccd7d40ad0fe53383b7f78, type: 3}
-  - {fileID: 7508317822236499539, guid: a5536340032908d4bbbbbfd0948abd34, type: 3}
-  - {fileID: 3622792381989719942, guid: 648d5dcf33c5c6345b98ba1ba352445a, type: 3}
-  - {fileID: 3705570748736463740, guid: 442e57906ffed624c828d68673975815, type: 3}
-  - {fileID: 6217520884255543542, guid: 505e26356b67cba4b9eefbd21bb6351a, type: 3}
-  - {fileID: -994743826047709311, guid: 1ad0e3080074d1c4a94c9795a04674d2, type: 3}
-  - {fileID: 9066571463846406944, guid: b129700a60929a04f8ae0733062c1a5e, type: 3}
-  - {fileID: -3653799113980525837, guid: 0d2cc1ee42598e948a0a5d47c1a3bde5, type: 3}
-  - {fileID: 5540750684357441153, guid: 0dbd74cc18d76d7469ee40a5f9e95e31, type: 3}
-  portraitsFace: 0
-  setSayDialog: {fileID: 1296901276}
-  description: Cairii is the main protagonist of the books and the game.
---- !u!4 &1726479639
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1726479637}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -556.96454, y: -381.08167, z: 923.7715}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 400719704}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1726479640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1726479637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Cairii","value":{"$content":"{$PlayerName}
-      ","$type":"System.String"},"typeHandle":{"Identification":"System.String, mscorlib,
-      Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
 --- !u!1 &1843587789
 GameObject:
   m_ObjectHideFlags: 0
@@ -50613,6 +50685,142 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 100
   m_TargetDisplay: 0
+--- !u!1 &2007652909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2007652910}
+  - component: {fileID: 2007652912}
+  - component: {fileID: 2007652911}
+  m_Layer: 5
+  m_Name: Decreased
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &2007652910
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007652909}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1146117664}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 60, y: -2}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2007652911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007652909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Decreased
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 154f89b9d44dfb04d96389a6c9b28640, type: 2}
+  m_sharedMaterial: {fileID: 2420294284269108500, guid: 154f89b9d44dfb04d96389a6c9b28640, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278387711
+  m_fontColor: {r: 1, g: 0.013719666, b: 0.011764705, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -356.51498, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &2007652912
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007652909}
+  m_CullTransparentMesh: 1
 --- !u!1 &2020049901
 GameObject:
   m_ObjectHideFlags: 0
