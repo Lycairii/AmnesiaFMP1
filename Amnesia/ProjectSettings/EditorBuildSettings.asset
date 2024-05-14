@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Character Select.unity
     guid: 841761ba9195eb549b73512341d5cf97
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Naming Character.unity
     guid: 70bce418cb3be4f40b074096476497ac
   - enabled: 1
