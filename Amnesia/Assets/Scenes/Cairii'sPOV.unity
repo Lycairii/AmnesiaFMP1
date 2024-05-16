@@ -3541,7 +3541,7 @@ MonoBehaviour:
   - {fileID: 3705570748736463740, guid: 58018a96a3f85984bb8a077dcf54dddc, type: 3}
   - {fileID: -7922584989192927078, guid: 9f264549a5f923a4fa56b026a17ba01b, type: 3}
   - {fileID: -7645888817525227343, guid: a540c501ea0a5774494e02bbc33ff3d2, type: 3}
-  - {fileID: -3107045472531067150, guid: 3daf3d7e3a6d09246be43a8eb150383f, type: 3}
+  - {fileID: 1315353878313917114, guid: 94a625028a0144a44ab1b728d996f2c3, type: 3}
   - {fileID: 8100426479800741977, guid: ff15824d28a54f04bbec1178546fa24d, type: 3}
   - {fileID: -5064839794885426350, guid: a4fd45ebb97f1604b938ffd79fe65ac2, type: 3}
   - {fileID: 3740009398500155495, guid: ff9a8331f80b8f649929b45d47f8d9a3, type: 3}
@@ -6077,7 +6077,6 @@ GameObject:
   - component: {fileID: 1021914251}
   - component: {fileID: 1021914250}
   - component: {fileID: 1021914249}
-  - component: {fileID: 1021914246}
   - component: {fileID: 1021914245}
   - component: {fileID: 1021914244}
   - component: {fileID: 1021914238}
@@ -6111,6 +6110,12 @@ GameObject:
   - component: {fileID: 1021914299}
   - component: {fileID: 1021914300}
   - component: {fileID: 1021914298}
+  - component: {fileID: 1021914308}
+  - component: {fileID: 1021914307}
+  - component: {fileID: 1021914305}
+  - component: {fileID: 1021914306}
+  - component: {fileID: 1021914310}
+  - component: {fileID: 1021914309}
   m_Layer: 0
   m_Name: Cairii's Flowchart
   m_TagString: Untagged
@@ -6229,11 +6234,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1054.562, y: -20.553082}
+  scrollPos: {x: -1163.1844, y: -474.41434}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 217.5
-  zoom: 0.48999998
+  zoom: 0.73
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -6241,9 +6246,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1021912703}
+  - {fileID: 1021912932}
   selectedCommands:
-  - {fileID: 1021914298}
+  - {fileID: 1021912988}
   variables:
   - {fileID: 1021912032}
   - {fileID: 1021912107}
@@ -11376,7 +11381,13 @@ MonoBehaviour:
   - {fileID: 1021914301}
   - {fileID: 1021914300}
   - {fileID: 1021914299}
+  - {fileID: 1021914308}
   - {fileID: 1021914298}
+  - {fileID: 1021914307}
+  - {fileID: 1021914306}
+  - {fileID: 1021914305}
+  - {fileID: 1021914310}
+  - {fileID: 1021914309}
   suppressAllAutoSelections: 0
 --- !u!114 &1021912704
 MonoBehaviour:
@@ -15966,8 +15977,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2769.5225
-    y: 290.45975
+    x: 2770.9019
+    y: 291.83905
     width: 92.44
     height: 40
   tint: {r: 0, g: 0, b: 0, a: 1}
@@ -17179,7 +17190,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 2895.1895
-    y: 371.86768
+    y: 373.24698
     width: 81.49
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -17190,7 +17201,6 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1021914249}
-  - {fileID: 1021914246}
   - {fileID: 1021913739}
   - {fileID: 1021913885}
   suppressAllAutoSelections: 0
@@ -19219,8 +19229,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1954.626
-    y: 649.8773
+    x: 1921.194
+    y: 647.48926
     width: 87.22
     height: 40
   tint: {r: 0.7283019, g: 0.25147024, b: 0.25147024, a: 1}
@@ -19650,8 +19660,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2351.1428
-    y: 592.1732
+    x: 2247.2603
+    y: 624.41205
     width: 106.95
     height: 40
   tint: {r: 0.5169811, g: 0.053648926, b: 0.053648926, a: 1}
@@ -19826,8 +19836,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2169.9534
-    y: 649.54736
+    x: 2109.9658
+    y: 648.35333
     width: 101.729996
     height: 40
   tint: {r: 0.6830188, g: 0.13789245, b: 0.13789245, a: 1}
@@ -20942,8 +20952,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2051.3438
-    y: 725.1389
+    x: 2050.1497
+    y: 728.721
     width: 113.4
     height: 40
   tint: {r: 0.7509433, g: 0.077928, b: 0.2172019, a: 1}
@@ -21722,7 +21732,7 @@ MonoBehaviour:
     with a small scared noise escaping your mouth in response. '
   description: 
   character: {fileID: 1726157580}
-  portrait: {fileID: 0}
+  portrait: {fileID: 3705570748736463740, guid: 58018a96a3f85984bb8a077dcf54dddc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22357,7 +22367,7 @@ MonoBehaviour:
     fight with you?" You suggest. '
   description: 
   character: {fileID: 1537515935}
-  portrait: {fileID: 0}
+  portrait: {fileID: -900521410807891847, guid: 168bcdf23cf38a04caa4c1f090ea383f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22713,8 +22723,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2352.1099
-    y: 664.4467
+    x: 2258.9736
+    y: 684.74524
     width: 96.259995
     height: 40
   tint: {r: 0.5396226, g: 0, b: 0, a: 1}
@@ -47050,33 +47060,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1021914246
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2470
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1021914249
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -48624,10 +48607,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2516
   indentLevel: 0
-  storyText: 
+  storyText: '"Y-you can b-break all my bones, but I still won''t yield."'
   description: 
-  character: {fileID: 1178771872}
-  portrait: {fileID: 0}
+  character: {fileID: 1537515935}
+  portrait: {fileID: -2048800907179887802, guid: c8905485e57dbbf4399f3388620be0e4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -48636,7 +48619,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1296901276}
 --- !u!114 &1021914299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48741,6 +48724,149 @@ MonoBehaviour:
   description: 
   character: {fileID: 1726157580}
   portrait: {fileID: -7645888817525227343, guid: a540c501ea0a5774494e02bbc33ff3d2, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021914305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2527
+  indentLevel: 0
+  storyText: '"As soon as I''m done with these arseholes; I''m coming for you next
+    vampire."'
+  description: 
+  character: {fileID: 1423546334}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021914306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2528
+  indentLevel: 0
+  storyText: You hear a few gunshots behind you, but you were unable to focus on
+    the fight between Afrian and the amount of enemies he had to deal with.
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021914307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2524
+  indentLevel: 0
+  storyText: 'You speak through the pain, just as they move to inflict more pain
+    on your body, but this time he aims for your left leg. However, this time you
+    manage to supress your pained reactions. '
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1955308328}
+--- !u!114 &1021914308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 616cd37e21c7645c58a89edf5abee56f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2523
+  indentLevel: 0
+  duration: 1
+  amount: {x: 2, y: 2}
+  waitUntilFinished: 0
+--- !u!114 &1021914309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1337544a71d4d5dab5510fe86ddca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2530
+  indentLevel: 0
+--- !u!114 &1021914310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2529
+  indentLevel: 0
+  storyText: '[To be Continued]'
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -50686,7 +50812,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 767345195581400080, guid: 0e9692511837d314b817dd11d38735b2, type: 3}
+  m_Sprite: {fileID: 8863221316979694481, guid: d24547981e46beb47a4dcd4b4cc14e48, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -51563,47 +51689,44 @@ MonoBehaviour:
   nameColor: {r: 0.35905296, g: 0.73292524, b: 0.90188676, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 8807667605733969800, guid: e265ae4ad20ddcf478ecba0a8940ce37, type: 3}
+  - {fileID: 8807667605733969800, guid: 92792dc876dc65845af202b28c3f63ab, type: 3}
   - {fileID: -4108580140328121606, guid: e71ab90c341a1ac40bb07e36d05e0d44, type: 3}
-  - {fileID: -272359415565129352, guid: e8c4e6e163ce2c7408f6668f853b3dcf, type: 3}
-  - {fileID: -4383255322265979231, guid: fa11b24820c920944b00f94f1b28c9f5, type: 3}
   - {fileID: 621222158458474870, guid: 415cb1c6ffbc68e448916309fd1bfaac, type: 3}
-  - {fileID: -900521410807891847, guid: 168bcdf23cf38a04caa4c1f090ea383f, type: 3}
   - {fileID: 1330962535254233593, guid: 8b7c51f0e3b76174884c4df1a14d24cd, type: 3}
-  - {fileID: -6299308323489136641, guid: 494c7a7a268086b47942ba4ecd7a9401, type: 3}
   - {fileID: 594318413343068850, guid: 9ba51fc128f73944ba57c93351cdad27, type: 3}
   - {fileID: -7380597284926129676, guid: b7d3aaccfe6db004b8c441cab328ae93, type: 3}
   - {fileID: -309459452766167434, guid: 23c1d4f514b370145bdb3d83c6d7cc6d, type: 3}
-  - {fileID: 7008314495758819777, guid: 804ccfa5607a6fd47b7115d776b10f31, type: 3}
-  - {fileID: 767345195581400080, guid: 0e9692511837d314b817dd11d38735b2, type: 3}
   - {fileID: -2697700856362103457, guid: ab6f9be9ef571ca4b8170c08d83a7705, type: 3}
-  - {fileID: -5767051369442854808, guid: c8a53b75dd44d0340994cec3417eba38, type: 3}
   - {fileID: -2976340537264255197, guid: 945028c71beadcc47aababf46015d54c, type: 3}
   - {fileID: 5123946773269254311, guid: d8b2fe3bdfb922242b9a1b5accff6b64, type: 3}
   - {fileID: 7732575246470666395, guid: a5b13da392d2f1f408db680112f76dec, type: 3}
-  - {fileID: 5362241954120233819, guid: df5f847b8fdecf24cae346eb415d05c4, type: 3}
-  - {fileID: -8577686149819606926, guid: b59ecbe29c7239946881d77a48839a2d, type: 3}
   - {fileID: 6169492501544232927, guid: 6973cdb0f58bf2545b8cc9a2ea2fe889, type: 3}
   - {fileID: 7985626363670038235, guid: 93f7fda12bccd7d40ad0fe53383b7f78, type: 3}
   - {fileID: -2048800907179887802, guid: c8905485e57dbbf4399f3388620be0e4, type: 3}
-  - {fileID: 2706404557822990281, guid: 2d2fcef081d7ee446b6cc39e4b4ed033, type: 3}
   - {fileID: -2872899670157825706, guid: 477c17332da2ed34aa392b6c7c537192, type: 3}
   - {fileID: 7508317822236499539, guid: a5536340032908d4bbbbbfd0948abd34, type: 3}
   - {fileID: 3622792381989719942, guid: 648d5dcf33c5c6345b98ba1ba352445a, type: 3}
   - {fileID: 3705570748736463740, guid: 442e57906ffed624c828d68673975815, type: 3}
-  - {fileID: 793273632904795701, guid: fe005c67df918df4ca23c9e6faf6ab7c, type: 3}
   - {fileID: 6217520884255543542, guid: 505e26356b67cba4b9eefbd21bb6351a, type: 3}
   - {fileID: -3924190032742187860, guid: 03e7373792098f347b6f01b1a814399f, type: 3}
-  - {fileID: -1006253830890901128, guid: 21f496e1394dc1044b3d49489188dfd1, type: 3}
   - {fileID: -994743826047709311, guid: 1ad0e3080074d1c4a94c9795a04674d2, type: 3}
   - {fileID: -6504533043834447420, guid: 961c2bdb6934b5b409d509b1c6c7ca1e, type: 3}
-  - {fileID: 2226389347320026283, guid: 3e0925a43fb89d049a3c4da52134c2eb, type: 3}
   - {fileID: 9212916337408032586, guid: d272ab72602208b48ac506858cff302c, type: 3}
-  - {fileID: -7802581581814841297, guid: ad747045a836f7e49bd63954ff3e75b2, type: 3}
   - {fileID: 9066571463846406944, guid: b129700a60929a04f8ae0733062c1a5e, type: 3}
   - {fileID: -3653799113980525837, guid: 0d2cc1ee42598e948a0a5d47c1a3bde5, type: 3}
+  - {fileID: -625593527566283030, guid: 4f9532239828c94418ea00f6f8818740, type: 3}
+  - {fileID: 615432816348970256, guid: 1b52e27cab022684895181cd3c0231df, type: 3}
+  - {fileID: 1318293263787867235, guid: 9f1effbbf45247743a457951e0e14526, type: 3}
+  - {fileID: -1929018785211721163, guid: 9fa95c96954467541952f6eddd36f665, type: 3}
+  - {fileID: 8950578613960159542, guid: b7f6fecca01d0a74eba485939a9f01bb, type: 3}
+  - {fileID: -6677968504634109637, guid: 91d4a73e89311674088e9d7458a40e51, type: 3}
+  - {fileID: -3967767040921205979, guid: acd13c5edbefab4419b8cabf047f0d7b, type: 3}
+  - {fileID: -6886338602145826440, guid: bcd80d3ec6e224e49b1c9809c462dd23, type: 3}
+  - {fileID: -3325412715663132894, guid: 4f00424dc51c63a469afb98e4b1fee86, type: 3}
+  - {fileID: 6997914956047077638, guid: 6c71ca46dd330d04182c96ede7b1ea4b, type: 3}
+  - {fileID: 8863221316979694481, guid: d24547981e46beb47a4dcd4b4cc14e48, type: 3}
+  - {fileID: -4475276607529606236, guid: 1866ad16c1bf3c54ab6853fa2bebda71, type: 3}
   - {fileID: 5540750684357441153, guid: 0dbd74cc18d76d7469ee40a5f9e95e31, type: 3}
-  - {fileID: 6571740739174184288, guid: 4bc9b7f0ff8aadd4cbf27ea726127ed6, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 1296901276}
   description: 'Known by default as Cairii. She is the main protagonist of the game
@@ -52147,7 +52270,7 @@ MonoBehaviour:
   - {fileID: -2263164560756889242, guid: 3d9633d7340d8fc40a03724be492e396, type: 3}
   - {fileID: 3705570748736463740, guid: 58018a96a3f85984bb8a077dcf54dddc, type: 3}
   - {fileID: -7645888817525227343, guid: a540c501ea0a5774494e02bbc33ff3d2, type: 3}
-  - {fileID: -3107045472531067150, guid: 3daf3d7e3a6d09246be43a8eb150383f, type: 3}
+  - {fileID: 1315353878313917114, guid: 94a625028a0144a44ab1b728d996f2c3, type: 3}
   - {fileID: 8100426479800741977, guid: ff15824d28a54f04bbec1178546fa24d, type: 3}
   - {fileID: -5064839794885426350, guid: a4fd45ebb97f1604b938ffd79fe65ac2, type: 3}
   - {fileID: 3740009398500155495, guid: ff9a8331f80b8f649929b45d47f8d9a3, type: 3}
