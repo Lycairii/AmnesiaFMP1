@@ -407,7 +407,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 665716043}
   selectedCommands:
-  - {fileID: 665716047}
+  - {fileID: 665716046}
   variables: []
   description: 
   stepPause: 0
@@ -493,8 +493,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: "To continue dialogue; press anywhere within the dialogue box or the
-    continue button on the bottom right. \nTo quit the game; press the 'esc' key. "
+  storyText: "To continue dialogue; press anywhere within the dialogue box, or on,
+    or around the text itself. \nTo quit the game; press the 'esc' key. "
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
