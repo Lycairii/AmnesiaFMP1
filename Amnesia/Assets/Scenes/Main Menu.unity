@@ -171,11 +171,9 @@ GameObject:
   - component: {fileID: 238293717}
   - component: {fileID: 238293714}
   - component: {fileID: 238293711}
-  - component: {fileID: 238293710}
   - component: {fileID: 238293709}
   - component: {fileID: 238293724}
   - component: {fileID: 238293729}
-  - component: {fileID: 238293733}
   - component: {fileID: 238293734}
   m_Layer: 0
   m_Name: MainMenu Flowchart
@@ -199,36 +197,6 @@ MonoBehaviour:
   parentBlock: {fileID: 238293711}
   suppressBlockAutoSelect: 0
   targetButton: {fileID: 1524200836}
---- !u!114 &238293710
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238293707}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 7
-  indentLevel: 0
-  targetObjects:
-  - {fileID: 1304190072}
-  tweenType: 11
-  waitUntilFinished:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  fadeMode: 0
-  targetColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
-  targetAlpha:
-    floatRef: {fileID: 0}
-    floatVal: 1
 --- !u!114 &238293711
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -337,9 +305,7 @@ MonoBehaviour:
   blockName: Game Start
   description: 
   eventHandler: {fileID: 238293734}
-  commandList:
-  - {fileID: 238293733}
-  - {fileID: 238293710}
+  commandList: []
   suppressAllAutoSelections: 0
 --- !u!114 &238293722
 MonoBehaviour:
@@ -428,24 +394,6 @@ MonoBehaviour:
     stringVal: Welcome
   loadingImage: {fileID: 0}
   sceneNameOLD: 
---- !u!114 &238293733
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238293707}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 16
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  durationOLD: 0
 --- !u!114 &238293734
 MonoBehaviour:
   m_ObjectHideFlags: 2
