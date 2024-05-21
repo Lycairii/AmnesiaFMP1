@@ -3388,6 +3388,7 @@ MonoBehaviour:
   - {fileID: 594318413343068850, guid: 328f67154827fd74eb604ad8f230856a, type: 3}
   - {fileID: -309459452766167434, guid: 5e74e02208476a24c9d8be26dfe9243a, type: 3}
   - {fileID: -757630189579833598, guid: b984905989f3f714ebf3511cceac55a3, type: 3}
+  - {fileID: -6926062482702027654, guid: 1a626955ce0305640b2ec7340247a0fc, type: 3}
   - {fileID: 4271334895100898704, guid: b8c03b037243a814d89414f68f888ea5, type: 3}
   - {fileID: -2518769261853224147, guid: 394cda6c26e3be545b913b852742171c, type: 3}
   - {fileID: -2518769261853224147, guid: 394cda6c26e3be545b913b852742171c, type: 3}
@@ -6261,7 +6262,6 @@ GameObject:
   - component: {fileID: 1021914130}
   - component: {fileID: 1021914129}
   - component: {fileID: 1021914139}
-  - component: {fileID: 1021914138}
   - component: {fileID: 1021914137}
   - component: {fileID: 1021914136}
   - component: {fileID: 1021914134}
@@ -6605,6 +6605,12 @@ GameObject:
   - component: {fileID: 1021914541}
   - component: {fileID: 1021914540}
   - component: {fileID: 1021914539}
+  - component: {fileID: 1021914548}
+  - component: {fileID: 1021914546}
+  - component: {fileID: 1021914547}
+  - component: {fileID: 1021914544}
+  - component: {fileID: 1021914545}
+  - component: {fileID: 1021914543}
   m_Layer: 0
   m_Name: Cairii's Flowchart
   m_TagString: Untagged
@@ -6723,7 +6729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 931.2834, y: -1517.3457}
+  scrollPos: {x: 1228.9883, y: -1151.4441}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 310.40002
@@ -6735,8 +6741,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1021914477}
-  selectedCommands: []
+  - {fileID: 1021913717}
+  selectedCommands:
+  - {fileID: 1021914543}
   variables:
   - {fileID: 1021912032}
   - {fileID: 1021912107}
@@ -35900,7 +35907,12 @@ MonoBehaviour:
   - {fileID: 1021913724}
   - {fileID: 1021914128}
   - {fileID: 1021914139}
-  - {fileID: 1021914138}
+  - {fileID: 1021914548}
+  - {fileID: 1021914547}
+  - {fileID: 1021914546}
+  - {fileID: 1021914543}
+  - {fileID: 1021914545}
+  - {fileID: 1021914544}
   - {fileID: 1021913708}
   suppressAllAutoSelections: 0
 --- !u!114 &1021913718
@@ -44529,33 +44541,6 @@ MonoBehaviour:
   itemId: 2346
   indentLevel: 0
   storyText: Will you stay faithful to Adrian and remain with him?
-  description: 
-  character: {fileID: 1178771872}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1021914138
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2345
-  indentLevel: 0
-  storyText: However, you had also grown attached to Daren....
   description: 
   character: {fileID: 1178771872}
   portrait: {fileID: 0}
@@ -54122,10 +54107,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2766
   indentLevel: 0
-  storyText: 
+  storyText: '"Shush..." '
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 693484078}
+  portrait: {fileID: -6926062482702027654, guid: 1a626955ce0305640b2ec7340247a0fc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -54134,7 +54119,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 547421799}
 --- !u!114 &1021914540
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -54149,9 +54134,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2765
   indentLevel: 0
-  storyText: 
+  storyText: 'Daren shushes you with a with a light smirk on his face. He was clearly
+    embarrassed, murmuring slightly as he glances to the side briefly with his face
+    lightly flushed a reddish pink. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -54161,7 +54148,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1955308328}
 --- !u!114 &1021914541
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -54178,7 +54165,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -54217,6 +54204,172 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1021914543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2772
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021914544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2770
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021914545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2771
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1021914546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2768
+  indentLevel: 0
+  storyText: 'Adrian matches the heavily armoured guard''s tone, as he helps you
+    up from the bed. '
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1955308328}
+--- !u!114 &1021914547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2769
+  indentLevel: 0
+  storyText: '"Asset? No. She''s not an asset to you, or to anyone. So, I say again;
+    if {i}{b}any of you{b}{/} take a single step towards me, or {i}Cairii{/i}, I
+    will arrest you."'
+  description: 
+  character: {fileID: 1423546334}
+  portrait: {fileID: -2976340537264255197, guid: 90b22cefe71e5fb428b6be369e34bf05, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 653763950}
+--- !u!114 &1021914548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2767
+  indentLevel: 0
+  storyText: '"Step away from the asset."The guard orders Adrian, pointing their
+    odd weapon at him.'
+  description: 
+  character: {fileID: 1469839868}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1016375174}
 --- !u!1 &1039806522
 GameObject:
   m_ObjectHideFlags: 0
