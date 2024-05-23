@@ -7185,11 +7185,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 880.6644, y: 316.5372}
+  scrollPos: {x: 1663.9712, y: -1417.4993}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 310.40002
-  zoom: 0.58
+  zoom: 0.34
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -7197,8 +7197,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1021911996}
-  selectedCommands: []
+  - {fileID: 1021914425}
+  selectedCommands:
+  - {fileID: 1021914617}
   variables:
   - {fileID: 1021912032}
   - {fileID: 1021912107}
@@ -55824,10 +55825,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2866
   indentLevel: 0
-  storyText: 
+  storyText: '"Like hell. I''m an independant woman. It doesn''t matter whether I
+    have a longer life-span than a human or half pointy ears."'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1537515935}
+  portrait: {fileID: 621222158458474870, guid: 415cb1c6ffbc68e448916309fd1bfaac, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -55906,7 +55908,7 @@ MonoBehaviour:
   itemId: 2868
   indentLevel: 0
   storyText: '"It''s nothing for you to be concerned with. You''re an asset, you
-    belong to us.!'
+    belong to us."'
   description: 
   character: {fileID: 386227863}
   portrait: {fileID: 0}
@@ -56439,7 +56441,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1021914656
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
