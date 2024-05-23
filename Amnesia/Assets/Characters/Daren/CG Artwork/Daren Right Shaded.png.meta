@@ -106,10 +106,10 @@ TextureImporter:
       name: Daren Right Shaded_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 108
-        width: 15
-        height: 15
+        x: 18
+        y: 83
+        width: 12
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,10 +127,10 @@ TextureImporter:
       name: Daren Right Shaded_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 37
         y: 0
-        width: 1152
-        height: 1630
+        width: 883
+        height: 1249
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -1249,15 +1249,15 @@ RectTransform:
   m_GameObject: {fileID: 273800638}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 51.00007}
-  m_LocalScale: {x: 0.86473286, y: 0.86473286, z: 0.86473286}
+  m_LocalScale: {x: 0.864733, y: 0.864733, z: 0.864733}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 553955324}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -80.545074, y: 1.6953735}
-  m_SizeDelta: {x: -30.7206, y: -41.784195}
+  m_AnchoredPosition: {x: -220.7711, y: 3.9813995}
+  m_SizeDelta: {x: -386.5878, y: -58.8485}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &273800640
 MonoBehaviour:
@@ -1272,15 +1272,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.83137256}
+  m_Color: {r: 0.17735851, g: 0.1643076, b: 0.1643076, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -8110626241233687249, guid: 1fdc6ced764881e45bbf3cbd26963ca7, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1364,15 +1364,15 @@ RectTransform:
   m_GameObject: {fileID: 305960367}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7165417, y: 0.7883181, z: 0.7883181}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 553955324}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.78700006}
-  m_AnchoredPosition: {x: 13, y: 14.130003}
-  m_SizeDelta: {x: -61, y: -63}
+  m_AnchoredPosition: {x: -112, y: 19}
+  m_SizeDelta: {x: -61, y: -67.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &305960369
 MonoBehaviour:
@@ -1415,13 +1415,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 146b4b592b171a848a299a060bc87a24, type: 3}
-    m_FontSize: 60
-    m_FontStyle: 1
+    m_Font: {fileID: 12800000, guid: 43bce127d27b74a66a29b68d0de90ddb, type: 3}
+    m_FontSize: 40
+    m_FontStyle: 3
     m_BestFit: 1
-    m_MinSize: 4
-    m_MaxSize: 60
-    m_Alignment: 0
+    m_MinSize: 1
+    m_MaxSize: 50
+    m_Alignment: 3
     m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1449,7 +1449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 5, y: -5}
+  m_EffectDistance: {x: 6, y: -6}
   m_UseGraphicAlpha: 1
 --- !u!1 &314357009
 GameObject:
@@ -1920,7 +1920,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagStartSymbol: '{Rep+}'
   tagEndSymbol: '{/Rep+}'
-  replaceTagStartWith: '{color=green}'
+  replaceTagStartWith: '{color=light green}'
   replaceTagEndWith: '{/color}'
 --- !u!1 &400719703
 GameObject:
@@ -2534,7 +2534,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -3863.0312, y: -70.509766}
+  m_AnchoredPosition: {x: -3863.0312, y: 128}
   m_SizeDelta: {x: 14474.592, y: 15315.726}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &547421801
@@ -3167,7 +3167,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -3863.0312, y: -70.509766}
+  m_AnchoredPosition: {x: -3863.0312, y: 128}
   m_SizeDelta: {x: 14474.592, y: 15315.726}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &653763946
@@ -5186,7 +5186,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -3863.0312, y: -70.509766}
+  m_AnchoredPosition: {x: -3863.0312, y: 128}
   m_SizeDelta: {x: 14474.592, y: 15315.726}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1016375170
@@ -7060,7 +7060,8 @@ GameObject:
   - component: {fileID: 1021914651}
   - component: {fileID: 1021914652}
   - component: {fileID: 1021914653}
-  - component: {fileID: 1021914654}
+  - component: {fileID: 1021914655}
+  - component: {fileID: 1021914656}
   m_Layer: 0
   m_Name: Cairii's Flowchart
   m_TagString: Untagged
@@ -7144,7 +7145,7 @@ MonoBehaviour:
   itemId: 0
   blockName: Start of Chapter
   description: 
-  eventHandler: {fileID: 1021914654}
+  eventHandler: {fileID: 1021914656}
   commandList:
   - {fileID: 1021912371}
   - {fileID: 1021913215}
@@ -7184,18 +7185,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 893.6772, y: 256.25253}
+  scrollPos: {x: 880.6644, y: 316.5372}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 310.40002
-  zoom: 0.37
+  zoom: 0.58
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1021911996}
   selectedCommands: []
   variables:
   - {fileID: 1021912032}
@@ -7491,7 +7493,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 238.18706
-    y: 43.24944
+    y: 40.668835
     width: 67.55
     height: 40
   tint: {r: 0.66447526, g: 0.45098042, b: 0.9843137, a: 1}
@@ -28565,7 +28567,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1386
   indentLevel: 0
-  storyText: '"Stay behind me, beauitful."'
+  storyText: '"Stay behind me, beautiful."'
   description: 
   character: {fileID: 693484078}
   portrait: {fileID: -7922584989192927078, guid: 9f264549a5f923a4fa56b026a17ba01b, type: 3}
@@ -36394,7 +36396,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: The figure's voice sounded familiar, and your eyes focus on their facial
     features. Their red eyes and matching red hair gave you no doubt that it was
-    him. That {B}he{/B} had come for you.
+    him. That {b}he{/b} had come for you.
   description: 
   character: {fileID: 1178771872}
   portrait: {fileID: 0}
@@ -40282,8 +40284,8 @@ MonoBehaviour:
   storyText: '"If any of you dare make a move towards me; I will arrest you for obstructing
     police, on top of kidnapping and other unlawful acts."'
   description: 
-  character: {fileID: 1414517682}
-  portrait: {fileID: -2708788149929445101, guid: 4a51315d758bfda4396b509ef5a27157, type: 3}
+  character: {fileID: 1423546334}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -44745,7 +44747,7 @@ MonoBehaviour:
   itemId: 2332
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 88569668c8eb6b749affacc2e02dee0e, type: 3}
-  volume: 1
+  volume: 0.515
   waitUntilFinished: 0
 --- !u!114 &1021914128
 MonoBehaviour:
@@ -45684,7 +45686,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2375
   indentLevel: 0
-  storyText: '{Rep+}{color=green} Rep: Slightly Increased{/Rep+}{/color}'
+  storyText: '{Rep+}{color=light green} Rep: Slightly Increased{/Rep+}{/color}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -46575,7 +46577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2377
   indentLevel: 0
-  storyText: '{Rep+){color=green}Rep: Slightly Increased {/Rep+}{/color}'
+  storyText: '{Rep+){color=light green}Rep: Slightly Increased {/Rep+}{/color}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -46656,7 +46658,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2415
   indentLevel: 0
-  storyText: '{Rep+}(color=green}Rep: Greatly Increased{/color}{/Rep+}'
+  storyText: '{Rep+}(color=light green}Rep: Greatly Increased{/color}{/Rep+}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -47840,7 +47842,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2442
   indentLevel: 0
-  storyText: '{Rep+}color=green}Rep: Greatly Increased{/color}{/Rep+}'
+  storyText: '{Rep+}color=light green}Rep: Greatly Increased{/color}{/Rep+}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -51672,7 +51674,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -317.56155
-    y: 1697.8461
+    y: 1699.3845
     width: 126.09
     height: 40
   tint: {r: 0.8037735, g: 0.644313, b: 0.12587391, a: 1}
@@ -54754,8 +54756,8 @@ MonoBehaviour:
   itemId: 2769
   indentLevel: 0
   storyText: '"Asset? No. She''s not an asset to you, or to anyone. So, I say again;
-    if {i}{b}any of you{b}{/} take a single step towards me, or {i}Cairii{/i}, I
-    will arrest you."'
+    if {i}{b}any of you{/b}{/i} take a single step towards me, or {i}Cairii{/i},
+    I will arrest you."'
   description: 
   character: {fileID: 1423546334}
   portrait: {fileID: -2976340537264255197, guid: 90b22cefe71e5fb428b6be369e34bf05, type: 3}
@@ -54782,7 +54784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2767
   indentLevel: 0
-  storyText: '"Step away from the asset."The guard orders Adrian, pointing their
+  storyText: '"Step away from the asset." The guard orders Adrian, pointing their
     odd weapon at him.'
   description: 
   character: {fileID: 1469839868}
@@ -54810,8 +54812,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -797.1166
-    y: 1588.5597
+    x: -798.4959
+    y: 1589.939
     width: 229.03
     height: 40
   tint: {r: 0.7433963, g: 0.5755356, b: 0.28473476, a: 1}
@@ -54846,6 +54848,7 @@ MonoBehaviour:
   - {fileID: 1021914557}
   - {fileID: 1021914556}
   - {fileID: 1021914555}
+  - {fileID: 1021914655}
   - {fileID: 1021914554}
   - {fileID: 1021914553}
   - {fileID: 1021914552}
@@ -54976,7 +54979,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 679578580}
   _visible:
     booleanRef: {fileID: 0}
-    booleanVal: 0
+    booleanVal: 1
   affectChildren: 1
   visibleOLD: 0
 --- !u!114 &1021914555
@@ -55113,10 +55116,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2797
   indentLevel: 0
-  spriteRenderer: {fileID: 0}
+  spriteRenderer: {fileID: 322229514}
   _visible:
     booleanRef: {fileID: 0}
-    booleanVal: 0
+    booleanVal: 1
   affectChildren: 1
   visibleOLD: 0
 --- !u!114 &1021914562
@@ -55222,7 +55225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2786
   indentLevel: 0
-  spriteRenderer: {fileID: 0}
+  spriteRenderer: {fileID: 322229514}
   _visible:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -55902,9 +55905,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2868
   indentLevel: 0
-  storyText: 
+  storyText: '"It''s nothing for you to be concerned with. You''re an asset, you
+    belong to us.!'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 386227863}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -56413,9 +56417,29 @@ MonoBehaviour:
   customDescription: 
   fireEvent: 1
   resumeOnLoad: 1
---- !u!114 &1021914654
+--- !u!114 &1021914655
 MonoBehaviour:
   m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2888
+  indentLevel: 0
+  spriteRenderer: {fileID: 721813744}
+  _visible:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  affectChildren: 1
+  visibleOLD: 0
+--- !u!114 &1021914656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -57672,7 +57696,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -3863.0312, y: -70.509766}
+  m_AnchoredPosition: {x: -3863.0312, y: 128}
   m_SizeDelta: {x: 14474.592, y: 15315.726}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1298981774
@@ -58744,7 +58768,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -3863.0312, y: -70.509766}
+  m_AnchoredPosition: {x: -3863.0312, y: 128}
   m_SizeDelta: {x: 14474.592, y: 15315.726}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1495136104
@@ -60013,7 +60037,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -3863.0312, y: -70.509766}
+  m_AnchoredPosition: {x: -3863.0312, y: 128}
   m_SizeDelta: {x: 14474.592, y: 15315.726}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1946030349
@@ -60325,7 +60349,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -3863.0312, y: -70.509766}
+  m_AnchoredPosition: {x: -3863.0312, y: 128}
   m_SizeDelta: {x: 14474.592, y: 15315.726}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1955308324
