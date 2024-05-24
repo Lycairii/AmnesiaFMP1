@@ -221,7 +221,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -249.11633, y: -406.5669}
+  m_AnchoredPosition: {x: -249.11633, y: -218}
   m_SizeDelta: {x: 1182.2922, y: 813.1338}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &159942807
@@ -381,14 +381,14 @@ RectTransform:
   m_GameObject: {fileID: 426903044}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -1.5}
-  m_LocalScale: {x: 0.67857265, y: 0.67857265, z: 0.67857265}
+  m_LocalScale: {x: 0.8143031, y: 0.8143031, z: 0.8143031}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 755662550}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 19.9, y: -34.4}
+  m_AnchoredPosition: {x: 22.2, y: -38.8}
   m_SizeDelta: {x: 109.17903, y: 113.14642}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &426903046
@@ -592,14 +592,14 @@ RectTransform:
   m_GameObject: {fileID: 555739930}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -1.5}
-  m_LocalScale: {x: 0.72324276, y: 0.7369379, z: 0.7776804}
+  m_LocalScale: {x: 0.85111207, y: 0.8672285, z: 0.9151743}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 755662550}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 64.1, y: -23.2}
+  m_AnchoredPosition: {x: 65.2, y: -14.5}
   m_SizeDelta: {x: 103.58537, y: 114.99856}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &555739932
@@ -775,7 +775,7 @@ RectTransform:
   m_GameObject: {fileID: 598301328}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -19}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.4996377, y: 1.4996377, z: 1.4996377}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 465600285}
@@ -783,8 +783,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -205, y: -433}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -472.1, y: -474.2}
+  m_SizeDelta: {x: 160, y: 36.8576}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &755662549
 GameObject:
@@ -1049,9 +1049,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Welcome to the world of Amnesia; a visual novel based off my very own
-    book,  where you will be experiencing Chapter Five in the main female protagonist's
-    perspective. \n\nI hope you enjoy this visual just as much as I've enjyeyed producing
-    and creating it.\n"
+    book; Sharpened Silence, where you will be experiencing Chapter Six in the main
+    female protagonist's perspective. \n\nI hope you enjoy this visual just as much
+    as I've enjyeyed producing and creating it.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 154f89b9d44dfb04d96389a6c9b28640, type: 2}
   m_sharedMaterial: {fileID: 2420294284269108500, guid: 154f89b9d44dfb04d96389a6c9b28640, type: 2}
@@ -1550,7 +1550,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2.08}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31.2, y: 13.219019}
+  m_AnchoredPosition: {x: 27.3, y: 15.8}
   m_SizeDelta: {x: 196.40706, y: 160.69492}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1568943705
@@ -1573,7 +1573,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5180913716057197524, guid: 915f05bf0b425004980f0e58ac4125ad, type: 3}
+  m_Sprite: {fileID: 8787376364317574560, guid: 5d90e725b2698c34793eb1ecb1d7a1b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
