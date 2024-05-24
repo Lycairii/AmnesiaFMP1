@@ -7190,12 +7190,6 @@ GameObject:
   - component: {fileID: 1021914818}
   - component: {fileID: 1021914817}
   - component: {fileID: 1021914833}
-  - component: {fileID: 1021914822}
-  - component: {fileID: 1021914823}
-  - component: {fileID: 1021914824}
-  - component: {fileID: 1021914825}
-  - component: {fileID: 1021914826}
-  - component: {fileID: 1021914827}
   - component: {fileID: 1021914828}
   - component: {fileID: 1021914829}
   - component: {fileID: 1021914830}
@@ -7210,6 +7204,16 @@ GameObject:
   - component: {fileID: 1021914838}
   - component: {fileID: 1021914835}
   - component: {fileID: 1021914834}
+  - component: {fileID: 1021914850}
+  - component: {fileID: 1021914849}
+  - component: {fileID: 1021914848}
+  - component: {fileID: 1021914847}
+  - component: {fileID: 1021914846}
+  - component: {fileID: 1021914845}
+  - component: {fileID: 1021914844}
+  - component: {fileID: 1021914843}
+  - component: {fileID: 1021914852}
+  - component: {fileID: 1021914851}
   m_Layer: 0
   m_Name: Cairii's Flowchart
   m_TagString: Untagged
@@ -7335,11 +7339,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1038.9548, y: -1717.8197}
+  scrollPos: {x: 776.13904, y: -1418.0104}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 310.40002
-  zoom: 0.52
+  zoom: 0.54999995
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -7347,9 +7351,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1021914696}
+  - {fileID: 1021914206}
   selectedCommands:
-  - {fileID: 1021914831}
+  - {fileID: 1021914481}
   variables:
   - {fileID: 1021912032}
   - {fileID: 1021912107}
@@ -46858,6 +46862,8 @@ MonoBehaviour:
   - {fileID: 1021914489}
   - {fileID: 1021914490}
   - {fileID: 1021914483}
+  - {fileID: 1021914852}
+  - {fileID: 1021914851}
   - {fileID: 1021914484}
   - {fileID: 1021914355}
   - {fileID: 1021914480}
@@ -53359,7 +53365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2718
   indentLevel: 0
-  spriteRenderer: {fileID: 0}
+  spriteRenderer: {fileID: 322229514}
   _visible:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -57650,8 +57656,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -194.52412
-    y: 2007.4688
+    x: -208.1827
+    y: 2001.4392
     width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -57671,17 +57677,16 @@ MonoBehaviour:
   - {fileID: 1021914832}
   - {fileID: 1021914831}
   - {fileID: 1021914830}
+  - {fileID: 1021914850}
   - {fileID: 1021914829}
   - {fileID: 1021914828}
-  - {fileID: 1021914827}
-  - {fileID: 1021914826}
-  - {fileID: 1021914825}
-  - {fileID: 1021914824}
-  - {fileID: 1021914823}
-  - {fileID: 1021914822}
   - {fileID: 1021914821}
   - {fileID: 1021914820}
   - {fileID: 1021914819}
+  - {fileID: 1021914849}
+  - {fileID: 1021914847}
+  - {fileID: 1021914848}
+  - {fileID: 1021914843}
   - {fileID: 1021914818}
   - {fileID: 1021914817}
   suppressAllAutoSelections: 0
@@ -58038,8 +58043,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -567.057
-    y: 1999.2048
+    x: -559.38574
+    y: 1990.5254
     width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -58081,6 +58086,9 @@ MonoBehaviour:
   - {fileID: 1021914804}
   - {fileID: 1021914803}
   - {fileID: 1021914805}
+  - {fileID: 1021914846}
+  - {fileID: 1021914845}
+  - {fileID: 1021914844}
   - {fileID: 1021914802}
   - {fileID: 1021914779}
   suppressAllAutoSelections: 0
@@ -58497,7 +58505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -206.028
+    x: -210.028
     y: 1910.0422
     width: 95.04
     height: 40
@@ -60028,7 +60036,7 @@ MonoBehaviour:
     y: 1783.3413
     width: 108.06
     height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
+  tint: {r: 0.8867924, g: 0.73307335, b: 0.33965817, a: 1}
   useCustomTint: 1
   itemId: 2983
   blockName: Freedom!
@@ -60050,7 +60058,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 540.5854
+    x: 537.67633
     y: 1794.3776
     width: 135.13
     height: 40
@@ -60769,7 +60777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3050
   indentLevel: 0
-  storyText: To be Continued in the Next Chapter....
+  storyText: To be Continued.......
   description: 
   character: {fileID: 1178771872}
   portrait: {fileID: 0}
@@ -61145,7 +61153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3056
   indentLevel: 0
-  storyText: To be Continued in the Next Chapter....
+  storyText: To be Continued ......
   description: 
   character: {fileID: 1178771872}
   portrait: {fileID: 0}
@@ -61198,168 +61206,6 @@ MonoBehaviour:
     booleanVal: 1
   affectChildren: 1
   visibleOLD: 0
---- !u!114 &1021914822
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 3060
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1021914823
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 3061
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1021914824
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 3062
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1021914825
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 3063
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1021914826
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 3064
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1021914827
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021911992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 3065
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1021914828
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -61374,9 +61220,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3066
   indentLevel: 0
-  storyText: 
+  storyText: 'You look around the area, just as the visiblity of the shield fades
+    until it vanishes completely. You then begin running again, stopping abruptively
+    as you reach a dead end; the edge of a cliff. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -61386,7 +61234,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1955308328}
 --- !u!114 &1021914829
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -61401,10 +61249,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3067
   indentLevel: 0
-  storyText: 
+  storyText: '"W-what''s going on... Did I do that?"  You whisper to yourself, glancing
+    at the round sphere. It had small hexagons around the entire circumference, with
+    the golden colour visible in the light. There was an electronic hum to the shield,
+    as golden sparks emit from it.'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1537515935}
+  portrait: {fileID: -994743826047709311, guid: 1ad0e3080074d1c4a94c9795a04674d2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -61413,7 +61264,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1296901276}
 --- !u!114 &1021914830
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -61428,9 +61279,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3068
   indentLevel: 0
-  storyText: 
+  storyText: 'You swiftly dodge, as someone attempts to attack you from behind, and
+    you turn on your heels to look at them. As you turn around; a bright golden sphere
+    makes impact with the figure, who was still attempting to attack you. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1178771872}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -61440,7 +61293,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1955308328}
 --- !u!114 &1021914831
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -61455,7 +61308,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3069
   indentLevel: 0
-  storyText: 
+  storyText: 'An unnerving wave washes over you. Someone was hunting you in the distance
+    behind and on either side of you, and they were drastically catching up. '
   description: 
   character: {fileID: 1178771872}
   portrait: {fileID: 0}
@@ -61526,7 +61380,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 1495136102}
 --- !u!114 &1021914834
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -61546,7 +61400,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1021914835
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -61606,7 +61460,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1021914838
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -61628,7 +61482,7 @@ MonoBehaviour:
   resumeOnLoad: 1
 --- !u!114 &1021914839
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -61729,6 +61583,269 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 1955308328}
+--- !u!114 &1021914843
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3088
+  indentLevel: 0
+  storyText: Find out in the next chapter
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1495136102}
+--- !u!114 &1021914844
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3087
+  indentLevel: 0
+  storyText: Find out in the next chapter....
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1495136102}
+--- !u!114 &1021914845
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3086
+  indentLevel: 0
+  storyText: Will Daren or Adrian be able to do anything to saved you?
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1495136102}
+--- !u!114 &1021914846
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3085
+  indentLevel: 0
+  storyText: Will you make it from the cliff, or fall to your doom?
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1495136102}
+--- !u!114 &1021914847
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3084
+  indentLevel: 0
+  storyText: "What's with these odd powers? \nWill you be able to find a way from
+    the cliff without alerting enemies to your location?"
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1495136102}
+--- !u!114 &1021914848
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3083
+  indentLevel: 0
+  storyText: Will you be able to find a way from the cliff without alerting enemies
+    to your location?
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1495136102}
+--- !u!114 &1021914849
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3082
+  indentLevel: 0
+  storyText: "Is Daren alive? Did Adrian make it?\nWhat's with these odd powers?
+    \nWill you be able to find a way from the cliff without alerting enemies to your
+    location?"
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1495136102}
+--- !u!114 &1021914850
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3081
+  indentLevel: 0
+  storyText: 'At the same time; the other figures from either side also attack, too
+    late to dodge the odd protective transparent sphere that surrounded you. The
+    impact of the glowing and hard shield sends each hostile entity away from you,
+    causing quite a hefty and damaging blast of about five miles. '
+  description: 
+  character: {fileID: 1178771872}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1955308328}
+--- !u!114 &1021914851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3090
+  indentLevel: 0
+  spriteRenderer: {fileID: 721813744}
+  _visible:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  affectChildren: 1
+  visibleOLD: 0
+--- !u!114 &1021914852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021911992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3089
+  indentLevel: 0
+  spriteRenderer: {fileID: 24904081}
+  _visible:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  affectChildren: 1
+  visibleOLD: 0
 --- !u!1 &1039806522
 GameObject:
   m_ObjectHideFlags: 0
