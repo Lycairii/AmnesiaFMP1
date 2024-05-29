@@ -8418,11 +8418,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 3661.7822, y: 355.08987}
+  scrollPos: {x: 2445.099, y: -61.884216}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 292.80002
-  zoom: 0.25
+  zoom: 0.6433333
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -8430,8 +8430,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1021915211}
-  selectedCommands: []
+  - {fileID: 1021915012}
+  selectedCommands:
+  - {fileID: 1021915139}
   variables:
   - {fileID: 1021912032}
   - {fileID: 1021912107}
@@ -47841,7 +47842,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2415
   indentLevel: 0
-  storyText: '{Rep+}(color=light green}Rep: Greatly Increased{/color}{/Rep+}'
+  storyText: '{Rep+}{color=green}Rep: Greatly Increased{/color}{/Rep+}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -47853,7 +47854,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 2094877074}
 --- !u!114 &1021914205
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -49005,7 +49006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2443
   indentLevel: 0
-  storyText: '{Rep-}color=red}Rep: Slightly Decreased{/color}{/Rep-}'
+  storyText: '{Rep-}{color=red}Rep: Slightly Decreased{/color}{/Rep-}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -49032,7 +49033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2442
   indentLevel: 0
-  storyText: '{Rep+}color=light green}Rep: Greatly Increased{/color}{/Rep+}'
+  storyText: '{Rep+}{color= green}Rep: Greatly Increased{/color}{/Rep+}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -69285,7 +69286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3407
   indentLevel: 0
-  storyText: '{Rep=}color=green}Rep: Increased{/color}{/Rep+}'
+  storyText: '{Rep+}{color=green}Rep: Increased{/color}{/Rep+}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -69577,7 +69578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3409
   indentLevel: 0
-  storyText: '{Rep-}color=red}Rep: Slightly Decreased{/color}{/Rep-}'
+  storyText: '{Rep-}{color=red}Rep: Slightly Decreased{/color}{/Rep-}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -69956,7 +69957,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 1955308328}
+  setSayDialog: {fileID: 1495136102}
 --- !u!114 &1021915140
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -70926,7 +70927,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3483
   indentLevel: 0
-  storyText: '{Rep-}color=red}Rep: Slightly Decreased{/color}{/Rep-}'
+  storyText: '{Rep-}{color=red}Rep: Slightly Decreased{/color}{/Rep-}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -71127,7 +71128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3480
   indentLevel: 0
-  storyText: '{Rep=}color=green}Rep: Increased{/color}{/Rep+}'
+  storyText: '{Rep+}{color=green}Rep: Increased{/color}{/Rep+}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
