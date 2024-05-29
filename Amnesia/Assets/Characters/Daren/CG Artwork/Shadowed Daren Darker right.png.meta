@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shadowed Daren Darker right_0: 6687643870643718315
+      Shadowed Daren Darker right_1: 4252861038227455173
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

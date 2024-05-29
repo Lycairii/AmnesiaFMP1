@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bloody Tongue_0: -6640211898909860023
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

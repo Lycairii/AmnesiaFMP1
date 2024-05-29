@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Vamp Skeptical Side-eye_0: 6997914956047077638
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

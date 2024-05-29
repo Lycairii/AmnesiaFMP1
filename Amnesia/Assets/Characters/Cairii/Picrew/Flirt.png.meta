@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Flirt_0: -2697700856362103457
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

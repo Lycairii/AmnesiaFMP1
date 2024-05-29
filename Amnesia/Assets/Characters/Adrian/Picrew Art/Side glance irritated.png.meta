@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Side glance irritated_0: 4395428463887401661
+      Side glance irritated_1: -5923508989965995616
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

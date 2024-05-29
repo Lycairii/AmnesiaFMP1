@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Concept 1 -Containment Cell 2_0: -2504660010805453066
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

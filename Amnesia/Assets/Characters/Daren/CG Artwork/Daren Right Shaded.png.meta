@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Daren Right Shaded_0: -5998180546389681407
+      Daren Right Shaded_1: 5180913716057197524
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

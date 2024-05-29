@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bloody Smile_0: -7565764307672213199
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

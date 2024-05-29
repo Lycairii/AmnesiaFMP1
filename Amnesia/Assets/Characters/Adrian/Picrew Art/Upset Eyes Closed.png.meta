@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Upset Eyes Closed_0: 8578034743022012824
+      Upset Eyes Closed_1: -7572997138569484600
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

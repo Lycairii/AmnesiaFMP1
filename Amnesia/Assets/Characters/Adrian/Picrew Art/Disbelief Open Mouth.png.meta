@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Disbelief Open Mouth_0: -7412482223007043672
+      Disbelief Open Mouth_1: -3623888365033448321
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Skeptical Eyes Half Open_0: -1006253830890901128
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

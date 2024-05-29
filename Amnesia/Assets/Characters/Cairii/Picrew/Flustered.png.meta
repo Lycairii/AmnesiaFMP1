@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Flustered_0: -5767051369442854808
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

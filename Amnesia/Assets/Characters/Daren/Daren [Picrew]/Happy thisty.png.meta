@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Happy thisty_0: 1710687449355238878
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

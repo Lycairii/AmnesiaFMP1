@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Anxious_0: 30127186256043200
+      Anxious_1: -2961060906467937363
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

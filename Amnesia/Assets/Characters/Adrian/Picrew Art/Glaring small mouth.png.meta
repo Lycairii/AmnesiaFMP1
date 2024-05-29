@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Glaring small mouth_0: -4076350080235206553
+      Glaring small mouth_1: 3848616594441684722
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

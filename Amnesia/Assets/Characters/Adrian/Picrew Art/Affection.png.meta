@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Affection_0: -4811646283614182172
+      Affection_1: 6817349108288798502
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

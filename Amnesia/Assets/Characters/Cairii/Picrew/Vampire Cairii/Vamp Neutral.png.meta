@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Vamp Neutral_0: -6886338602145826440
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

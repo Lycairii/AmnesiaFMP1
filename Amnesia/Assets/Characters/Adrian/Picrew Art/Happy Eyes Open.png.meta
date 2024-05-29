@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Happy Eyes Open_0: -4027446100176447627
+      Happy Eyes Open_1: -4273658396987359772
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

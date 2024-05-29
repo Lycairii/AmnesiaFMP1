@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Smirk with Fangs_0: -7645888817525227343
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

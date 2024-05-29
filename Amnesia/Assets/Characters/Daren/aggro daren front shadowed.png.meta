@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      aggro daren front shadowed_0: -4163389191366955148
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

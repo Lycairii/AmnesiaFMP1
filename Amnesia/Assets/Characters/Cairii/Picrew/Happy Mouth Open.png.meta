@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Happy Mouth Open_0: 6169492501544232927
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Vamp Anxious_0: 615432816348970256
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

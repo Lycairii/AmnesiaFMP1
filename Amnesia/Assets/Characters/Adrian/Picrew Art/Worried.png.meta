@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Worried_0: 3994633309236049083
+      Worried_1: -3613460024279632177
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

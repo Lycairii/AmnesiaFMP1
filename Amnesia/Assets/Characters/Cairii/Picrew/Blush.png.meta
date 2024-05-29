@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blush_0: 1330962535254233593
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

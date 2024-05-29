@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Happy_0: 7985626363670038235
+      Happy_1: 230064946218503653
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

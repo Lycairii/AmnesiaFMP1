@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Vamp Pout_0: -3325412715663132894
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

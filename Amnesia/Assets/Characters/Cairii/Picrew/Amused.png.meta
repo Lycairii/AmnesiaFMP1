@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Amused_0: 5685679256065875617
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

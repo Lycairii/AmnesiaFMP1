@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bloody Containment Cell_0: 1086625813050437623
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

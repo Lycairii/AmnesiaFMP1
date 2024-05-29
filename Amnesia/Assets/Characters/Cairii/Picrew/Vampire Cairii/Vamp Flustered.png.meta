@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Vamp Flustered_0: 8950578613960159542
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

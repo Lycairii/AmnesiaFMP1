@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      aggro daren_0: 6224645543961154895
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

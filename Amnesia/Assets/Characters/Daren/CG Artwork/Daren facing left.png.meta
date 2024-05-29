@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Daren facing left_0: 3529983292157012045
+      Daren facing left_1: 8787376364317574560
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

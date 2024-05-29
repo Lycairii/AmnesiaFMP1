@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gritting Teeth_0: 7732575246470666395
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Worried Trance_0: 6571740739174184288
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

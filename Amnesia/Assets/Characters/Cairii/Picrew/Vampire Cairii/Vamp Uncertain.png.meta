@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Vamp Uncertain_0: 8863221316979694481
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

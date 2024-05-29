@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Amused grin_0: -4208753738204483440
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -178,7 +178,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Daren's Eyes_0: -6045028611908468259
+      Daren's Eyes_1: 4697175597308747701
+      Daren's Eyes_2: -748691150109948268
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

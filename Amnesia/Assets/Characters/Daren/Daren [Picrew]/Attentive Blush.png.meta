@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Attentive Blush_0: 6118901353462634594
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

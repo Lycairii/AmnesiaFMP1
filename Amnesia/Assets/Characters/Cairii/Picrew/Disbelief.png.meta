@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Disbelief_0: 767345195581400080
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

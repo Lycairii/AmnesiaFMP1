@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cutely annoyed_0: -7113603102294906423
+      Cutely annoyed_1: 5949720656141869183
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Annoyed_0: 2862917018616856736
+      Annoyed_1: 5277632321398268608
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Vamp Crying_0: -7163489084386849054
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

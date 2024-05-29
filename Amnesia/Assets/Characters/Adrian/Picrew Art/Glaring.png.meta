@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Glaring_0: -2708788149929445101
+      Glaring_1: 6538966583632488953
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

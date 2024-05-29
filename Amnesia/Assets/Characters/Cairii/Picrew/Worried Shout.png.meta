@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Worried Shout_0: 5540750684357441153
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

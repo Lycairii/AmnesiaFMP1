@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Menacing Smile_0: -5991442605898612942
+      Menacing Smile_1: -5550529828807920260
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Irritated Fangs Bared_0: -7619666132291277578
+      Irritated Fangs Bared_1: 2796279368120353259
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
